@@ -1,0 +1,14 @@
+# Ignore artifacts:
+build
+public
+.next
+
+
+# nodes_modules
+nodes_modules
+
+# Ignore all HTML files:
+*.html
+
+# Ignore all post files:
+_posts
