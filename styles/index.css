@@ -2,11 +2,82 @@
 
 /* Write your own custom base styles here */
 
+@layer base {
+  body {
+    @apply font-text text-16 text-swamp bg-pampas antialiased leading-tight;
+  }
+
+  a[target='_blank']:after {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+    margin: 0 3px 0 5px;
+    color: currentColor;
+  }
+
+  p + p {
+    @apply mt-6;
+  }
+}
+
 /* Start purging... */
 @tailwind components;
 /* Stop purging. */
 
 /* Write you own custom component styles here */
+
+@layer components {
+  .btn {
+    @apply py-2 px-4 transition duration-200 ease-in-out font-semibold rounded-lg shadow-sm  focus:outline-none focus:ring-2 focus:ring-opacity-75;
+  }
+  .btn-default {
+    @apply bg-ebb text-swamp hover:bg-warmGrey-72;
+  }
+
+  .btn-primary {
+    @apply bg-turquoise-64 text-prussianBlue hover:bg-turquoise-48 focus:outline-none focus:ring-blue-43;
+  }
+
+  .btn-warning {
+    @apply bg-cinnabar text-white hover:bg-coral-62;
+  }
+
+  .typography-display {
+    @apply font-heading text-32;
+  }
+  .typography-display2 {
+    @apply font-heading text-24;
+  }
+  .typography-title {
+    @apply font-text text-21;
+  }
+  .typography-title2 {
+    @apply font-heading text-20;
+  }
+  .typography-headline {
+    @apply font-text text-18;
+  }
+  .typography-body {
+    @apply text-16;
+  }
+  .typography-body2 {
+    @apply text-16 font-semibold;
+  }
+  .typography-footnote {
+    @apply text-14;
+  }
+  .typography-caption {
+    @apply text-12;
+  }
+  .typography-caption2 {
+    @apply text-10;
+  }
+  .typography-signature {
+    @apply font-sign text-28;
+  }
+
+  .link {
+    @apply text-froly underline hover:text-prussianBlue transition duration-200;
+  }
+}
 
 /* Start purging... */
 @tailwind utilities;

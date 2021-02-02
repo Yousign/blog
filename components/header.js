@@ -1,12 +1,11 @@
-import Link from 'next/link'
+import Link from 'next/link';
 
 export default function Header() {
   return (
-    <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-20 mt-8">
+    <nav className="typography-footnote tracking-tight md:tracking-tighter leading-tight pb-4 mt-4">
       <Link href="/">
-        <a className="hover:underline">Blog</a>
+        <a className="hover:underline">Back</a>
       </Link>
-      .
-    </h2>
-  )
+    </nav>
+  );
 }
