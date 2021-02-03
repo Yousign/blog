@@ -31,3 +31,5 @@ fields:
   - type: file
     name: url
     label: url
+pages:
+- _posts/exemple.md
