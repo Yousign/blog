@@ -1,6 +1,5 @@
 ---
-title: Comment nous sommes passés d'une organisation Tech et Produit à une organisation
-  Engineering avec le Produit
+title: 'De Tech et Produit à Engineering et Produit - Récit d''une réorganisation '
 excerpt: En 2020, portée par la crise sanitaire et l'émergence de nouveaux comportements,
   l'entreprise a connu une croissance exponentielle. Cela nous a paru comme le bon
   moment pour repenser le pôle Tech sur tous les aspects - Structure, organisation,
@@ -12,7 +11,8 @@ coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazo
 date: 2020-03-16T05:35:07Z
 author:
   name: Kevin Dubourg
-  picture: "/assets/blog/authors/joe.jpeg"
+  picture: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Kevin
+    Dubourg.jpg
 ogImage:
   url: "/assets/blog/preview/cover.jpg"
 
