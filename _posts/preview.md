@@ -1,11 +1,10 @@
 ---
-title: 'De Tech et Produit à Engineering et Produit - Récit d''une réorganisation '
+title: De Tech et Produit à Engineering et Produit - Récit de la réorganisation Tech
+  chez Yousign
 excerpt: En 2020, portée par la crise sanitaire et l'émergence de nouveaux comportements,
   l'entreprise a connu une croissance exponentielle. Cela nous a paru comme le bon
-  moment pour repenser le pôle Tech sur tous les aspects - Structure, organisation,
-  vision, recrutement - mais également de s'assurer que la nouvelle vision serait
-  connue et partagée par toutes les équipes Yousign. Cette réorganisation s'est effectuée
-  en plusieurs étapes.
+  moment pour repenser le pôle Tech sur tous les aspects. Cette réorganisation s'est
+  effectuée en plusieurs étapes.
 coverImage: "/assets/blog/preview/cover.jpg"
 date: 2020-03-16T05:35:07Z
 author:
