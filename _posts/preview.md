@@ -33,21 +33,21 @@ Jusque récemment, chez Yousign, le Product Director gérait le périmètre prod
 
 ###### ![blog-schema1.png](https://yousign.slite.com/api/files/AciiGS84\~q/blog-schema1.png "L'organisation Tech & Produit d'origine chez Yousign")
 
-## **1 - Rapprocher le produit et la tech, oui mais comment ?**
+## 1 - Rapprocher le produit et la tech, oui mais comment ?
 
-Rapprocher le produit et la tech sous la dénomination Product & Engineering semblait déjà être une bonne idée, mais insuffisant comme plan d'action 😉. En effet, il nous semblait primordial de créer de la cohérence et un sens commun, puisque l'Engineering devait accompagner le produit dans son évolution. 
+Rapprocher le produit et la tech sous la dénomination Product & Engineering semblait déjà être une bonne idée, mais insuffisant comme plan d'action 😉. En effet, il nous semblait primordial de créer de la cohérence et un sens commun, puisque l'Engineering devait accompagner le produit dans son évolution.
 
 1. Durant l'année, Romain, Product Director, et Antoine, CTO, ont réalisé des interviews de boites SaaS afin de comprendre comment ils ont géré le scale des équipes, leur organisation, mais aussi et surtout collecter leur feedback sur les succès et les obstacles rencontré.
 2. Dès le milieu de l'année, le rapprochement de l'Engineering et du Produit était envisagée à plusieurs niveaux : managérial, avec les deux postes de Director, mais aussi au niveau des équipes avec la création de "squads" intégrant un leader technique pour les développeurs et un Product Manager.
 3. Durant l'été nous avons travaillé sur la création d'un MVP dans un mode task force regroupant l'ensemble des compétences produit mais aussi technique (dev front et back, PM, QA, SRE ...). Ce mode de fonctionnement a été un vrai succès à tout niveau, il a été très bien vécu par les équipes mais également par le management. Cette expérience a donc été inspirante dans la mise en place de nos futures squads et nous avons commencé à dessiner une approche pluridisciplinaire de celles-ci.
 
-## **2 - Créer le poste d'Engineering Director**
+## 2 - Créer le poste d'Engineering Director
 
 Début septembre, le poste d'Engineering Director, pendant du Product Director, est créé et on m'en confie la responsabilité. L'objectif principal est d'avoir le maximum de consistance au niveau du Produit et de la Tech. Cette étape permet de mettre en place un management bicéphale au niveau des équipes mais aussi dans les échanges avec les stakeholders.
 
 Romain et moi nous connaissons depuis plus de 15 ans et avons mené ensemble des side-projects, comme des soirées bien arrosées. Mais surtout, cette complicité facilite le démarrage avec des automatismes, de la confiance et beaucoup de transparence. Les ingrédients principaux sont donc réunis pour mener à bien les grands challenges que nous allons rencontrer.
 
-## **3 - Définir la vision Product & Engineering et la partager en interne**
+## 3 - Définir la vision Product & Engineering et la partager en interne
 
 À partir de là, les choses vont très vite car il y a beaucoup d'attente de la part des équipes, mais également de toute l'entreprise. Les changements autour du produit sont stratégiques pour une solution SaaS en BtoB.
 
@@ -92,7 +92,7 @@ Notre plan de recrutement est aujourd'hui bien lancé, et l'arrivée de ces nouv
 
 Avec Romain, nous avions anticipé dès le départ que le découpage des squads par domaine technologique côté produit (application, api ...) plutôt que fonctionnel (billing, users ...) serait limité à moyen terme. Néanmoins, l'anticipation trop rapide d'un découpage précis et fonctionnel peut être contre productif. En effet, à cette étape nous n'avons pas assez de visibilité pour permettre un découpage efficace et proche de nos besoins. Nous avons donc pris le parti d'avoir une approche empirique et de le mettre en oeuvre quand le besoin sera plus présent et évident.
 
-## **Il n'est pas encore l'heure du bilan**
+## Il n'est pas encore l'heure du bilan
 
 Il est encore trop tôt pour avoir une vue éclairée et sage de nos changements, néanmoins vu de l'intérieur, nous percevons déjà l'impact sur la consistance de l'approche Product & Engineering.
 
