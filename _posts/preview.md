@@ -38,7 +38,7 @@ Jusque récemment, chez Yousign, le Product Director gérait le périmètre prod
 
 ## **1 - Rapprocher le produit et la tech, oui mais comment ?**
 
-Rapprocher le produit et la tech sous la dénomination Product & Engineering semblait déjà être une bonne idée, mais insuffisant comme plan d'action 😉. En effet, il nous semblait primordial de créer de la cohérence et un sens commun, puisque l'Engineering devait accompagner le produit dans son évolution.
+Rapprocher le produit et la tech sous la dénomination Product & Engineering semblait déjà être une bonne idée, mais insuffisant comme plan d'action 😉. En effet, il nous semblait primordial de créer de la cohérence et un sens commun, puisque l'Engineering devait accompagner le produit dans son évolution. 
 
 1. Durant l'année, Romain, Product Director, et Antoine, CTO, ont réalisé des interviews de boites SaaS afin de comprendre comment ils ont géré le scale des équipes, leur organisation, mais aussi et surtout collecter leur feedback sur les succès et les obstacles rencontré.
 2. Dès le milieu de l'année, le rapprochement de l'Engineering et du Produit était envisagée à plusieurs niveaux : managérial, avec les deux postes de Director, mais aussi au niveau des équipes avec la création de "squads" intégrant un leader technique pour les développeurs et un Product Manager.
