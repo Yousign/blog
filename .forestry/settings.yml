@@ -9,10 +9,10 @@ sections:
   label: posts
   create: all
   match: "**/*"
-upload_dir: public/uploads
-public_path: "/public/uploads"
+upload_dir: ''
+public_path: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: 
 file_template: ":filename:"
 build:
   install_dependencies_command: yarn install
