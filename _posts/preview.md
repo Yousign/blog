@@ -7,7 +7,8 @@ excerpt: En 2020, portée par la crise sanitaire et l'émergence de nouveaux com
   vision, recrutement - mais également de s'assurer que la nouvelle vision serait
   connue et partagée par toutes les équipes Yousign. Cette réorganisation s'est effectuée
   en plusieurs étapes.
-coverImage: "/assets/blog/preview/cover.jpg"
+coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/pattern-IT-team-orga
+  (2).jpg
 date: 2020-03-16T05:35:07Z
 author:
   name: Kevin Dubourg
