@@ -101,3 +101,5 @@ Il est encore trop tôt pour avoir une vue éclairée et sage de nos changements
 Les équipes quant à elles apprécient la cohésion et la cohérence de notre delivery. Le reste est encore devant nous, mais nous sommes confiants de l’horizon qui se dessine à la proue. Personnellement, je retire une information essentielle de ces dernières semaines, c'est qu'il faut être prêt à changer ou remodeler les plans sans cesse et sans aucune frustration. Dans un contexte de scale-up l'organisation et certains processus ne sont valables que durant un court instant.
 
 C'est le début de la suite, nous reviendrons prochainement avec de nouvelles informations (petit spoil pour un autre article, mais nous avons déjà remis en cause la notion de Lead Tech fraîchement présentée).
+
+**Kevin Dubourg - Engineering Director, Yousign**
