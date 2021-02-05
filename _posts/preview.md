@@ -18,7 +18,7 @@ ogImage:
 ---
 Yousign a l'ambition de devenir le leader de la signature électronique en Europe. En 2020, portée par la crise sanitaire et l'émergence de nouveaux comportements, l'entreprise a connu une croissance exponentielle.
 
-Cette croissance a généré une augmentation importante des équipes business pour répondre à la demande, ce qui a naturellement amplifié l'effet funnel sur les équipes techniques et révélé plusieurs défaillance dans la structure du pôle Tech :
+Cette croissance a généré une augmentation importante des équipes business pour répondre à la demande, ce qui a naturellement amplifié l'effet funnel sur les équipes techniques et révélé plusieurs défaillances dans la structure du pôle Tech :
 
 * Le nombre de profils techniques dans l'ensemble des teams est insuffisant
 * Les équipes techniques sont dé-focus régulièrement par des changements de priorisation, de périmètre produit mais aussi de mission (Features vs RUN/MCO)
@@ -40,18 +40,18 @@ Jusque récemment, chez Yousign, le Product Director gérait le périmètre prod
 Rapprocher le produit et la tech sous la dénomination Product & Engineering semblait déjà être une bonne idée, mais insuffisant comme plan d'action 😉. En effet, il nous semblait primordial de créer de la cohérence et un sens commun, puisque l'Engineering devait accompagner le produit dans son évolution.
 
 1. Durant l'année, Romain, Product Director, et Antoine, CTO, ont réalisé des interviews de boites SaaS afin de comprendre comment ils ont géré le scale des équipes, leur organisation, mais aussi et surtout collecter leur feedback sur les succès et les obstacles rencontré.
-2. Dès le milieu de l'année, le rapprochement de l'Engineering et du Produit était envisagée à plusieurs niveaux : managériel, avec les deux postes de Director, mais aussi au niveau des équipes avec la création de "squads" intégrant un leader technique pour les développeurs et un Product Manager.
+2. Dès le milieu de l'année, le rapprochement de l'Engineering et du Produit était envisagée à plusieurs niveaux : managérial, avec les deux postes de Director, mais aussi au niveau des équipes avec la création de "squads" intégrant un leader technique pour les développeurs et un Product Manager.
 3. Durant l'été nous avons travaillé sur la création d'un MVP dans un mode task force regroupant l'ensemble des compétences produit mais aussi technique (dev front et back, PM, QA, SRE ...). Ce mode de fonctionnement a été un vrai succès à tout niveau, il a été très bien vécu par les équipes mais également par le management. Cette expérience a donc été inspirante dans la mise en place de nos futures squads et nous avons commencé à dessiner une approche pluridisciplinaire de celles-ci.
 
 ## **2 - Créer le poste d'Engineering Director**
 
-Début septembre, le poste d'Engineering Director, pendant du Product Director, est créé et on m'en confie la responsabilité. L'objectif principal est d'avoir le maximum de consistance au niveau du Produit et de la Tech. Cette étape permet de mettre en place un management bi-céphale au niveau des équipes mais aussi dans les échanges avec les stakeholders.
+Début septembre, le poste d'Engineering Director, pendant du Product Director, est créé et on m'en confie la responsabilité. L'objectif principal est d'avoir le maximum de consistance au niveau du Produit et de la Tech. Cette étape permet de mettre en place un management bicéphale au niveau des équipes mais aussi dans les échanges avec les stakeholders.
 
 Romain et moi nous connaissons depuis plus de 15 ans et avons mené ensemble des side-projects, comme des soirées bien arrosées. Mais surtout, cette complicité facilite le démarrage avec des automatismes, de la confiance et beaucoup de transparence. Les ingrédients principaux sont donc réunis pour mener à bien les grands challenges que nous allons rencontrer.
 
 ## **3 - Définir la vision Product & Engineering et la partager en interne**
 
-A partir de là, les choses vont très vite car il y a beaucoup d'attente de la part des équipes, mais également de toute l'entreprise. Les changements autour du produit sont stratégiques pour une solution SaaS en BtoB.
+À partir de là, les choses vont très vite car il y a beaucoup d'attente de la part des équipes, mais également de toute l'entreprise. Les changements autour du produit sont stratégiques pour une solution SaaS en BtoB.
 
 Là est toute la difficulté : traiter une multitude de sujets inhérents à la mise en oeuvre d'une organisation et d'un plan de recrutement tout à fait exclusif chez Yousign.
 
@@ -88,7 +88,7 @@ L'approche en squads pluridisciplinaires est effective et nous constatons déjà
 
 ![blog-schema2.png](https://yousign.slite.com/api/files/k_fKmhlooy/blog-schema2.png "La nouvelle organisation Engineering & Product de Yousign")
 
-La comitologie évolue donc progressivement pour maintenir cet équilibre instable (weekly et daily au sein de la squad), nous envisageons déjà des points réguliers entre les Engineering Manager et les Product Managers des squads. Nous pensons aussi qu'il est important que les Engineers ne travaillent pas dans un environnement étanche et puissent continuer à échanger, débattre, s'informer... Pour cela nous organisons des moments d'échange entre les personnes des mêmes domaines techniques (back, front, QA ...) au fur et à mesure que l'équipe s'agrandie.
+La comitologie évolue donc progressivement pour maintenir cet équilibre instable (weekly et daily au sein de la squad), nous envisageons déjà des points réguliers entre les Engineering Managers et les Product Managers des squads. Nous pensons aussi qu'il est important que les Engineers ne travaillent pas dans un environnement étanche et puissent continuer à échanger, débattre, s'informer... Pour cela nous organisons des moments d'échange entre les personnes des mêmes domaines techniques (back, front, QA ...) au fur et à mesure que l'équipe s'agrandie.
 
 Notre plan de recrutement est aujourd'hui bien lancé, et l'arrivée de ces nouveaux collaborateurs challengent notre organisation, mais c'est le but. Nous souhaitons garder le cap et notre vision, mais continuer à adapter notre organisation au contexte et besoin actuels est indispensable (agilité et itération).
 
