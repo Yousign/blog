@@ -31,3 +31,5 @@ fields:
   - type: file
     name: url
     label: url
+pages:
+- _posts/de-tech-et-produit-a-engineering-et-produit-recit-de-la-reorganisation-tech-chez-yousign.md

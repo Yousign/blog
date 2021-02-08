@@ -1,17 +1,19 @@
 ---
-title: legacy - De Tech et Produit à Engineering et Produit - Récit de la réorganisation
-  Tech chez Yousign
+title: De Tech et Produit à Engineering et Produit - Récit de la réorganisation Tech
+  chez Yousign
 excerpt: 'En 2020, portée par la crise sanitaire et l''émergence de nouveaux comportements,
   l''entreprise a connu une croissance exponentielle. Cela nous a paru comme le bon
   moment pour repenser le pôle Tech sur tous les aspects. Cette réorganisation s''est
   effectuée en plusieurs étapes. '
-coverImage: ''
-date: 2020-03-16T05:35:07Z
+coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/pattern-IT-team-orga
+  (2).jpg
+date: 
 author:
   name: Kevin Dubourg
-  picture: ''
+  picture: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Kevin
+    Dubourg.jpg
 ogImage:
-  url: "/assets/blog/preview/cover.jpg"
+  url: ''
 
 ---
 Yousign a l'ambition de devenir le leader de la signature électronique en Europe. En 2020, portée par la crise sanitaire et l'émergence de nouveaux comportements, l'entreprise a connu une croissance exponentielle.
