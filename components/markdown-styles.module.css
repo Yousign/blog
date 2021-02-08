@@ -10,9 +10,21 @@
 }
 
 .markdown h2 {
-  @apply font-text text-21 mt-12 mb-4 leading-snug;
+  @apply font-heading text-24 mt-12 mb-4 leading-snug;
 }
 
 .markdown h3 {
   @apply font-text text-18 mt-8 mb-4 leading-snug;
+}
+
+.markdown ul,
+.markdown ol {
+  @apply pl-4;
+}
+.markdown ul li {
+  list-style: disc;
+}
+
+.markdown ol li {
+  list-style: decimal;
 }
