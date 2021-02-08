@@ -8,7 +8,6 @@ import Layout from '../../components/layout';
 import { getPostBySlug, getAllPosts } from '../../lib/api';
 import PostTitle from '../../components/post-title';
 import Head from 'next/head';
-import { CMS_NAME } from '../../lib/constants';
 import markdownToHtml from '../../lib/markdownToHtml';
 
 export default function Post({ post, preview }) {
@@ -27,7 +26,7 @@ export default function Post({ post, preview }) {
             <article className="mb-32">
               <Head>
                 <title>{post.title} | Yousign&apos;s tech blog</title>
-                <meta property="og:image" content={post.ogImage.url} />
+                <meta property="og:image" content={post.coverImage} />
               </Head>
               <PostHeader
                 title={post.title}

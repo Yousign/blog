@@ -13,7 +13,7 @@ export default function Index({ allPosts }) {
     <>
       <Layout>
         <Head>
-          <title>Yousign&apos;s tech blog</title>
+          <title>Yousign&apos;s Engineering & Product Blog</title>
         </Head>
         <Container>
           <Intro />
