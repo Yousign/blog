@@ -1,13 +1,12 @@
 ---
-title: De Tech et Produit à Engineering et Produit - Récit de la réorganisation Tech
-  chez Yousign
+title: Récit de la réorganisation Tech et Produit chez Yousign
 excerpt: 'En 2020, portée par la crise sanitaire et l''émergence de nouveaux comportements,
   l''entreprise a connu une croissance exponentielle. Cela nous a paru comme le bon
   moment pour repenser le pôle Tech sur tous les aspects. Cette réorganisation s''est
   effectuée en plusieurs étapes. '
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/pattern-IT-team-orga
   (2).jpg
-date: 2020-03-16T05:35:07Z
+date: 2020-03-16T05:35:07.000+00:00
 author:
   name: Kevin Dubourg
   picture: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Kevin
