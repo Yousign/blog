@@ -36,9 +36,9 @@ Jusque récemment, chez Yousign, le Product Director gérait le périmètre prod
 
 ## 1 - Rapprocher le produit et la tech, oui mais comment ?
 
-Rapprocher le produit et la tech sous la dénomination Product & Engineering semblait déjà être une bonne idée, mais insuffisant comme plan d'action 😉. En effet, il nous semblait primordial de créer de la cohérence et un sens commun, puisque l'Engineering devait accompagner le produit dans son évolution.
+Rapprocher le produit et la tech sous la dénomination Product & Engineering semblait déjà être une bonne idée, mais insuffisant comme plan d'action. En effet, il nous semblait primordial de créer de la cohérence et un sens commun, puisque l'Engineering devait accompagner le produit dans son évolution.
 
-1. Durant l'année, Romain, Product Director, et Antoine, CTO, ont réalisé des interviews de boites SaaS afin de comprendre comment ils ont géré le scale des équipes, leur organisation, mais aussi et surtout collecter leur feedback sur les succès et les obstacles rencontré.
+1. Durant l'année, [Romain Pichard](https://www.linkedin.com/in/romainpichard/), notre Product Director, et [Antoine Louiset](https://www.linkedin.com/in/antoine-louiset-34b89a30/), notre CTO, ont réalisé des interviews d'entreprises SaaS afin de comprendre comment ils ont géré le scale des équipes, leur organisation, mais aussi et surtout collecter leur feedback sur les succès et les obstacles rencontré.
 2. Dès le milieu de l'année, le rapprochement de l'Engineering et du Produit était envisagée à plusieurs niveaux : managérial, avec les deux postes de Director, mais aussi au niveau des équipes avec la création de "squads" intégrant un leader technique pour les développeurs et un Product Manager.
 3. Durant l'été nous avons travaillé sur la création d'un MVP dans un mode task force regroupant l'ensemble des compétences produit mais aussi technique (dev front et back, PM, QA, SRE ...). Ce mode de fonctionnement a été un vrai succès à tout niveau, il a été très bien vécu par les équipes mais également par le management. Cette expérience a donc été inspirante dans la mise en place de nos futures squads et nous avons commencé à dessiner une approche pluridisciplinaire de celles-ci.
 
@@ -46,7 +46,7 @@ Rapprocher le produit et la tech sous la dénomination Product & Engineering sem
 
 Début septembre, le poste d'Engineering Director, pendant du Product Director, est créé et on m'en confie la responsabilité. L'objectif principal est d'avoir le maximum de consistance au niveau du Produit et de la Tech. Cette étape permet de mettre en place un management bicéphale au niveau des équipes mais aussi dans les échanges avec les stakeholders.
 
-Romain et moi nous connaissons depuis plus de 15 ans et avons mené ensemble des side-projects, comme des soirées bien arrosées. Mais surtout, cette complicité facilite le démarrage avec des automatismes, de la confiance et beaucoup de transparence. Les ingrédients principaux sont donc réunis pour mener à bien les grands challenges que nous allons rencontrer.
+[Romain](https://www.linkedin.com/in/romainpichard/) et moi nous connaissons depuis plus de 15 ans et avons mené ensemble des side-projects. Mais surtout, cette complicité facilite le démarrage avec des automatismes, de la confiance et beaucoup de transparence. Les ingrédients principaux sont donc réunis pour mener à bien les grands challenges que nous allons rencontrer.
 
 ## 3 - Définir la vision Product & Engineering et la partager en interne
 
@@ -91,7 +91,7 @@ La comitologie évolue donc progressivement pour maintenir cet équilibre instab
 
 Notre plan de recrutement est aujourd'hui bien lancé, et l'arrivée de ces nouveaux collaborateurs challengent notre organisation, mais c'est le but. Nous souhaitons garder le cap et notre vision, mais continuer à adapter notre organisation au contexte et besoin actuels est indispensable (agilité et itération).
 
-Avec Romain, nous avions anticipé dès le départ que le découpage des squads par domaine technologique côté produit (application, api ...) plutôt que fonctionnel (billing, users ...) serait limité à moyen terme. Néanmoins, l'anticipation trop rapide d'un découpage précis et fonctionnel peut être contre productif. En effet, à cette étape nous n'avons pas assez de visibilité pour permettre un découpage efficace et proche de nos besoins. Nous avons donc pris le parti d'avoir une approche empirique et de le mettre en oeuvre quand le besoin sera plus présent et évident.
+Avec [Romain](https://www.linkedin.com/in/romainpichard/), nous avions anticipé dès le départ que le découpage des squads par domaine technologique côté produit (application, api ...) plutôt que fonctionnel (billing, users ...) serait limité à moyen terme. Néanmoins, l'anticipation trop rapide d'un découpage précis et fonctionnel peut être contre productif. En effet, à cette étape nous n'avons pas assez de visibilité pour permettre un découpage efficace et proche de nos besoins. Nous avons donc pris le parti d'avoir une approche empirique et de le mettre en oeuvre quand le besoin sera plus présent et évident.
 
 ## Il n'est pas encore l'heure du bilan
 
@@ -101,4 +101,4 @@ Les équipes quant à elles apprécient la cohésion et la cohérence de notre d
 
 C'est le début de la suite, nous reviendrons prochainement avec de nouvelles informations (petit spoil pour un autre article, mais nous avons déjà remis en cause la notion de Lead Tech fraîchement présentée).
 
-**Kevin Dubourg - Engineering Director, Yousign**
+[**Kevin Dubourg**](https://www.linkedin.com/in/kevin-dubourg-586351146/) **- Engineering Director, Yousign**
