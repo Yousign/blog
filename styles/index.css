@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-text text-16 text-swamp bg-pampas antialiased leading-tight;
+    @apply font-sans text-base text-black bg-white antialiased leading-tight;
   }
 
   a[target='_blank']:after {
@@ -26,56 +26,37 @@
 
 @layer components {
   .btn {
-    @apply py-2 px-4 transition duration-200 ease-in-out font-semibold rounded-lg shadow-sm  focus:outline-none focus:ring-2 focus:ring-opacity-75;
+    @apply py-2 px-6 transition duration-200 ease-in-out font-semibold rounded-full shadow-sm  focus:outline-none focus:ring-2 focus:ring-opacity-75;
   }
   .btn-default {
-    @apply bg-ebb text-swamp hover:bg-warmGrey-72;
+    @apply bg-white text-black hover:bg-black;
   }
 
   .btn-primary {
-    @apply bg-turquoise-64 text-prussianBlue hover:bg-turquoise-48 focus:outline-none focus:ring-blue-43;
-  }
-
-  .btn-warning {
-    @apply bg-cinnabar text-white hover:bg-coral-62;
-  }
-
-  .typography-display {
-    @apply font-heading text-32;
-  }
-  .typography-display2 {
-    @apply font-heading text-24;
-  }
-  .typography-title {
-    @apply font-text text-21;
-  }
-  .typography-title2 {
-    @apply font-heading text-20;
-  }
-  .typography-headline {
-    @apply font-text text-18;
-  }
-  .typography-body {
-    @apply text-16;
-  }
-  .typography-body2 {
-    @apply text-16 font-semibold;
-  }
-  .typography-footnote {
-    @apply text-14;
-  }
-  .typography-caption {
-    @apply text-12;
-  }
-  .typography-caption2 {
-    @apply text-10;
-  }
-  .typography-signature {
-    @apply font-sign text-28;
+    @apply bg-turquoiseBlue-medium text-black hover:bg-turquoiseBlue-light;
   }
 
   .link {
-    @apply text-froly underline hover:text-prussianBlue transition duration-200;
+    @apply underline transition duration-200;
+  }
+
+  .navbar {
+    @apply bg-purple-darker text-white;
+  }
+  .navbar--inner {
+    @apply h-navbar flex items-center;
+  }
+
+  .avatar {
+    @apply w-16 h-16 mr-4 block relative;
+  }
+  .avatar img {
+    @apply w-16 h-16 rounded-full relative;
+  }
+
+  .avatar::before {
+    content: '';
+    @apply block w-16 h-16 bg-turquoiseBlue-light rounded-full absolute top-1 left-1 z-0;
   }
 }
 

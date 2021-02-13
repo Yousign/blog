@@ -5,24 +5,23 @@ import Link from 'next/link';
 
 export default function HeroPost({ title, coverImage, date, excerpt, author, slug }) {
   return (
-    <section>
-      <div className="mb-8 md:mb-16 border-turquoiseBlue border-t-4">
-        <CoverImage title={title} src={coverImage} slug={slug} height={620} width={1240} />
-      </div>
-      <div className="md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28">
-        <div>
-          <h3 className="typography-title">
+    <section className="py-16">
+      <div className="grid grid-cols-1 lg:grid-cols-12 bg-grey-light rounded-md overflow-hidden">
+        <div className="lg:col-span-7 h-full" style={{ minHeight: 500 }}>
+          <CoverImage title={title} src={coverImage} slug={slug} layout="fill" objectFit="cover" />
+        </div>
+        <div className="lg:col-span-5 p-10 flex flex-col justify-center">
+          <div className="mb-4">
+            <DateFormatter dateString={date} />
+          </div>
+          <h3 className="font-bold text-4xl mb-4">
             <Link as={`/posts/${slug}`} href="/posts/[slug]">
               <a className="hover:underline">{title}</a>
             </Link>
           </h3>
-          <div className="mb-4 md:mb-0 text-schooner">
-            <DateFormatter dateString={date} />
-          </div>
-        </div>
-        <div>
-          <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
-          <Avatar name={author.name} picture={author.picture} />
+
+          <p className="text-lg leading-relaxed mb-6">{excerpt}</p>
+          <Avatar name={author.name} picture={author.picture} position={author.position} />
         </div>
       </div>
     </section>

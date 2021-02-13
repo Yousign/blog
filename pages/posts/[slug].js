@@ -18,16 +18,15 @@ export default function Post({ post, preview }) {
   return (
     <Layout preview={preview}>
       <Container>
-        <Header />
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
         ) : (
           <>
-            <article className="mb-32">
-              <Head>
-                <title>{post.title} | Yousign&apos;s tech blog</title>
-                <meta property="og:image" content={post.coverImage} />
-              </Head>
+            <Head>
+              <title>{post.title} | Yousign&apos;s tech blog</title>
+              <meta property="og:image" content={post.coverImage} />
+            </Head>
+            <article className="lg:w-2/3 mx-auto py-8">
               <PostHeader
                 title={post.title}
                 coverImage={post.coverImage}

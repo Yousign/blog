@@ -1,24 +1,31 @@
-import Avatar from '../components/avatar';
 import DateFormatter from '../components/date-formatter';
 import CoverImage from './cover-image';
 import Link from 'next/link';
 
-export default function PostPreview({ title, coverImage, date, excerpt, author, slug }) {
+export default function PostPreview({ title, coverImage, date, author, slug }) {
   return (
     <div>
-      <div className="mb-5">
-        <CoverImage slug={slug} title={title} src={coverImage} height={278} width={556} />
+      <div className="mb-2 h" style={{ height: 280 }}>
+        <CoverImage
+          slug={slug}
+          title={title}
+          src={coverImage}
+          className="rounded-md w-full"
+          layout="fill"
+          objectFit="cover"
+        />
       </div>
-      <h3 className="typography-title leading-snug">
+      <div className="mb-2 text-sm">
+        <DateFormatter dateString={date} />
+      </div>
+      <h3 className="text-2xl font-bold leading-snug mb-2">
         <Link as={`/posts/${slug}`} href="/posts/[slug]">
           <a className="hover:underline">{title}</a>
         </Link>
       </h3>
-      <div className="text-schooner mb-4">
-        <DateFormatter dateString={date} />
+      <div className="text-sm opacity-50">
+        <strong>{author.name}</strong> - {author.position}
       </div>
-      <p className="typography-body leading-relaxed mb-4">{excerpt}</p>
-      <Avatar name={author.name} picture={author.picture} />
     </div>
   );
 }
