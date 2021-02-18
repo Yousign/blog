@@ -26,14 +26,14 @@
 
 @layer components {
   .btn {
-    @apply py-2 px-6 transition duration-200 ease-in-out font-semibold rounded-full shadow-sm  focus:outline-none focus:ring-2 focus:ring-opacity-75;
+    @apply py-2 px-6 transition duration-200 ease-in-out font-semibold rounded-full;
   }
   .btn-default {
-    @apply bg-white text-black hover:bg-black;
+    @apply bg-grey-medium text-black hover:bg-grey-light focus:bg-grey-light;
   }
 
   .btn-primary {
-    @apply bg-turquoiseBlue-medium text-black hover:bg-turquoiseBlue-light;
+    @apply bg-turquoiseBlue-medium text-black hover:bg-turquoiseBlue-light focus:bg-turquoiseBlue-light;
   }
 
   .link {
@@ -57,6 +57,14 @@
   .avatar::before {
     content: '';
     @apply block w-16 h-16 bg-turquoiseBlue-light rounded-full absolute top-1 left-1 z-0;
+  }
+
+  .cookie-banner {
+    @apply bg-yellow fixed flex flex-wrap items-center bg-opacity-50 text-black p-8 z-50 rounded-xl shadow-sm;
+    min-height: 80px;
+    right: 3rem;
+    bottom: 3rem;
+    width: 320px;
   }
 }
 
