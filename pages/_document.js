@@ -4,7 +4,7 @@ import { GA_TRACKING_ID } from '../lib/gtag';
 export default class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <Html lang="fr">
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link

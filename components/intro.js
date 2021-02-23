@@ -1,7 +1,7 @@
 export default function Intro() {
   return (
     <section
-      className="flex-col md:flex-row flex items-center md:justify-center bg-purple-light text-white"
+      className="flex-col md:flex-row flex items-center md:justify-center bg-purple-light text-white bg-no-repeat bg-cover bg-center"
       style={{ height: 360, backgroundImage: 'url(/assets/pattern.svg)' }}
     >
       <div className="w-2/3 mx-auto text-center">

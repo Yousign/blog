@@ -5,7 +5,7 @@ export default function Footer() {
   const year = today.getFullYear();
 
   return (
-    <footer className="navbar">
+    <footer className="navbar mt-8">
       <Container>
         <div className="navbar--inner">
           <span>&copy; Yousign - {year}</span>

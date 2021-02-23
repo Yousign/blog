@@ -9,7 +9,9 @@ export default function Navbar() {
         <div className="navbar--inner text-xl">
           <Link href="/">
             <a className="flex items-center">
-              <Logo /> <span className="font-medium">&nbsp;|&nbsp;Blog Engineering & Product </span>
+              <Logo />
+              <span className="ml-3">|</span>
+              <span className="font-medium ml-2">Blog Engineering & Product </span>
             </a>
           </Link>
 
