@@ -60,7 +60,7 @@
   }
 
   .cookie-banner {
-    @apply bg-yellow fixed flex flex-wrap items-center bg-opacity-50 text-black p-8 z-50 rounded-xl shadow-sm;
+    @apply bg-yellow fixed flex flex-wrap items-center text-black p-8 z-50 rounded-xl shadow-sm;
     min-height: 80px;
     right: 3rem;
     bottom: 3rem;
