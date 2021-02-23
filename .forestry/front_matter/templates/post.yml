@@ -24,6 +24,11 @@ fields:
   - type: file
     name: picture
     label: picture
+  - name: position
+    type: text
+    config:
+      required: false
+    label: Fonction
 - type: field_group
   name: ogImage
   label: ogImage
