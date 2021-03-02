@@ -3,7 +3,7 @@ import DateFormatter from '../components/date-formatter';
 import CoverImage from '../components/cover-image';
 import Link from 'next/link';
 
-export default function HeroPost({ title, coverImage, date, excerpt, author, slug }) {
+export default function HeroPost({ title, coverImage, date, excerpt, authors, slug }) {
   return (
     <section className="py-16">
       <div className="grid grid-cols-1 lg:grid-cols-12 bg-grey-light rounded-md overflow-hidden">
@@ -21,7 +21,9 @@ export default function HeroPost({ title, coverImage, date, excerpt, author, slu
           </h3>
 
           <p className="text-lg leading-relaxed mb-6">{excerpt}</p>
-          <Avatar name={author.name} picture={author.picture} position={author.position} />
+          {authors.map((author, index) => (
+            <Avatar key={index} {...author} />
+          ))}
         </div>
       </div>
     </section>
