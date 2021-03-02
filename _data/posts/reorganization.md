@@ -1,44 +1,39 @@
 ---
 title: Récit de la réorganisation Tech et Produit chez Yousign
-excerpt: 'En 2020, portée par la crise sanitaire et l''émergence de nouveaux comportements,
-  l''entreprise a connu une croissance exponentielle. Cela nous a paru comme le bon
-  moment pour repenser le pôle Tech sur tous les aspects. Cette réorganisation s''est
-  effectuée en plusieurs étapes. '
-coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/pattern-IT-team-orga
+excerpt: "En 2020, portée par la crise sanitaire et l'émergence de nouveaux comportements,
+  l'entreprise a connu une croissance exponentielle. Cela nous a paru comme le bon
+  moment pour repenser le pôle Tech sur tous les aspects. Cette réorganisation s'est
+  effectuée en plusieurs étapes. "
+coverImage:
+  https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/pattern-IT-team-orga
   (2).jpg
 date: 2020-03-16T05:35:07.000+00:00
-author:
-  name: Kevin Dubourg
-  picture: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Kevin
-    Dubourg.jpg
-ogImage:
-  url: ''
-
 ---
+
 Yousign a l'ambition de devenir le leader de la signature électronique en Europe. En 2020, portée par la crise sanitaire et l'émergence de nouveaux comportements, l'entreprise a connu une croissance exponentielle.
 
 Cette croissance a généré une augmentation importante des équipes business pour répondre à la demande, ce qui a naturellement amplifié l'effet funnel sur les équipes techniques et révélé plusieurs défaillances dans la structure du pôle Tech :
 
-* Le nombre de profils techniques dans l'ensemble des teams est insuffisant
-* Les équipes techniques sont dé-focus régulièrement par des changements de priorisation, de périmètre produit mais aussi de mission (Features vs RUN/MCO)
-* Le Product Director est devenu un point central de contention, partagé entre les sujets techniques qui ne sont pas son cœur de métier, la qualité et la vision produit.
-* L'arbitrage ne peut pas s'effectuer en cycle court et nécessite très souvent de remonter au CTO.
-* La gestion des OKR est différente entre le produit, les équipes développement et les équipes plus transverses comme la DATA et les SRE. Ce dé-synchronisme en terme d'objectifs ralenti notre capacité à délivrer puisque les équipes ne sont pas alignées sur des points de rencontre définis (OKR communs).
-* Perte de cohérence et de fluidité entre les stakeholders, la tech et le produit
+- Le nombre de profils techniques dans l'ensemble des teams est insuffisant
+- Les équipes techniques sont dé-focus régulièrement par des changements de priorisation, de périmètre produit mais aussi de mission (Features vs RUN/MCO)
+- Le Product Director est devenu un point central de contention, partagé entre les sujets techniques qui ne sont pas son cœur de métier, la qualité et la vision produit.
+- L'arbitrage ne peut pas s'effectuer en cycle court et nécessite très souvent de remonter au CTO.
+- La gestion des OKR est différente entre le produit, les équipes développement et les équipes plus transverses comme la DATA et les SRE. Ce dé-synchronisme en terme d'objectifs ralenti notre capacité à délivrer puisque les équipes ne sont pas alignées sur des points de rencontre définis (OKR communs).
+- Perte de cohérence et de fluidité entre les stakeholders, la tech et le produit
 
-Cela nous a paru comme le bon moment pour repenser le pôle Tech sur tous les aspects - Structure, organisation, vision, rectrutement - mais également de s'assurer que la nouvelle vision serait connue et partagée par toutes les équipes Yousign. Cette réorganisation s'est effectuée en plusieurs étapes.
+Cela nous a paru comme le bon moment pour repenser le pôle Tech sur tous les aspects - Structure, organisation, vision, recrutement - mais également de s'assurer que la nouvelle vision serait connue et partagée par toutes les équipes Yousign. Cette réorganisation s'est effectuée en plusieurs étapes.
 
 ## Notre ancien modèle d'organisation
 
 Jusque récemment, chez Yousign, le Product Director gérait le périmètre produit, mais il était également en charge de la gestion fonctionnelle et opérationnelle des profils tech - développeurs et QA. Les équipes SRE et DATA étaient quant à elles managées directement par le CTO.
 
-###### ![blog-schema1.png](https://yousign.slite.com/api/files/AciiGS84\~q/blog-schema1.png "L'organisation Tech & Produit d'origine chez Yousign")
+![blog-schema1.png](https://yousign.slite.com/api/files/AciiGS84~q/blog-schema1.png "L'organisation Tech & Produit d'origine chez Yousign")
 
 ## 1 - Rapprocher le produit et la tech, oui mais comment ?
 
 Rapprocher le produit et la tech sous la dénomination Product & Engineering semblait déjà être une bonne idée, mais insuffisant comme plan d'action. En effet, il nous semblait primordial de créer de la cohérence et un sens commun, puisque l'Engineering devait accompagner le produit dans son évolution.
 
-1. Durant l'année, [Romain Pichard](https://www.linkedin.com/in/romainpichard/), notre Product Director, et [Antoine Louiset](https://www.linkedin.com/in/antoine-louiset-34b89a30/), notre CTO, ont réalisé des interviews d'entreprises SaaS telles que [Spendesk]() et [Mailjet](), afin de comprendre comment ils ont géré le scale des équipes, leur organisation, mais aussi et surtout collecter leur feedback sur les succès et les obstacles rencontré.
+1. Durant l'année, [Romain Pichard](https://www.linkedin.com/in/romainpichard/), notre Product Director, et [Antoine Louiset](https://www.linkedin.com/in/antoine-louiset-34b89a30/), notre CTO, ont réalisé des interviews d'entreprises SaaS telles que [Spendesk](https://www.spendesk.com) et [Mailjet](https://fr.mailjet.com/), afin de comprendre comment ils ont géré le scale des équipes, leur organisation, mais aussi et surtout collecter leur feedback sur les succès et les obstacles rencontré.
 2. Dès le milieu de l'année, le rapprochement de l'Engineering et du Produit était envisagée à plusieurs niveaux : managérial, avec les deux postes de Director, mais aussi au niveau des équipes avec la création de "squads" intégrant un leader technique pour les développeurs et un Product Manager.
 3. Durant l'été nous avons travaillé sur la création d'un MVP dans un mode task force regroupant l'ensemble des compétences produit mais aussi technique (dev front et back, PM, QA, SRE ...). Ce mode de fonctionnement a été un vrai succès à tout niveau, il a été très bien vécu par les équipes mais également par le management. Cette expérience a donc été inspirante dans la mise en place de nos futures squads et nous avons commencé à dessiner une approche pluridisciplinaire de celles-ci.
 
@@ -68,8 +63,8 @@ Nous avions à coeur que la mise en oeuvre de cette nouvelle organisation soit p
 
 La présentation de ces étapes s'est faite en deux phases :
 
-* La première phase consistait à définir de façon globale l'ensemble des grandes étapes du projet et obtenir un accord collégial du board Yousign, afin que ces changements soient validés par tous et partie intégrante de la stratégie d'entreprise.
-* La seconde phase consistait à présenter aux équipes ces changements et les mettre en oeuvre (je reviendrai après sur cette phase).
+- La première phase consistait à définir de façon globale l'ensemble des grandes étapes du projet et obtenir un accord collégial du board Yousign, afin que ces changements soient validés par tous et partie intégrante de la stratégie d'entreprise.
+- La seconde phase consistait à présenter aux équipes ces changements et les mettre en oeuvre (je reviendrai après sur cette phase).
 
 ## 4 - Apprendre en marchant
 
@@ -85,7 +80,7 @@ L'étape à laquelle nous sommes actuellement, c'est l'exécution de ce plan et 
 
 L'approche en squads pluridisciplinaires est effective et nous constatons déjà des impacts positifs. Il faut toutefois maintenir une communication horizontale forte pour de pas perdre la consistance entre les équipes (l'éternelle bataille entre verticalité et horizontalité).
 
-![blog-schema2.png](https://yousign.slite.com/api/files/k_fKmhlooy/blog-schema2.png "La nouvelle organisation Engineering & Product de Yousign")
+![blog-schema2.png](https://yousign.slite.com/api/files/k_fKmhlooy/blog-schema2.png 'La nouvelle organisation Engineering & Product de Yousign')
 
 La comitologie évolue donc progressivement pour maintenir cet équilibre instable (weekly et daily au sein de la squad), nous envisageons déjà des points réguliers entre les Engineering Managers et les Product Managers des squads. Nous pensons aussi qu'il est important que les Engineers ne travaillent pas dans un environnement étanche et puissent continuer à échanger, débattre, s'informer... Pour cela nous organisons des moments d'échange entre les personnes des mêmes domaines techniques (back, front, QA ...) au fur et à mesure que l'équipe s'agrandie.
 
