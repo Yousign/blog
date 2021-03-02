@@ -36,6 +36,9 @@ module.exports = {
       height: {
         navbar: '80px',
       },
+      minHeight: {
+        navbar: '80px',
+      },
       letterSpacing: {
         tighter: '-.04em',
       },

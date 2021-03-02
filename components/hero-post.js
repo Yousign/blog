@@ -10,7 +10,7 @@ export default function HeroPost({ title, coverImage, date, excerpt, authors, sl
         <div className="lg:col-span-7 h-full" style={{ minHeight: 500 }}>
           <CoverImage title={title} src={coverImage} slug={slug} layout="fill" objectFit="cover" />
         </div>
-        <div className="lg:col-span-5 px-14 py-20 flex flex-col justify-center">
+        <div className="lg:col-span-5 px-6 py-10 md:px-14 md:py-20 flex flex-col justify-center">
           <div className="mb-4">
             <DateFormatter dateString={date} />
           </div>
