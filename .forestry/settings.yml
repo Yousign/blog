@@ -12,8 +12,8 @@ sections:
   templates:
   - authors
 - type: directory
-  path: _posts
-  label: posts
+  path: _data/posts
+  label: Articles
   create: all
   match: "**/*"
   templates:
