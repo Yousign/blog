@@ -1,15 +1,18 @@
 ---
 title: Récit de la réorganisation Tech et Produit chez Yousign
-excerpt: "En 2020, portée par la crise sanitaire et l'émergence de nouveaux comportements,
-  l'entreprise a connu une croissance exponentielle. Cela nous a paru comme le bon
-  moment pour repenser le pôle Tech sur tous les aspects. Cette réorganisation s'est
-  effectuée en plusieurs étapes. "
-coverImage:
-  https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/pattern-IT-team-orga
+excerpt: 'En 2020, portée par la crise sanitaire et l''émergence de nouveaux comportements,
+  l''entreprise a connu une croissance exponentielle. Cela nous a paru comme le bon
+  moment pour repenser le pôle Tech sur tous les aspects. Cette réorganisation s''est
+  effectuée en plusieurs étapes. '
+coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/pattern-IT-team-orga
   (2).jpg
 date: 2020-03-16T05:35:07.000+00:00
----
+authors:
+- _data/authors/kevindubourg.md
+tags:
+- organisation
 
+---
 Yousign a l'ambition de devenir le leader de la signature électronique en Europe. En 2020, portée par la crise sanitaire et l'émergence de nouveaux comportements, l'entreprise a connu une croissance exponentielle.
 
 Cette croissance a généré une augmentation importante des équipes business pour répondre à la demande, ce qui a naturellement amplifié l'effet funnel sur les équipes techniques et révélé plusieurs défaillances dans la structure du pôle Tech :
