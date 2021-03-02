@@ -9,6 +9,8 @@ sections:
   label: posts
   create: all
   match: "**/*"
+  templates:
+  - post
 upload_dir: ''
 public_path: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com
 front_matter_path: ''
