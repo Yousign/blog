@@ -1,17 +1,12 @@
 ---
-label: authors
+label: author
 hide_body: true
 fields:
-- name: lastname
+- name: fullname
   type: text
   config:
     required: false
-  label: Nom
-- name: firstname
-  type: text
-  config:
-    required: false
-  label: Prénom
+  label: Name
 - name: position
   type: text
   config:
