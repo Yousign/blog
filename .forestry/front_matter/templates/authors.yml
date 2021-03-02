@@ -1,4 +1,24 @@
 ---
 label: authors
 hide_body: true
-fields: []
+fields:
+- name: lastname
+  type: text
+  config:
+    required: false
+  label: Nom
+- name: firstname
+  type: text
+  config:
+    required: false
+  label: Prénom
+- name: position
+  type: text
+  config:
+    required: false
+  label: Poste
+- name: avatar
+  type: file
+  config:
+    maxSize: 64
+  label: Avatar
