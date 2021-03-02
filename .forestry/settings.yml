@@ -5,6 +5,13 @@ admin_path: "/public/admin"
 webhook_url: 
 sections:
 - type: directory
+  path: _data/authors
+  label: Authors
+  create: all
+  match: "**/*"
+  templates:
+  - authors
+- type: directory
   path: _posts
   label: posts
   create: all
