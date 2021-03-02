@@ -1,38 +1,32 @@
 ---
 label: post
 hide_body: false
+display_field: title
 fields:
 - type: text
   name: title
-  label: title
+  label: Titre
 - type: textarea
   name: excerpt
-  label: excerpt
+  label: Résumé
 - type: file
   name: coverImage
-  label: coverImage
+  label: Vignette
+  description: format 16/9<br>min 800px de large
 - type: datetime
   name: date
-  label: date
-- type: field_group
-  name: author
-  label: author
-  fields:
-  - type: text
-    name: name
-    label: name
-  - type: file
-    name: picture
-    label: picture
-  - name: position
-    type: text
-    config:
-      required: false
-    label: Fonction
-- type: field_group
-  name: ogImage
-  label: ogImage
-  fields:
-  - type: file
-    name: url
-    label: url
+  label: Date de publication
+- name: authors
+  type: list
+  config:
+    use_select: true
+    min: 1
+    max: 
+    source:
+      type: pages
+      section: authors
+  label: Auteurs
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
