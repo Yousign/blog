@@ -6,6 +6,8 @@ fields:
 - type: text
   name: title
   label: Titre
+  config:
+    required: true
 - type: textarea
   name: excerpt
   label: Résumé
