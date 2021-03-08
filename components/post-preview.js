@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function PostPreview({ title, coverImage, date, authors, slug }) {
   return (
     <div>
-      <div className="mb-2 h" style={{ height: 280 }}>
+      <div className="mb-2 h" style={{ height: 240 }}>
         <CoverImage
           slug={slug}
           title={title}

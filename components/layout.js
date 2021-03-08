@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import CookieConsent, { Cookies, getCookieConsentValue } from 'react-cookie-consent';
 import Alert from '../components/alert';
 import Footer from '../components/footer';
-import Meta from '../components/meta';
 import Navbar from '../components/navbar';
 import { consentGranted, consentDenied } from '../lib/gtag';
 
@@ -22,7 +21,6 @@ export default function Layout({ preview, children }) {
   }, []);
   return (
     <>
-      <Meta />
       <div className="min-h-screen">
         <CookieConsent
           enableDeclineButton

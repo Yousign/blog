@@ -1,6 +1,7 @@
+import Link from 'next/link';
 import Container from './container';
 import Logo from './logo';
-import Link from 'next/link';
+import { BLOG_TITLE } from '../lib/constants';
 
 export default function Navbar() {
   return (
@@ -12,7 +13,7 @@ export default function Navbar() {
               <Logo className="hidden md:block" />
               <Logo isMonogram size={26} className="md:hidden" />
               <span className="ml-3 text-grey-medium">|</span>
-              <span className="font-medium ml-2">Blog Engineering & Product </span>
+              <span className="font-medium ml-2">{BLOG_TITLE}</span>
             </a>
           </Link>
 

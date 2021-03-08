@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+import Head from 'next/head';
 import ErrorPage from 'next/error';
 import Container from '../../components/container';
 import PostBody from '../../components/post-body';
@@ -6,7 +7,7 @@ import PostHeader from '../../components/post-header';
 import Layout from '../../components/layout';
 import { getPostBySlug, getAllPosts, getAuthorByPath } from '../../lib/api';
 import PostTitle from '../../components/post-title';
-import Head from 'next/head';
+import Metas from '../../components/metas';
 import markdownToHtml from '../../lib/markdownToHtml';
 
 export default function Post({ post, preview }) {
@@ -22,8 +23,7 @@ export default function Post({ post, preview }) {
         ) : (
           <>
             <Head>
-              <title>{post.title} | Yousign&apos;s tech blog</title>
-              <meta property="og:image" content={post.coverImage} />
+              <Metas title={post.title} description={post.excerpt} imgSrc={post.coverImage} />
             </Head>
             <article className="lg:w-2/3 mx-auto py-8">
               <PostHeader
@@ -48,7 +48,7 @@ export async function getStaticProps({ params }) {
     'slug',
     'authors',
     'content',
-    'ogImage',
+    'excerpt',
     'coverImage',
   ]);
   const content = await markdownToHtml(post.content || '');
