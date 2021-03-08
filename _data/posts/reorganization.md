@@ -4,9 +4,8 @@ excerpt: 'En 2020, portée par la crise sanitaire et l''émergence de nouveaux c
   l''entreprise a connu une croissance exponentielle. Cela nous a paru comme le bon
   moment pour repenser le pôle Tech sur tous les aspects. Cette réorganisation s''est
   effectuée en plusieurs étapes. '
-coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/pattern-IT-team-orga
-  (2).jpg
-date: 2020-03-26T07:00:07Z
+coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/3-organization.jpg
+date: 2020-03-26T07:00:07.000+00:00
 authors:
 - _data/authors/kevindubourg.md
 tags:
