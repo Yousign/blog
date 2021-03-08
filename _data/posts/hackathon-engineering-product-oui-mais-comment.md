@@ -42,8 +42,6 @@ Nous avions trouvé le concept vraiment sympa et nous nous sommes mis en quête 
 
 @Alice Martinelli, notre Office Manager, @Romain Pichard et un channel Slack plus tard, nous avions un début d'organisation pour cet événement en remote. Nous souhaitions avant tout qu'il ait lieu sur une journée, que le format soit simple, fluide et avec un résultat visible en fin d'événement - le risque avec les Hackathons est de devoir concevoir un MVP en 8h et de générer une certaine frustration de ne pas aller au bout.
 
-<<<<<Photo du hackathon 2020>>>>>>
-
 Nous avons donc réparti les 35 personnes en 4 équipes (mixées). Leur objectif était de découvrir WorkAdventure et voir comment nous pouvions l'utiliser chez Yousign pour fédérer encore plus nos équipes dans le contexte actuel, mais aussi demain après la COVID, qu'elles soient en remote ou dans nos bureaux. Chaque équipe devait présenter, à l'issue du Hackathon, sa vision et sa proposition via un pitch de 20 minutes.
 
 Le programme de la journée était le suivant :
