@@ -32,3 +32,5 @@ fields:
   type: tag_list
   default: []
   label: Tags
+pages:
+- _data/posts/hackathon-engineering-product-oui-mais-comment.md
