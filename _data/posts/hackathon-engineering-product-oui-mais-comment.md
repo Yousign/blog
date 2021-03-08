@@ -5,8 +5,8 @@ title: 'Hackathon Engineering & Product : oui, mais comment ?'
 excerpt: Durant l'année 2020, l'Engineering & Product a vu ses équipes grandir fortement,
   en particulier sur le dernier trimestre. Quoi de mieux qu'un Hackathon pour renforcer
   la cohésion des équipes ?
-coverImage: ''
-date: 2021-03-18T07:00:00Z
+coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/2-youniverse.jpg
+date: 2021-03-18T07:00:00.000+00:00
 authors:
 - _data/authors/kevindubourg.md
 
@@ -20,8 +20,6 @@ Quoi de mieux qu'un Hackathon ? Simple, classique, efficace.
 ## Le contexte
 
 Nous avions déjà organisé un Hackathon off-site en 2019 qui avait remporté l'adhésion des participants et avait soudé l'équipe.
-
-<<<<<Photo du hackathon 2019>>>>>>
 
 Nous étions à peine une quinzaine à ce moment là, mais fin 2020, la situation est différente :
 
