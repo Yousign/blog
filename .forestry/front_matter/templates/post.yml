@@ -33,4 +33,5 @@ fields:
   default: []
   label: Tags
 pages:
+- _data/posts/comment-on-a-propulse-le-blog-engineering-and-product-en-1-mois.md
 - _data/posts/hackathon-engineering-product-oui-mais-comment.md
