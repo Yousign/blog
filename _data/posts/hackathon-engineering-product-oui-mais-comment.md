@@ -6,7 +6,7 @@ excerpt: Durant l'année 2020, l'Engineering & Product a vu ses équipes grandir
   en particulier sur le dernier trimestre. Quoi de mieux qu'un Hackathon pour renforcer
   la cohésion des équipes ?
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/2-youniverse.jpg
-date: 2021-03-15T07:00:00Z
+date: 2021-03-08T07:00:00Z
 authors:
 - _data/authors/kevindubourg.md
 
