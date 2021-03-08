@@ -10,7 +10,7 @@ export default function MoreStories({ posts }) {
             title={post.title}
             coverImage={post.coverImage}
             date={post.date}
-            author={post.author}
+            authors={post.authors}
             slug={post.slug}
             excerpt={post.excerpt}
           />

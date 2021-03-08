@@ -2,7 +2,7 @@ import DateFormatter from '../components/date-formatter';
 import CoverImage from './cover-image';
 import Link from 'next/link';
 
-export default function PostPreview({ title, coverImage, date, author, slug }) {
+export default function PostPreview({ title, coverImage, date, authors, slug }) {
   return (
     <div>
       <div className="mb-2 h" style={{ height: 280 }}>
@@ -23,9 +23,11 @@ export default function PostPreview({ title, coverImage, date, author, slug }) {
           <a className="hover:underline">{title}</a>
         </Link>
       </h3>
-      <div className="text-sm opacity-50">
-        <strong>{author.name}</strong> - {author.position}
-      </div>
+      {authors.map((author, index) => (
+        <div key={index} className="text-sm opacity-50">
+          <strong>{author?.fullname}</strong> - {author?.position}
+        </div>
+      ))}
     </div>
   );
 }
