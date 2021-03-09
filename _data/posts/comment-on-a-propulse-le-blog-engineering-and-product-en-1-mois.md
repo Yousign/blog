@@ -34,7 +34,7 @@ L'objectif principal est la mise en œuvre et la publication rapide du blog. Il 
 
 Après un rapide sondage auprès de l'équipe, nous arrivons de façon unanime à la conclusion qu'il nous faut une solution technique simple (on écarte donc les applications comme Wordpress relativement lourde à maintenir). Quoi de mieux qu'un site statique ?
 
-[Jérôme Boileux](https://www.linkedin.com/in/jeromeboileux/?originalSubdomain=fr), dev front, je prends donc le sujet avec l'énergie qu'on lui connaît et propose une solution basée sur :
+[Jérôme Boileux](https://www.linkedin.com/in/jeromeboileux/?originalSubdomain=fr), dev front, prend donc le sujet avec l'énergie qu'on lui connaît et propose une solution basée sur :
 
 * Github (Repository pour la gestion du code du blog)
 * React / Next JS (Framework React pour notamment la génération de page statique)
