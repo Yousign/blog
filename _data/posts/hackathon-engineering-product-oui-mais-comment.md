@@ -57,7 +57,7 @@ Le programme de la journée était le suivant :
 
 Pour faciliter le travail des équipes, nous avions fourni une trame de base pour le pitch :
 
-![image.png](https://yousign.slite.com/api/files/hdSZ6tH2GS/image.png)
+![hackathon-yousign.png](https://yousign.slite.com/api/files/btBaDo\~bIG/hackathon-yousign.png)
 
 ## Bilan
 
