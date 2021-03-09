@@ -8,7 +8,7 @@ authors:
 - _data/authors/kevindubourg.md
 
 ---
-# La genèse du blog
+## La genèse du blog
 
 _A long time ago in a galaxy far_, _far away_.... Nous avions évoqué la création d'un blog Tech sans jamais vraiment se lancer, car nous étions peu, nous avions conscience du temps et de l'énergie demandée, ce qui manquait cruellement. Autant dire que notre plan de charge est bien rempli et les raisons de procrastiner sur la mise en œuvre du blog étaient nombreuses.
 
@@ -16,11 +16,11 @@ Mais depuis fin 2020, l'équipe Engineering & Product grandit constamment et nou
 
 Ok, mais comment réussir, dans un délai aussi court, à mettre en place un projet pour lequel on peine à trouver du temps ? Deux mots : compromis et collaboration.
 
-# De la conception à la réalisation
+## De la conception à la réalisation
 
 L'objectif principal est la mise en œuvre et la publication rapide du blog. Il faut donc aller vite tout en assurant un bon équilibre entre la forme et le fond. La to-do list est assez longue, mais tout est une histoire de compromis 😎 .
 
-## Les spécifications
+#### Les spécifications
 
 * Simple
 * Évolutif
@@ -30,7 +30,7 @@ L'objectif principal est la mise en œuvre et la publication rapide du blog. Il 
 * Statistiques d'accès au blog pour comprendre son usage avec un respect du consentement lié au RGPD 👮‍♂️
 * Approuvé par notre team Design
 
-## La solution technique
+#### La solution technique
 
 Après un rapide sondage auprès de l'équipe, nous arrivons de façon unanime à la conclusion qu'il nous faut une solution technique simple (on écarte donc les applications comme Wordpress relativement lourde à maintenir). Quoi de mieux qu'un site statique ?
 
@@ -43,7 +43,7 @@ Après un rapide sondage auprès de l'équipe, nous arrivons de façon unanime �
 
 En 48h, Jérôme propose une première version du blog qui répond à la majorité de nos besoins 🔥. L'équipe SRE (Site Reliability Engineering) met à disposition un pointeur DNS [https://blog.yousign.io](https://blog.yousign.io "https://blog.yousign.io") (via OctoDNS mais on y reviendra dans un article dédié 🤩 ) . À cette étape, nous avons un MVP du blog et sommes en mesure d'éditer de façon très simple via le Markdown et Forestry (CMS admin) les articles.
 
-## La forme
+#### La forme
 
 Pendant ce temps, l'équipe Design d'[Antoine Visonneau](https://www.linkedin.com/in/antoinevisonneau/?originalSubdomain=fr) a souhaité nous accompagner sur la mise en œuvre du blog afin qu'il soit en cohérence avec l'image de Yousign, tout en ayant sa propre identité. Un workshop a été nécessaire pour se caler sur l'attendu et faire des compromis, notre souhait étant de sortir le blog rapidement et les équipes Design ayant une roadmap chargée.
 
@@ -51,7 +51,7 @@ On décide donc d'avoir une approche MVP et d'itérer progressivement sans quoi 
 
 [Jérôme Boileux](https://www.linkedin.com/in/jeromeboileux/?originalSubdomain=fr) intègre dans la foulée les maquettes; quelques itérations à coup de margin et de padding suffisent pour obtenir une première version qualitative de notre blog.
 
-## Le fond
+#### Le fond
 
 Il est clair que la technique et l'apparence du blog sont importantes, mais c'est bien les articles, les sujets abordés et la qualité du contenu qui comptent vraiment.
 
@@ -59,11 +59,11 @@ Il est clair que la technique et l'apparence du blog sont importantes, mais c'es
 
 Nous avons donc demandé à chaque collaborateur de l'équipe E&P de se positionner sur les thèmes d'articles que nous avions déjà pré-listés, vorie de proposer de nouveaux sujets. Exercice réussi, car nous obtenons une liste d'une quarantaine d'idées ! Et la majorité des personnes de l'équipes se sont proposées pour écrire les différents articles. Les freelances prennent également part à l'intiative, l'engouement est général. 🙌
 
-# De la planification à la rédaction
+## De la planification à la rédaction
 
 [Marion Ravut](https://www.linkedin.com/in/marion-ravut/), Product Marketing Lead chez Yousign, prend part activement depuis le début à la mise en œuvre de ce blog. Ensemble, nous priorisons et planifions les articles, tâche qui n'est pas si simple, car nous avons beaucoup de sujets pertinents dans nos tablettes ! J'aurai donc le privilège de publier les premiers articles du blog, dont celui-ci qui permet de lancer officiellement et avec beaucoup de plaisir le début d'une série d'articles autour de la Tech, du Product, de la Data, de la Securité, de la Conformité mais aussi des sujets plus transverses. Tout un programme 🔥.
 
-# Le début de la suite
+## Le début de la suite
 
 Le challenge était là - Trouver le temps, les compétences, les bons outils, les sujets pertinents... - mais on a réalisé qu'avec de la volonté, de l'agilité et le collectif, on arrive à lever des ⛰️ (ok, ici une colline soyons modestes). Et nous sommes très satisfaits du résultat.
 
