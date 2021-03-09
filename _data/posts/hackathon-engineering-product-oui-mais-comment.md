@@ -26,7 +26,7 @@ Nous avions déjà organisé un Hackathon off-site en 2019 qui avait remporté l
 Nous étions à peine une quinzaine à ce moment là, mais fin 2020, la situation est différente :
 
 * 👥 Nous sommes plus d'une trentaine au sein de l'Engineering & Product
-* 👭 Nous décidons d'inviter nos collègues du Design
+* 👭 Nous souhaitons inclure nos collègues du Design
 * 💡 Nous n'avons pas vraiment d'idée sur la meilleure façon de l'organiser
 * 🔥 Les équipes sont dans le rush de fin d'année
 
