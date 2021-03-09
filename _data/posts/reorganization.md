@@ -43,7 +43,7 @@ Rapprocher le produit et la tech sous la dénomination Product & Engineering sem
 
 Début septembre, le poste d'Engineering Director, pendant du Product Director, est créé et on m'en confie la responsabilité. L'objectif principal est d'avoir le maximum de consistance au niveau du Produit et de la Tech. Cette étape permet de mettre en place un management bicéphale au niveau des équipes mais aussi dans les échanges avec les stakeholders.
 
-[Romain](https://www.linkedin.com/in/romainpichard/) et moi nous connaissons depuis plus de 15 ans et avons mené ensemble des side-projects. Mais surtout, cette complicité facilite le démarrage avec des automatismes, de la confiance et beaucoup de transparence. Les ingrédients principaux sont donc réunis pour mener à bien les grands challenges que nous allons rencontrer.
+[Romain](https://www.linkedin.com/in/romainpichard/) et moi nous connaissons depuis plus de 15 ans et avons mené ensemble de nombreux side-projects. Mais surtout, cette complicité facilite le démarrage avec des automatismes, de la confiance et beaucoup de transparence. Les ingrédients principaux sont donc réunis pour mener à bien les grands challenges que nous allons rencontrer.
 
 ## 3 - Définir la vision Product & Engineering et la partager en interne
 
