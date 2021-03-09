@@ -57,7 +57,7 @@ Nous avions à coeur que cette nouvelle organisation soit partagée par tous et 
 2. Présenter la stratégie et notre vision
 3. Définir une organisation au niveau macro Product & Engineering
 4. Définir le rattachement des squads et teams transverses (Product ou Engineering)
-5. Définir les concepts de squads pluridisciplinaires, leur composition et fonctionnement
+5. Définir les concepts de squads pluri-disciplinaires, leur composition et fonctionnement
 6. Définir les rôles (Product Manager, Engineering Manager ...)
 7. Définir les interactions et des responsabilités de chacun
 8. Découper les squads par rapport à notre besoin actuel
