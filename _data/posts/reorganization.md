@@ -78,7 +78,7 @@ Aussi, l'approche empirique restait la meilleure des armes pour s'assurer de cr�
 
 ## 5 - Mettre en oeuvre notre vision et voir les premiers résultats
 
-L'étape à laquelle nous sommes actuellement, c'est l'exécution de ce plan et la mise en place progressive de cette nouvelle organisation. Mais comme un plan ne se déroule jamais sans accroc, nous itérons régulièrement pour l'adapter et l'agilité reste la clé.
+Nous sommes actuellement à l'étape d'exécution de ce plan et la mise en place progressive de notre nouvelle organisation. Mais comme un plan ne se déroule jamais sans accroc, nous itérons régulièrement pour l'adapter et l'agilité reste la clé.
 
 L'approche en squads pluridisciplinaires est effective et nous constatons déjà des impacts positifs. Il faut toutefois maintenir une communication horizontale forte pour de pas perdre la consistance entre les équipes (l'éternelle bataille entre verticalité et horizontalité).
 
