@@ -13,7 +13,7 @@ authors:
 ---
 Durant l'année 2020, l'Engineering & Product a vu ses équipes grandir fortement, en particulier sur le dernier trimestre. La fin d'année a été dense pour l'ensemble des équipes avec une activité croissante, de nombreux recrutements et la crise sanitaire qui perdure et empêche nos traditionnels regroupements off-site.
 
-Il nous paraissait important, avec [Romain Pichard](https://www.linkedin.com/in/romainpichard/) et [Antoine Louiset](https://www.linkedin.com/in/antoine-louiset-34b89a30/) de proposer un événement qui permette de renforcer la cohésion des équipes, apporter de la convivialité et favoriser les échanges. Nos équipes étant majoritairement en full remote, il a fallu réfléchir à un nouveau format adapté.
+Il nous paraissait important, avec [Romain Pichard](https://www.linkedin.com/in/romainpichard/) et [Antoine Louiset](https://www.linkedin.com/in/antoine-louiset-34b89a30/), de proposer un événement qui permette de renforcer la cohésion des équipes, apporter de la convivialité et favoriser les échanges. Nos équipes étant majoritairement en full remote, il a fallu réfléchir à un nouveau format adapté.
 
 Quoi de mieux qu'un Hackathon ? Simple, classique, efficace.
 
