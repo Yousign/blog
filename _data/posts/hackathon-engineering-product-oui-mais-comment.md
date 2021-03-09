@@ -6,7 +6,7 @@ excerpt: Durant l'année 2020, l'Engineering & Product a vu ses équipes grandir
   en particulier sur le dernier trimestre. Quoi de mieux qu'un Hackathon pour renforcer
   la cohésion des équipes ?
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/2-youniverse.jpg
-date: 2021-03-08T07:00:00Z
+date: 2021-03-08T07:00:00.000+00:00
 authors:
 - _data/authors/kevindubourg.md
 
@@ -79,3 +79,5 @@ Si vous organisez un Hackathon, nous pouvons que recommander de :
 * ⏱️ Proposer une organisation de journée définie et rythmée pour éviter les temps morts
 * 👭 Mixer les équipes pour favoriser les interactions et faire connaissance
 * 😁 Ajouter une bonne dose de bonne humeur
+
+[**Kevin Dubourg**](https://www.linkedin.com/in/kevin-dubourg-586351146/) **- Engineering Director, Yousign**
