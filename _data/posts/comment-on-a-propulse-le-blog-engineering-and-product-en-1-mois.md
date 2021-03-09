@@ -45,7 +45,7 @@ En 48h, Jérôme délivre une première version du blog qui répond à la majori
 
 #### **La forme**
 
-Pendant ce temps, l'équipe Design d'[Antoine Visonneau](https://www.linkedin.com/in/antoinevisonneau/?originalSubdomain=fr) a souhaité nous accompagner sur la mise en œuvre du blog afin qu'il soit en cohérence avec l'image de Yousign, tout en ayant sa propre identité. Un workshop a été nécessaire pour se caler sur l'attendu et faire des compromis, notre souhait étant de sortir le blog rapidement et les équipes Design ayant une roadmap chargée.
+Pendant ce temps, l'équipe Design d'[Antoine Visonneau](https://www.linkedin.com/in/antoinevisonneau/?originalSubdomain=fr) a souhaité nous accompagner sur la mise en œuvre du blog afin qu'il soit en cohérence avec l'image de Yousign, tout en ayant sa propre identité. Un workshop a été nécessaire pour se caler sur l'attendu et faire des compromis, afin de sortir le blog rapidement avec la collaboration des équipes Design, malgré leur roadmap chargée.
 
 On décide donc d'avoir une approche MVP et d'itérer progressivement sans quoi l'objectif de sortie rapide serait mis à mal. Ils fournissent dans un délai d'une semaine les maquettes, autant dire qu'ils ont fait un super boulot en un temps record 🚀.
 
