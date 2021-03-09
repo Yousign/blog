@@ -10,9 +10,9 @@ authors:
 ---
 ## La genèse du blog
 
-_A long time ago in a galaxy far_, _far away_.... Nous avions évoqué la création d'un blog Tech sans jamais vraiment se lancer, car nous étions peu, nous avions conscience du temps et de l'énergie demandée, ce qui manquait cruellement. Autant dire que notre plan de charge est bien rempli et les raisons de procrastiner sur la mise en œuvre du blog étaient nombreuses.
+_A long time ago in a galaxy far_, _far away_.... Nous avions évoqué la création d'un blog Tech sans jamais vraiment nous lancer, car nous étions peu, nous avions conscience du temps et de l'énergie demandés, ce qui manquait cruellement. Autant dire que notre plan de charge était bien rempli et les raisons de procrastiner sur la mise en œuvre du blog étaient nombreuses.
 
-Mais depuis fin 2020, l'équipe Engineering & Product grandit constamment et nous sommes dans une phase de recrutement importante. Nous prenons conscience avec les nouveaux arrivants, qu'ils soient internes ou freelances, que leur expérience chez Yousign et au sein des équipes P&E est très positive. Nous avions envie de partager ces expériences et leur expertise sur un vaste panels de sujets, en dehors de Yousign. La mise en œuvre d'un blog dédié apparaissait donc important pour nous, afin d'expliquer ce que nous faisons, comment nous le faisons chez Yousign et ce que les équipes en tirent.
+Mais depuis fin 2020, l'équipe Engineering & Product grandit constamment et nous sommes dans une phase de recrutement importante. Nous prenons conscience avec les nouveaux arrivants, qu'ils soient internes ou freelances, que leur expérience chez Yousign et au sein des équipes P&E est très positive. Nous avions envie de partager ces expériences et leur expertise sur un vaste panels de sujets en dehors de Yousign. La mise en œuvre d'un blog dédié apparaissait donc comme la solution pour nous, afin d'expliquer ce que nous faisons, comment nous le faisons chez Yousign et ce que les équipes en tirent.
 
 Ok, mais comment réussir, dans un délai aussi court, à mettre en place un projet pour lequel on peine à trouver du temps ? Deux mots : compromis et collaboration.
 
