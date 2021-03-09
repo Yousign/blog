@@ -20,7 +20,7 @@ Ok, mais comment réussir, dans un délai aussi court, à mettre en place un pro
 
 L'objectif principal est la mise en œuvre et la publication rapide du blog. Il faut donc aller vite tout en assurant un bon équilibre entre la forme et le fond. La to-do list est assez longue, mais tout est une histoire de compromis 😎 .
 
-#### Les spécifications
+#### **Les spécifications**
 
 * Simple
 * Évolutif
@@ -30,7 +30,7 @@ L'objectif principal est la mise en œuvre et la publication rapide du blog. Il 
 * Statistiques d'accès au blog pour comprendre son usage avec un respect du consentement lié au RGPD 👮‍♂️
 * Approuvé par notre team Design
 
-#### La solution technique
+#### **La solution technique**
 
 Après un rapide sondage auprès de l'équipe, nous arrivons de façon unanime à la conclusion qu'il nous faut une solution technique simple (on écarte donc les applications comme Wordpress relativement lourde à maintenir). Quoi de mieux qu'un site statique ?
 
@@ -43,7 +43,7 @@ Après un rapide sondage auprès de l'équipe, nous arrivons de façon unanime �
 
 En 48h, Jérôme propose une première version du blog qui répond à la majorité de nos besoins 🔥. L'équipe SRE (Site Reliability Engineering) met à disposition un pointeur DNS [https://blog.yousign.io](https://blog.yousign.io "https://blog.yousign.io") (via OctoDNS mais on y reviendra dans un article dédié 🤩 ) . À cette étape, nous avons un MVP du blog et sommes en mesure d'éditer de façon très simple via le Markdown et Forestry (CMS admin) les articles.
 
-#### La forme
+#### **La forme**
 
 Pendant ce temps, l'équipe Design d'[Antoine Visonneau](https://www.linkedin.com/in/antoinevisonneau/?originalSubdomain=fr) a souhaité nous accompagner sur la mise en œuvre du blog afin qu'il soit en cohérence avec l'image de Yousign, tout en ayant sa propre identité. Un workshop a été nécessaire pour se caler sur l'attendu et faire des compromis, notre souhait étant de sortir le blog rapidement et les équipes Design ayant une roadmap chargée.
 
@@ -51,7 +51,7 @@ On décide donc d'avoir une approche MVP et d'itérer progressivement sans quoi 
 
 [Jérôme Boileux](https://www.linkedin.com/in/jeromeboileux/?originalSubdomain=fr) intègre dans la foulée les maquettes; quelques itérations à coup de margin et de padding suffisent pour obtenir une première version qualitative de notre blog.
 
-#### Le fond
+### Le fond
 
 Il est clair que la technique et l'apparence du blog sont importantes, mais c'est bien les articles, les sujets abordés et la qualité du contenu qui comptent vraiment.
 
