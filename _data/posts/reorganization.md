@@ -51,7 +51,7 @@ Début septembre, le poste d'Engineering Director, pendant du Product Director, 
 
 Là est toute la difficulté : traiter une multitude de sujets inhérents à la mise en oeuvre d'une organisation et d'un plan de recrutement tout à fait exclusif chez Yousign.
 
-Nous avions à coeur que la mise en oeuvre de cette nouvelle organisation soit partagée par tous et que la vision soit commune. Nous avons donc, en moins de 4 semaines, initiés les principaux sujets à adresser :
+Nous avions à coeur que cette nouvelle organisation soit partagée par tous et que la vision soit commune. Nous avons donc, en moins de 4 semaines, initiés les principaux sujets à adresser :
 
 1. Faire un constat de notre organisation actuelle (forces et faiblesses)
 2. Présenter la stratégie et notre vision
