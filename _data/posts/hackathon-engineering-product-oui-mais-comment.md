@@ -27,7 +27,7 @@ Nous étions à peine une quinzaine à ce moment là, mais fin 2020, la situatio
 
 * 👥 Nous sommes plus d'une trentaine au sein de l'Engineering & Product
 * 👭 Nous souhaitons inclure nos collègues du Design
-* 💡 Nous n'avons pas vraiment d'idée sur la meilleure façon de l'organiser
+* 💡 Nous n'avons pas vraiment d'idées sur la meilleure façon de l'organiser
 * 🔥 Les équipes sont dans le rush de fin d'année
 
 Bref, nous avions toutes les raisons de ne pas le faire et de décaler à 2021. Mais cela serait mal nous connaître chez Yousign 💪 !
