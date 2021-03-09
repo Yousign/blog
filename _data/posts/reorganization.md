@@ -27,7 +27,7 @@ Cela nous a paru être le bon moment pour repenser le pôle Tech sur tous les as
 
 ## Notre ancien modèle d'organisation
 
-Jusque récemment, chez Yousign, le Product Director gérait le périmètre produit, mais il était également en charge de la gestion fonctionnelle et opérationnelle des profils tech - développeurs et QA. Les équipes SRE et DATA étaient quant à elles managées directement par le CTO.
+Jusque récemment, chez Yousign, le Product Director gérait le périmètre produit, mais il était également en charge de la gestion fonctionnelle et opérationnelle des profils tech - développeurs et QA. Les équipes SRE et Data étaient quant à elles managées directement par le CTO.
 
 ![blog-schema1.png](https://yousign.slite.com/api/files/AciiGS84\~q/blog-schema1.png "L'organisation Tech & Produit d'origine chez Yousign")
 
