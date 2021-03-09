@@ -53,7 +53,7 @@ On décide donc d'avoir une approche MVP et d'itérer progressivement sans quoi 
 
 #### **Le fond**
 
-Il est clair que la technique et l'apparence du blog sont importantes, mais c'est bien les articles, les sujets abordés et la qualité du contenu qui comptent vraiment.
+Il est clair que la technique et l'apparence du blog sont importantes, mais ce sont bien les articles, les sujets abordés et la qualité du contenu qui comptent vraiment.
 
 À cette étape ce ne sont pas les idées d'article qui manquent, nous sommes donc très prolifiques dans le premier listing. Néanmoins, on se rend rapidement compte que la rédaction ne peut pas tenir sur un nombre restreint de rédacteurs. De plus, même si l'exercice de l'écriture n'est pas toujours simple, il me semble important que tout le monde puisse s'y essayer. Je crois beaucoup à la force du groupe et je suis persuadé qu'à trente nous sommes plus forts pour proposer un contenu varié et régulier.
 
