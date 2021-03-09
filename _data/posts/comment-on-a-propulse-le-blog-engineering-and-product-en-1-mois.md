@@ -65,7 +65,7 @@ Nous avons donc demandé à chaque collaborateur de l'équipe E&P de se position
 
 ## Le début de la suite
 
-Le challenge était là - Trouver le temps, les compétences, les bons outils, les sujets pertinents... - mais on a réalisé qu'avec de la volonté, de l'agilité et le collectif, on arrive à lever des ⛰️ (ok, ici une colline soyons modestes). Et nous sommes très satisfaits du résultat.
+Le challenge était là - Trouver le temps, les compétences, les bons outils, les sujets pertinents... - mais nous avons réalisé qu'avec de la volonté, de l'agilité et le collectif, on arrive à lever des ⛰️ (ok, ici une colline soyons modestes). Et nous sommes très satisfaits du résultat.
 
 Nous sommes aussi heureux de pouvoir, au travers de ce blog Engineering & Product, expliquer et partager ce que nous faisons chez Yousign et nous espérons qu'il donnera envie à nos lecteurs de rejoindre l'aventure.
 
