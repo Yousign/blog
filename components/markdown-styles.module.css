@@ -19,12 +19,24 @@
 
 .markdown ul,
 .markdown ol {
-  @apply pl-4;
+  @apply pl-6;
 }
 .markdown ul li {
   list-style: disc;
 }
+.markdown ul li::marker,
+.markdown ol li::marker {
+  @apply text-prussianBlue;
+}
 
 .markdown ol li {
   list-style: decimal;
+}
+
+.markdown a {
+  @apply text-purple-light underline transition duration-200 hover:text-opacity-70;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 0.125em;
+  text-underline-offset: 1px;
+  text-decoration-style: dotted;
 }
