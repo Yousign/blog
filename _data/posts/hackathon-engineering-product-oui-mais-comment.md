@@ -23,7 +23,7 @@ Nous avions déjà organisé un Hackathon off-site en 2019 qui avait remporté l
 
 ![P5240808.JPG](https://yousign.slite.com/api/files/PGqIQek0HK/P5240808.JPG)
 
-Nous étions à peine une quinzaine à ce moment là, mais fin 2020, la situation est différente :
+Nous étions à peine une quinzaine à ce moment-là, mais fin 2020, la situation est différente :
 
 * 👥 Nous sommes plus d'une trentaine au sein de l'Engineering & Product
 * 👭 Nous souhaitons inclure nos collègues du Design
