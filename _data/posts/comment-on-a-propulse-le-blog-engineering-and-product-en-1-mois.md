@@ -51,7 +51,7 @@ On décide donc d'avoir une approche MVP et d'itérer progressivement sans quoi 
 
 [Jérôme Boileux](https://www.linkedin.com/in/jeromeboileux/?originalSubdomain=fr) intègre dans la foulée les maquettes; quelques itérations à coup de margin et de padding suffisent pour obtenir une première version qualitative de notre blog.
 
-### Le fond
+#### **Le fond**
 
 Il est clair que la technique et l'apparence du blog sont importantes, mais c'est bien les articles, les sujets abordés et la qualité du contenu qui comptent vraiment.
 
