@@ -80,7 +80,7 @@ Aussi, l'approche empirique restait la meilleure des armes pour s'assurer de cr�
 
 Nous sommes actuellement à l'étape d'exécution de ce plan et la mise en place progressive de notre nouvelle organisation. Mais comme un plan ne se déroule jamais sans accroc, nous itérons régulièrement pour l'adapter et l'agilité reste la clé.
 
-L'approche en squads pluridisciplinaires est effective et nous constatons déjà des impacts positifs. Il faut toutefois maintenir une communication horizontale forte pour de pas perdre la consistance entre les équipes (l'éternelle bataille entre verticalité et horizontalité).
+L'approche en squads pluri-disciplinaires est effective et nous constatons déjà des impacts positifs. Il faut toutefois maintenir une communication horizontale forte pour de pas perdre la consistance entre les équipes (l'éternelle bataille entre verticalité et horizontalité).
 
 ![blog-schema2.png](https://yousign.slite.com/api/files/k_fKmhlooy/blog-schema2.png "La nouvelle organisation Engineering & Product de Yousign")
 
