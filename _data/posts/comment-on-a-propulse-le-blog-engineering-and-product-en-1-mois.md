@@ -41,7 +41,7 @@ Après un rapide sondage auprès de l'équipe, nous arrivons de façon unanime �
 * Vercel (Plateforme de déploiement et d'hébergement de site statique)
 * Forestry (CMS d'admin pour faciliter l'édition des Markdown)
 
-En 48h, Jérôme propose une première version du blog qui répond à la majorité de nos besoins 🔥. L'équipe SRE (Site Reliability Engineering) met à disposition un pointeur DNS [https://blog.yousign.io](https://blog.yousign.io "https://blog.yousign.io") (via OctoDNS mais on y reviendra dans un article dédié 🤩 ) . À cette étape, nous avons un MVP du blog et sommes en mesure d'éditer de façon très simple via le Markdown et Forestry (CMS admin) les articles.
+En 48h, Jérôme délivre une première version du blog qui répond à la majorité de nos besoins 🔥. L'équipe SRE (Site Reliability Engineering) met à disposition un pointeur DNS [https://blog.yousign.io](https://blog.yousign.io "https://blog.yousign.io") (via OctoDNS mais on y reviendra dans un article dédié 🤩 ) . À cette étape, nous avons un MVP du blog et sommes en mesure d'éditer de façon très simple via le Markdown et Forestry (CMS admin) les articles.
 
 #### **La forme**
 
