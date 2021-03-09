@@ -55,7 +55,7 @@ On décide donc d'avoir une approche MVP et d'itérer progressivement sans quoi 
 
 Il est clair que la technique et l'apparence du blog sont importantes, mais ce sont bien les articles, les sujets abordés et la qualité du contenu qui comptent vraiment.
 
-À cette étape ce ne sont pas les idées d'article qui manquent, nous sommes donc très prolifiques dans le premier listing. Néanmoins, on se rend rapidement compte que la rédaction ne peut pas tenir sur un nombre restreint de rédacteurs. De plus, même si l'exercice de l'écriture n'est pas toujours simple, il me semble important que tout le monde puisse s'y essayer. Je crois beaucoup à la force du groupe et je suis persuadé qu'à trente nous sommes plus forts pour proposer un contenu varié et régulier.
+À cette étape, les idées d'articles ne manquent pas, nous sommes donc très prolifiques dans le premier listing. Néanmoins, on se rend rapidement compte que la rédaction ne peut pas tenir sur un nombre restreint de rédacteurs. De plus, même si l'exercice de l'écriture n'est pas toujours simple, il me semble important que tout le monde puisse s'y essayer. Je crois beaucoup à la force du groupe et je suis persuadé qu'à trente nous sommes plus forts pour proposer un contenu varié et régulier.
 
 Nous avons donc demandé à chaque collaborateur de l'équipe E&P de se positionner sur les thèmes d'articles que nous avions déjà pré-listés, vorie de proposer de nouveaux sujets. Exercice réussi, car nous obtenons une liste d'une quarantaine d'idées ! Et la majorité des personnes de l'équipes se sont proposées pour écrire les différents articles. Les freelances prennent également part à l'intiative, l'engouement est général. 🙌
 
