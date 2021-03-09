@@ -20,10 +20,10 @@ Cette croissance a généré une augmentation importante des équipes business p
 * Les équipes techniques sont dé-focus régulièrement par des changements de priorisation, de périmètre produit mais aussi de mission (Features vs RUN/MCO)
 * Le Product Director est devenu un point central de contention, partagé entre les sujets techniques qui ne sont pas son cœur de métier, la qualité et la vision produit
 * L'arbitrage ne peut pas s'effectuer en cycle court et nécessite très souvent de remonter au CTO
-* La gestion des OKR est différente entre le produit, les équipes développement et les équipes plus transverses comme la DATA et les SRE. Ce dé-synchronisme en terme d'objectifs ralenti notre capacité à délivrer puisque les équipes ne sont pas alignées sur des points de rencontre définis (OKR communs)
+* La gestion des OKRs est différente entre le produit, les équipes développement et les équipes plus transverses comme la DATA et les SRE. Ce dé-synchronisme en terme d'objectifs ralenti notre capacité à délivrer puisque les équipes ne sont pas alignées sur des points de rencontre définis (OKR communs)
 * Perte de cohérence et de fluidité entre les stakeholders, la tech et le produit
 
-Cela nous a paru comme le bon moment pour repenser le pôle Tech sur tous les aspects - Structure, organisation, vision, recrutement - mais également de s'assurer que la nouvelle vision serait connue et partagée par toutes les équipes Yousign. Cette réorganisation s'est effectuée en plusieurs étapes.
+Cela nous a paru être le bon moment pour repenser le pôle Tech sur tous les aspects - Structure, organisation, vision, recrutement - mais également de s'assurer que la nouvelle vision serait connue et partagée par toutes les équipes Yousign. Cette réorganisation s'est effectuée en plusieurs étapes.
 
 ## Notre ancien modèle d'organisation
 
