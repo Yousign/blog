@@ -70,7 +70,7 @@ La présentation de ces étapes s'est faite en deux phases :
 
 ## 4 - Apprendre en marchant
 
-La plus grande difficulté à ce stade a été de devoir définir dans un délai court un grand nombre de concepts et une nouvelle organisation sur un nombre d'inconnues importantes - Comment doit-on découper nos squads ? Verticalité vs horizontalité ? Transition d'un mode d'équipe par domaine technique en squad pluridisciplinaire ? Quid du recrutement (nombre, répartition, délais) ? Lead Tech or not Lead Tech ?
+La plus grande difficulté à ce stade a été de devoir définir dans un délai court un grand nombre de concepts et une nouvelle organisation sur un nombre d'inconnues importantes - Comment doit-on découper nos squads ? Verticalité vs horizontalité ? Transition d'un mode d'équipe par domaine technique en squads pluri-disciplinaires ? Quid du recrutement (nombre, répartition, délais) ? Lead Tech or not Lead Tech ?
 
 Passé notre frustration des premières heures sur le fait que nous pourrions proposer l'organisation du siècle, nous avons décidé d'avancer par petit pas et rester modestes sur ce changement. Nous sommes persuadés qu'il n'existe pas "une" organisation mais "notre" organisation, il n'était donc pas question de tenter de recopier des modèles que nous avions pu voir ailleurs, mais bien de prendre ce qui nous semblait le plus intéressant et de se l'approprier dans notre contexte, avec nos besoins.
 
