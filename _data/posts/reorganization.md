@@ -84,7 +84,7 @@ L'approche en squads pluri-disciplinaires est effective et nous constatons déj�
 
 ![blog-schema2.png](https://yousign.slite.com/api/files/k_fKmhlooy/blog-schema2.png "La nouvelle organisation Engineering & Product de Yousign")
 
-La comitologie évolue donc progressivement pour maintenir cet équilibre instable (weekly et daily au sein de la squad), nous envisageons déjà des points réguliers entre les Engineering Managers et les Product Managers des squads. Nous pensons aussi qu'il est important que les Engineers ne travaillent pas dans un environnement étanche et puissent continuer à échanger, débattre, s'informer... Pour cela nous organisons des moments d'échange entre les personnes des mêmes domaines techniques (back, front, QA ...) au fur et à mesure que l'équipe s'agrandie.
+La comitologie évolue donc progressivement pour maintenir cet équilibre (weekly et daily au sein de la squad), nous envisageons déjà des points réguliers entre les Engineering Managers et les Product Managers des squads. Nous pensons aussi qu'il est important que les Engineers ne travaillent pas dans un environnement étanche et puissent continuer à échanger, débattre, s'informer... Pour cela nous organisons des moments d'échange entre les personnes des mêmes domaines techniques (back, front, QA ...) au fur et à mesure que l'équipe s'agrandie.
 
 Notre plan de recrutement est aujourd'hui bien lancé, et l'arrivée de ces nouveaux collaborateurs challengent notre organisation, mais c'est le but. Nous souhaitons garder le cap et notre vision, mais continuer à adapter notre organisation au contexte et besoin actuels est indispensable (agilité et itération).
 
@@ -94,7 +94,7 @@ Avec [Romain](https://www.linkedin.com/in/romainpichard/), nous avions anticipé
 
 Il est encore trop tôt pour avoir une vue éclairée et sage de nos changements, néanmoins vu de l'intérieur, nous percevons déjà l'impact sur la consistance de l'approche Product & Engineering.
 
-Les équipes quant à elles apprécient la cohésion et la cohérence de notre delivery. Le reste est encore devant nous, mais nous sommes confiants de l’horizon qui se dessine à la proue. Personnellement, je retire une information essentielle de ces dernières semaines, c'est qu'il faut être prêt à changer ou remodeler les plans sans cesse et sans aucune frustration. Dans un contexte de scale-up l'organisation et certains processus ne sont valables que durant un court instant.
+Les équipes quant à elles apprécient la cohésion et la cohérence de notre delivery. Le reste est encore devant nous, mais nous sommes confiants de l’horizon qui se dessine. Personnellement, je retire une information essentielle de ces dernières semaines, c'est qu'il faut être prêt à changer ou remodeler les plans sans cesse et sans aucune frustration. Dans un contexte de scale-up, l'organisation et certains processus ne sont valables que durant un court instant.
 
 C'est le début de la suite, nous reviendrons prochainement avec de nouvelles informations (petit spoil pour un autre article, mais nous avons déjà remis en cause la notion de Lead Tech fraîchement présentée).
 
