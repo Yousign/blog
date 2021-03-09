@@ -78,7 +78,7 @@ Il est clair que ce type de journée est un plus pour la cohésion et les échan
 Si vous organisez un Hackathon, nous pouvons que recommander de :
 
 * 📅 S'efforcer de planifier même si les plannings sont remplis et la charge des équipes importante (l'alignement des étoiles est rare)
-* 👾 Trouver un sujet "léger" qui n'est pas directement lié au business de l'entreprise qui fédère l'ensemble des équipes.
+* 👾 Trouver un sujet "léger" qui n'est pas directement lié au business de l'entreprise qui fédère l'ensemble des équipes
 * 🥅 Rester sur un objectif réaliste pour ne pas créer de frustration et la sensation de ne rien avoir produit
 * ⏱️ Proposer une organisation de journée définie et rythmée pour éviter les temps morts
 * 👭 Mixer les équipes pour favoriser les interactions et faire connaissance
