@@ -49,7 +49,7 @@ Pendant ce temps, l'équipe Design d'[Antoine Visonneau](https://www.linkedin.co
 
 On décide donc d'avoir une approche MVP et d'itérer progressivement sans quoi l'objectif de sortie rapide serait mis à mal. L'équipe nous fournit dans un délai d'une semaine les maquettes, autant dire qu'ils ont fait un super boulot en un temps record 🚀.
 
-[Jérôme Boileux](https://www.linkedin.com/in/jeromeboileux/?originalSubdomain=fr) intègre dans la foulée les maquettes; quelques itérations à coup de margin et de padding suffisent pour obtenir une première version qualitative de notre blog.
+[Jérôme Boileux](https://www.linkedin.com/in/jeromeboileux/?originalSubdomain=fr) intègre ces maquettes dans la foulée ; quelques itérations à coup de margin et de padding suffisent pour obtenir une première version qualitative de notre blog Engineering & Product.
 
 #### **Le fond**
 
