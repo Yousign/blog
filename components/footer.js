@@ -48,7 +48,7 @@ export default function Footer() {
               Politique de confidentialité
             </a>
             <a href={href} className="md:ml-4 link">
-              Contact us
+              Contactez-nous
             </a>
           </div>
         </div>
