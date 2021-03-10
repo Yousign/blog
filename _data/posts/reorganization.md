@@ -5,7 +5,7 @@ excerpt: 'En 2020, portée par la crise sanitaire et l''émergence de nouveaux c
   moment pour repenser le pôle Tech sur tous les aspects. Cette réorganisation s''est
   effectuée en plusieurs étapes. '
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/3-organization.jpg
-date: 2021-03-01T07:00:07.000+00:00
+date: 2021-02-22T07:00:07Z
 authors:
 - _data/authors/kevindubourg.md
 tags:
