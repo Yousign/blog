@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Metas from '../components/metas';
 import Container from '../components/container';
 import MoreStories from '../components/more-stories';
@@ -14,9 +13,7 @@ export default function Index({ allPosts }) {
   return (
     <>
       <Layout>
-        <Head>
-          <Metas title={BLOG_TITLE} description={BLOG_BASELINE} />
-        </Head>
+        <Metas title={BLOG_TITLE} description={BLOG_BASELINE} imgSrc="/assets/og-image.png" />
         <Intro />
         <Container>
           {heroPost && (

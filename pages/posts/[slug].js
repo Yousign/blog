@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import Head from 'next/head';
+
 import ErrorPage from 'next/error';
 import Container from '../../components/container';
 import PostBody from '../../components/post-body';
@@ -17,14 +17,12 @@ export default function Post({ post, preview }) {
   }
   return (
     <Layout preview={preview}>
+      <Metas title={post.title} description={post.excerpt} imgSrc={post.coverImage} />
       <Container>
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
         ) : (
           <>
-            <Head>
-              <Metas title={post.title} description={post.excerpt} imgSrc={post.coverImage} />
-            </Head>
             <article className="lg:w-2/3 mx-auto py-8">
               <PostHeader
                 title={post.title}

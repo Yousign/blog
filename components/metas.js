@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
-
+import Head from 'next/head';
 export default function Metas({ title, description, imgSrc, url }) {
   return (
-    <>
+    <Head>
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={imgSrc} />
@@ -13,7 +13,7 @@ export default function Metas({ title, description, imgSrc, url }) {
       <meta name="twitter:card" content="summary_large_image" />
       <title>{title} | Yousign | Blog Engineering & Product</title>
       <meta name="description" content={description} />
-    </>
+    </Head>
   );
 }
 
