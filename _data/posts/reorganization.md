@@ -5,7 +5,7 @@ excerpt: 'En 2020, portée par la crise sanitaire et l''émergence de nouveaux c
   moment pour repenser le pôle Tech sur tous les aspects. Cette réorganisation s''est
   effectuée en plusieurs étapes. '
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/3-organization.jpg
-date: 2021-02-22T07:00:07Z
+date: 2021-02-22T07:00:07.000+00:00
 authors:
 - _data/authors/kevindubourg.md
 tags:
@@ -35,7 +35,7 @@ Jusque récemment, chez Yousign, le Product Director gérait le périmètre prod
 
 Rapprocher le produit et la tech sous la dénomination Product & Engineering semblait déjà être une bonne idée, mais insuffisant comme plan d'action. En effet, il nous semblait primordial de créer de la cohérence et un sens commun, puisque l'Engineering devait accompagner le produit dans son évolution.
 
-1. Durant l'année, [Romain Pichard](https://www.linkedin.com/in/romainpichard/), notre Product Director, et [Antoine Louiset](https://www.linkedin.com/in/antoine-louiset-34b89a30/), notre CTO, ont réalisé des interviews d'entreprises SaaS telles que [Spendesk](https://www.spendesk.com) et [Mailjet](https://fr.mailjet.com/), afin de comprendre comment ils ont géré le scale des équipes, leur organisation, mais aussi et surtout collecter leur feedback sur les succès et les obstacles rencontrés.
+1. Durant l'année, [Romain Pichard](), notre Product Director, et [Antoine Louiset](https://www.linkedin.com/in/antoine-louiset-34b89a30/), notre CTO, ont réalisé des interviews d'entreprises SaaS telles que [Spendesk](https://www.spendesk.com) et [Mailjet](https://fr.mailjet.com/), afin de comprendre comment ils ont géré le scale des équipes, leur organisation, mais aussi et surtout collecter leur feedback sur les succès et les obstacles rencontrés.
 2. Dès le milieu de l'année, le rapprochement de l'Engineering et du Produit était envisagé à plusieurs niveaux : managérial, avec les deux postes de Director, mais aussi au niveau des équipes avec la création de "squads" intégrant un leader technique pour les développeurs et un Product Manager.
 3. Durant l'été, nous avons travaillé sur la création d'un MVP dans un mode task force regroupant l'ensemble des compétences produit mais aussi technique (dev front et back, PM, QA, SRE ...). Ce mode de fonctionnement a été un vrai succès à tous les niveaux, il a été très bien vécu par les équipes mais également par le management. Cette expérience a donc été inspirante dans la mise en place de nos futures squads et nous avons commencé à dessiner une approche pluri-disciplinaire de celles-ci.
 
@@ -88,7 +88,7 @@ La comitologie évolue donc progressivement pour maintenir cet équilibre (weekl
 
 Notre plan de recrutement est aujourd'hui bien lancé, et l'arrivée de ces nouveaux collaborateurs challengent notre organisation, mais c'est le but. Nous souhaitons garder le cap et notre vision, mais continuer à adapter notre organisation au contexte et besoin actuels est indispensable (agilité et itération).
 
-Avec [Romain](https://www.linkedin.com/in/romainpichard/), nous avions anticipé dès le départ que le découpage des squads par domaine technologique côté produit (application, api ...) plutôt que fonctionnel (billing, users ...) serait limité à moyen terme. Néanmoins, l'anticipation trop rapide d'un découpage précis et fonctionnel peut être contre productif. En effet, à cette étape nous n'avons pas assez de visibilité pour permettre un découpage efficace et proche de nos besoins. Nous avons donc pris le parti d'avoir une approche empirique et de le mettre en oeuvre quand le besoin sera plus présent et évident.
+Avec [Romain](https://www.linkedin.com/in/romainpichard/), nous avions anticipé dès le départ que le découpage des squads par domaine technologique côté produit (application, API ...) plutôt que fonctionnel (billing, users ...) serait limité à moyen terme. Néanmoins, l'anticipation trop rapide d'un découpage précis et fonctionnel peut être contre productif. En effet, à cette étape nous n'avons pas assez de visibilité pour permettre un découpage efficace et proche de nos besoins. Nous avons donc pris le parti d'avoir une approche empirique et de le mettre en oeuvre quand le besoin sera plus présent et évident.
 
 ## Il n'est pas encore l'heure du bilan
 
