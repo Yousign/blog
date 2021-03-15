@@ -69,11 +69,13 @@
     bottom: 0;
     right: 0;
     max-width: 320px;
+  }
+}
 
-    @screen md {
-      right: 3rem;
-      bottom: 3rem;
-    }
+@screen md {
+  .cookie-banner {
+    right: 3rem;
+    bottom: 3rem;
   }
 }
 
