@@ -3,7 +3,7 @@ tags: []
 title: Comment on a propulsé le blog Engineering and Product en 1 mois
 excerpt: ''
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/1-launch-blog-bis-bis.jpg
-date: 2021-03-08T07:00:00Z
+date: 2021-03-08T07:00:00.000+00:00
 authors:
 - _data/authors/kevindubourg.md
 
@@ -32,7 +32,7 @@ L'objectif principal est la mise en œuvre et la publication rapide du blog. Il 
 
 #### **La solution technique**
 
-Après un rapide sondage auprès de l'équipe, nous arrivons de façon unanime à la conclusion qu'il nous faut une solution technique simple (on écarte donc les applications comme Wordpress relativement lourde à maintenir). Quoi de mieux qu'un site statique ?
+Après un rapide sondage auprès de l'équipe, nous arrivons de façon unanime à la conclusion qu'il nous faut une solution technique simple (on écarte donc les applications comme Wordpress relativement lourdes à maintenir). Nous avons rapidement évoqué des solutions comme Medium ou Substack mais leur caractère payant était un frein à l'universalité de notre blog. Au final, quoi de mieux qu'un site statique ?
 
 [Jérôme Boileux](https://www.linkedin.com/in/jeromeboileux/?originalSubdomain=fr), dev front, prend donc le sujet avec l'énergie qu'on lui connaît et propose une solution basée sur :
 
