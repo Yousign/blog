@@ -19,4 +19,5 @@ fields:
     maxSize: 64
   label: Avatar
 pages:
+- _data/authors/Damien.md
 - _data/authors/kevindubourg.md
