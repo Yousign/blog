@@ -63,7 +63,7 @@ Une grande attention est apportée à la CI/CD, avec la possibilité de créer d
 
 Coté stack technique, tout se trouve ici : [https://stackshare.io/yousign/yousign](https://stackshare.io/yousign/yousign "https://stackshare.io/yousign/yousign").
 
-Chez Yousign pour moi, c'est également la découverte de nouveaux outils comme :
+Yousign, pour moi, c'est également la découverte de nouveaux outils comme :
 
 * [https://github.com/commitizen/cz-cli](https://github.com/commitizen/cz-cli "https://github.com/commitizen/cz-cli") pour la convention de nommage des commits
 * [https://slite.com/](https://slite.com/ "https://slite.com/") pour le suivi des développements par projet (Kanban)
