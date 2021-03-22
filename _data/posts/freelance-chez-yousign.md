@@ -68,6 +68,7 @@ Yousign, pour moi, c'est également la découverte de nouveaux outils comme :
 * [https://github.com/commitizen/cz-cli](https://github.com/commitizen/cz-cli "https://github.com/commitizen/cz-cli") pour la convention de nommage des commits
 * [https://slite.com/](https://slite.com/ "https://slite.com/") pour le suivi des développements par projet (Kanban)
 * [https://launchdarkly.com/](https://launchdarkly.com/ "https://launchdarkly.com/") pour le feature flag
+* [https://stoplight.io/](https://stoplight.io/ "https://stoplight.io/") pour le design & la documentation d'API
 
 Être freelance chez Yousign, c’est donc faire partie d’une équipe solide techniquement ou règne une ambiance conviviale. C’est aussi aimer sortir de sa zone de confort, car les défis et challenges techniques ne manquent pas. Savoir s’adapter au changement pour répondre à une forte croissance demandant certaines remises en question de l’existant, que ce soit d’un point de vue technique ou organisationnel.
 
