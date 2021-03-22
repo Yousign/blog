@@ -10,7 +10,6 @@ authors:
 - _data/authors/Damien.md
 
 ---
-
 C’est dans le contexte de la création de ce blog Tech que [Kevin Dubourg](https://www.linkedin.com/in/kevin-dubourg-586351146/), Engineering Director, a proposé aux freelances de participer à la rédaction de son contenu avec plusieurs idées d’articles. Dans celui-ci, l’idée est de présenter en quelques lignes mon ressenti sur ces 3 premiers mois chez Yousign en tant que développeur freelance, en me laissant bien sûr maître sur le ton et la forme de l'article 🙂.
 
 ## Freelance chez Yousign ?
@@ -43,7 +42,7 @@ Chez Yousign, je n’ai jamais eu ce sentiment d’avoir à développer une fonc
 
 Pour ce qui est de ma squad, nous fonctionnons en mode projet et différons un peu du fonctionnement des autres squads, qui sont plutôt en mode built sur une organisation commune. Je dirais que le maître mot est la communication. Il arrive également que dans le cadre d’un développement d’une fonctionnalité touchant plusieurs domaines, de petites équipes se créent (regroupant devops, front, back...). Pour moi, c’est aussi ça l’agilité chez Yousign, savoir communiquer et s’organiser ensemble pour travailler, et s’améliorer au quotidien pour atteindre des objectifs communs.
 
-Au quotidien, pour le développement d’une fonctionnalité je dirais que l’on itère de la manière suivante :
+Au quotidien, pour le développement d’une fonctionnalité je dirais que l’on itère de la manière suivante (ce processus est spécifique à notre fonctionnement actuel "build", il est différent des autres squads qui livrent en production) :
 
 * Réunion de présentation du besoin
 * Rédaction de l’ADR (Architecture Decision Record), présentant les choix et décisions fonctionnelles/techniques Spécification / découpage technique de la fonctionnalité
