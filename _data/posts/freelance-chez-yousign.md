@@ -2,8 +2,7 @@
 tags: []
 title: Freelance chez Yousign
 excerpt: Je m’appelle Damien Rochette, je suis développeur depuis plus de 10 ans.
-  Je suis arrivé chez Yousign en décembre 2020 pour intégrer la toute nouvelle squad
-  dédiée à la construction de la nouvelle API publique.
+  Je suis arrivé chez Yousign en décembre 2020 pour travailler sur les sujets d'API.
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/freelance-at-yousign.png
 date: 2021-03-23T13:00:00Z
 authors:
