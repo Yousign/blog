@@ -30,9 +30,9 @@ D'abord, le télétravail est facilité par les outils mis en place : récemment
 
 Ensuite, chaque nouveau membre de l'équipe Yousign, freelances compris, a le droit à son arrivée à un onboarding sur plusieurs jours, pour bien comprendre l'entreprise, son organisation et les projets en cours.
 
-## Le team spirit & méthodo
+## Team spirit & méthodo
 
-Chez Yousign, même si certaines réunions sont réservées aux internes (les 1o1 bi-mensuels avec le manager) ou bien que nous ne disposons que d'un accès restreint au Slack de l'entreprise, j'ai quand même le sentiment de faire partie de l’équipe. On m’a d’ailleurs proposé de participer au Hackathon pour la construction des bureaux virtuels, ou bien encore d’animer un meetup tech sur Kong.
+Chez Yousign, même si certaines réunions sont réservées aux internes (les 1o1 bi-mensuels avec le manager) ou bien que nous ne disposons que d'un accès restreint au Slack de l'entreprise, j'ai quand même le sentiment de faire partie de l’équipe. On m’a d’ailleurs proposé de participer au Hackathon pour la construction des bureaux virtuels, ou bien encore d’animer un meetup tech sur la façon de gérer nos API via la mise en place de [Kong](https://konghq.com/kong/).
 
 La responsabilisation fait également beaucoup partie du job : une fois la vision et les besoins exprimés, on doit être force de proposition, être capable de s’organiser en conséquence, car on nous laisse beaucoup d’autonomie et de flexibilité sur les décisions techniques.
 
@@ -51,7 +51,7 @@ Au quotidien, pour le développement d’une fonctionnalité je dirais que l’o
 * Tests & recettes
 * Livraison
 
-## La stack technique
+## Stack technique
 
 Côté techno au quotidien, je travaille sous Docker, Symfony et ReactJS. Les environnements sont dockerizés jusqu’à la production.
 
