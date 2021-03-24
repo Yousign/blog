@@ -15,7 +15,7 @@ C’est dans le contexte de la création de ce blog Tech que [Kevin Dubourg](htt
 
 Je m’appelle Damien Rochette, je suis développeur depuis plus de 10 ans. J’ai eu l’occasion de travailler dans des univers très différents, aussi bien des startups que des grands comptes, en CDI ou lors de missions plus ou moins longues.
 
-Yousign a décidé depuis peu d’ouvrir des postes en freelance, c’est donc dans ce contexte que je suis arrivé en décembre 2020. J’y ai intégré la toute nouvelle squad dédiée à la construction de la nouvelle API publique 🚀.
+Yousign a décidé depuis peu d’ouvrir des postes en freelance, c’est donc dans ce contexte que je suis arrivé en décembre 2020. J’y ai intégré la toute nouvelle squad dédiée à la construction des API publiques 🚀.
 
 Lors de mes recherches de mission, je me pose toujours la question de savoir comment cela se passe vraiment en interne en tant que développeur. J’ai besoin de me projeter pour savoir si ça va me plaire, si je vais pouvoir monter en compétences et travailler dans de bonnes conditions… Après ces premiers mois chez Yousign, je voulais donc écrire ces quelques lignes pour présenter mon retour d'expérience en tant que freelance chez Yousign, et en particulier ce qui ressort le plus à mes yeux : la culture d’entreprise et la qualité du code.
 
