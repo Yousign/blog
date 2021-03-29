@@ -5,6 +5,7 @@ import HeroPost from '../components/hero-post';
 import Intro from '../components/intro';
 import Layout from '../components/layout';
 import { getAllPosts, getAuthorByPath } from '../lib/api';
+import generateRssFeed from '../lib/rss';
 import { BLOG_TITLE, BLOG_BASELINE } from '../lib/constants';
 
 export default function Index({ allPosts }) {
@@ -42,6 +43,8 @@ export async function getStaticProps() {
     'coverImage',
     'excerpt',
   ]).map((post) => ({ ...post, authors: post.authors.map((path) => getAuthorByPath(path)) }));
+
+  await generateRssFeed();
 
   return {
     props: { allPosts },

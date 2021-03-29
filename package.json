@@ -9,6 +9,7 @@
   "dependencies": {
     "classnames": "2.2.6",
     "date-fns": "2.16.1",
+    "feed": "^4.2.2",
     "gray-matter": "4.0.2",
     "next": "latest",
     "react": "^17.0.1",
