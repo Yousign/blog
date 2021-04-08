@@ -15,7 +15,18 @@ export default class MyDocument extends Document {
           <meta name="msapplication-TileColor" content="#000000" />
           <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
           <meta name="theme-color" content="#000" />
-          <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+          <link
+            rel="alternate"
+            title="RSS Feed for blog.yousign.io"
+            type="application/rss+xml"
+            href="rss/feed.xml"
+          />
+          <link
+            rel="alternate"
+            title="ATOM Feed for blog.yousign.io"
+            type="application/atom+xml"
+            href="rss/atom.xml"
+          />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
             href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
