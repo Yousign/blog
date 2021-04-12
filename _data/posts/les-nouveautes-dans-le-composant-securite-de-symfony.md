@@ -6,7 +6,7 @@ excerpt: Chaque nouvelle version de Symfony apporte son lot de nouveautés. Mais
   comportement interne de la sécurité Symfony, pour le rendre extensible et plus compréhensible.
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/maj-security-symfony
   copie 5@2x.png
-date: 
+date: 2020-12-31T23:00:00Z
 authors:
 - _data/authors/Smaïne.md
 
