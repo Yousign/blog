@@ -86,15 +86,12 @@ Dans le cas d’un Login soumis via un formulaire on aurait un Authenticator com
 
 ## Petite explication sur qui fait quoi ❓
 
-`UserBadge` va résoudre l’utilisateur via un `Provider` défini dans la configuration ou un `callable` qu’on peut passer en deuxième argument du constructeur. 👤
+* `UserBadge` va résoudre l’utilisateur via un `Provider` défini dans la configuration ou un `callable` qu’on peut passer en deuxième argument du constructeur. 👤
+* `PasswordCredentials` va checker le password. 🔐
+* `CrsfTokenBadge` va checker que le token CRSF est valide. 🍪
+* `Passport` va se charger de transporter tout ça. ✈️
 
-`PasswordCredentials` va checker le password. 🔐
-
-`CrsfTokenBadge` va checker que le token CRSF est valide. 🍪
-
-`Passport` va se charger de transporter tout ça. ✈️
-
-💝 Voici le bout de code qui boucle sur les badges pour confirmer l’authentification :
+💝 Voici le code qui boucle sur les badges pour confirmer l’authentification :
 
     namespace Symfony\Component\Security\Http\Authenticator\Passport;
     
