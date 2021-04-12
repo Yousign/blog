@@ -170,4 +170,6 @@ Voilà les grosses nouveautés que j'ai pu relever. 😎
 
 Merci de m'avoir lu n'hésitez pas à partager l'article si celui-ci vous a plu.
 
-> **Source** : Pour écrire cet article je me suis appuyé de [la documentation](https://symfony.com/doc/current/security/experimental_authenticators.html), [d'un article de Wouter](https://wouterj.nl/2020/04/authenticators-new-symfony-security), [des slides de la présentation faîtes par Ryan Weaver à la SFCon 2020](https://speakerdeck.com/weaverryan/modern-security-with-symfonys-shiny-new-security-component) et **la meilleure documentation étant le code.** J’ai moi-même exploré ces nouveautés en ouvrant le vendor à coup de `ctrl+enter`🔦.
+**Smaïne Milianni**
+
+> _Sources : Pour écrire cet article je me suis appuyé de_ [_la documentation_](https://symfony.com/doc/current/security/experimental_authenticators.html)_,_ [_d'un article de Wouter_](https://wouterj.nl/2020/04/authenticators-new-symfony-security)_,_ [_des slides de la présentation faîtes par Ryan Weaver à la SFCon 2020_](https://speakerdeck.com/weaverryan/modern-security-with-symfonys-shiny-new-security-component) _et **la meilleure documentation étant le code.** J’ai moi-même exploré ces nouveautés en ouvrant le vendor à coup de `ctrl+enter`🔦._
