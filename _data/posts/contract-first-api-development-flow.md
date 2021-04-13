@@ -11,7 +11,7 @@ authors:
 - _data/authors/Lucas.md
 
 ---
-# Flows de développement API : l'approche 'Code-first' vs 'Contract-first'
+# Flow de développement API Contract-first
 
 ![api-vs-traditional.png](https://yousign.slite.com/api/files/5pJwBWNszi/api-vs-traditional.png)
 
