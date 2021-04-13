@@ -20,5 +20,6 @@ fields:
   label: Avatar
 pages:
 - _data/authors/Damien.md
+- _data/authors/Lucas.md
 - _data/authors/Smaïne.md
 - _data/authors/kevindubourg.md
