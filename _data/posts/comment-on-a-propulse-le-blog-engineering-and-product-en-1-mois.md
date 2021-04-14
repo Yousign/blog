@@ -5,9 +5,10 @@ excerpt: ''
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/1-launch-blog-bis-bis.jpg
 date: 2021-03-08T07:00:00.000+00:00
 authors:
-- _data/authors/kevindubourg.md
-
+  - _data/authors/kevindubourg.md
+published: true
 ---
+
 ## La genèse du blog
 
 _A long time ago in a galaxy far_, _far away_.... Nous avions évoqué la création d'un blog Tech sans jamais vraiment nous lancer, car nous étions peu, nous avions conscience du temps et de l'énergie demandés, ce qui manquait cruellement. Autant dire que notre plan de charge était bien rempli et les raisons de procrastiner sur la mise en œuvre du blog étaient nombreuses.
@@ -22,13 +23,13 @@ L'objectif principal est la mise en œuvre et la publication rapide du blog. Il 
 
 #### **Les spécifications**
 
-* Simple
-* Évolutif
-* Rapidité de déploiement
-* Facilité dans l'exploitation
-* Interface d'administration pour l'édition des articles par des profils non-tech (pas besoin de faire une PR pour éditer un article 😉 )
-* Statistiques d'accès au blog pour comprendre son usage avec un respect du consentement lié au RGPD 👮‍♂️
-* Approuvé par notre team Design
+- Simple
+- Évolutif
+- Rapidité de déploiement
+- Facilité dans l'exploitation
+- Interface d'administration pour l'édition des articles par des profils non-tech (pas besoin de faire une PR pour éditer un article 😉 )
+- Statistiques d'accès au blog pour comprendre son usage avec un respect du consentement lié au RGPD 👮‍♂️
+- Approuvé par notre team Design
 
 #### **La solution technique**
 
@@ -36,12 +37,12 @@ Après un rapide sondage auprès de l'équipe, nous arrivons de façon unanime �
 
 [Jérôme Boileux](https://www.linkedin.com/in/jeromeboileux/?originalSubdomain=fr), dev front, prend donc le sujet avec l'énergie qu'on lui connaît et propose une solution basée sur :
 
-* Github (Repository pour la gestion du code du blog)
-* React / Next JS (Framework React pour notamment la génération de page statique)
-* Vercel (Plateforme de déploiement et d'hébergement de site statique)
-* Forestry (CMS d'admin pour faciliter l'édition des Markdown)
+- Github (Repository pour la gestion du code du blog)
+- React / Next JS (Framework React pour notamment la génération de page statique)
+- Vercel (Plateforme de déploiement et d'hébergement de site statique)
+- Forestry (CMS d'admin pour faciliter l'édition des Markdown)
 
-En 48h, Jérôme délivre une première version du blog qui répond à la majorité de nos besoins 🔥. L'équipe SRE (Site Reliability Engineering) met à disposition un pointeur DNS [https://blog.yousign.io](https://blog.yousign.io "https://blog.yousign.io") (via OctoDNS mais on y reviendra dans un article dédié 🤩 ) . À cette étape, nous avons un MVP du blog et sommes en mesure d'éditer de façon très simple via le Markdown et Forestry (CMS admin) les articles.
+En 48h, Jérôme délivre une première version du blog qui répond à la majorité de nos besoins 🔥. L'équipe SRE (Site Reliability Engineering) met à disposition un pointeur DNS [https://blog.yousign.io](https://blog.yousign.io 'https://blog.yousign.io') (via OctoDNS mais on y reviendra dans un article dédié 🤩 ) . À cette étape, nous avons un MVP du blog et sommes en mesure d'éditer de façon très simple via le Markdown et Forestry (CMS admin) les articles.
 
 #### **La forme**
 

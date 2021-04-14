@@ -40,3 +40,13 @@
   text-underline-offset: 1px;
   text-decoration-style: dotted;
 }
+
+.markdown code:not(pre *) {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+
+  @apply bg-grey-medium bg-opacity-50 px-1 text-base;
+}

@@ -42,6 +42,7 @@ export async function getStaticProps() {
     'authors',
     'coverImage',
     'excerpt',
+    'tag',
   ]).map((post) => ({ ...post, authors: post.authors.map((path) => getAuthorByPath(path)) }));
 
   await generateRssFeed();

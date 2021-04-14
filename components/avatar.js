@@ -4,7 +4,7 @@ export default function Avatar({ fullname, avatar, position }) {
   return (
     <div className="flex items-center">
       <span className="avatar">
-        <Image src={avatar} alt={fullname} width="400" height="400" />
+        {avatar && <Image src={avatar} alt={fullname} width="400" height="400" />}
       </span>
       <div>
         <div className="font-bold">{fullname}</div>

@@ -15,9 +15,32 @@ export default function Post({ post, preview }) {
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />;
   }
+
   return (
     <Layout preview={preview}>
-      <Metas title={post.title} description={post.excerpt} imgSrc={post.coverImage} />
+      <Metas title={post.title} description={post.excerpt} imgSrc={post.coverImage}>
+        <link
+          rel="preload"
+          href="https://unpkg.com/prismjs@0.0.1/themes/prism-tomorrow.css"
+          as="script"
+        />
+        <link
+          rel="preload"
+          href="https://unpkg.com/prismjs@0.0.1/themes/prism-coy.css"
+          as="script"
+        />
+        <link
+          rel="preload"
+          href="https://unpkg.com/prismjs@0.0.1/themes/prism-okaidia.css"
+          as="script"
+        />
+        <link
+          rel="preload"
+          href="https://unpkg.com/prismjs@0.0.1/themes/prism-funky.css"
+          as="script"
+        />
+        <link href={`https://unpkg.com/prismjs@0.0.1/themes/prism-okaidia.css`} rel="stylesheet" />
+      </Metas>
       <Container>
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
