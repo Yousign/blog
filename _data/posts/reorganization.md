@@ -10,6 +10,7 @@ authors:
 - _data/authors/kevindubourg.md
 tags:
 - organisation
+published: true
 
 ---
 Yousign a l'ambition de devenir le leader de la signature électronique en Europe. En 2020, portée par la crise sanitaire et l'émergence de nouveaux comportements, l'entreprise a connu une croissance exponentielle.
