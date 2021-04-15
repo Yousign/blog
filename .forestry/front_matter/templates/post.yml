@@ -28,7 +28,7 @@ fields:
   config:
     use_select: true
     min: 1
-    max:
+    max: 
     source:
       type: pages
       section: authors
