@@ -5,16 +5,16 @@ excerpt: À l’ère du web, nous sommes de plus en plus amenés à développer 
   Lorsqu’il s’agit de développer une API Rest, deux flows de développement s’offrent
   à nous. Le premier consiste à commencer la spécification de l’API par le code (code-first),
   l’autre consiste à partir plutôt du contrat d’API (contract-first).
-coverImage: ''
-date:
+coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/contract-first-api-v2@2x.png
+date: 2021-04-19T22:00:00Z
 authors:
-  - _data/authors/Lucas.md
+- _data/authors/Lucas.md
 published: false
----
 
+---
 # Flow de développement API Contract-first
 
-![api-vs-traditional.png](https://yousign.slite.com/api/files/5pJwBWNszi/api-vs-traditional.png)
+![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/API-frist-yousign.png)
 
 À l’ère du web, nous sommes de plus en plus amenés à développer des API Rest.
 
@@ -42,12 +42,12 @@ L’OpenAPI Specification (OAS), projet de la Fondation Linux, se veut aujourd�
 
 L’approche contract-first a de nombreux avantages :
 
-- favorise l’expérience développeur et la collaboration avec les autres équipes (front, QA, ops, etc)
-- facilite l’expression du besoin avec les responsables métier et minimise le risque d’incompréhensions au cours de développement
-- permet aux équipes de développement de travailler en parallèle en utilisant un serveur de mock
-- permet l’utilisation d’outils de génération de code pour générer [des serveurs et des clients](https://github.com/OpenAPITools/openapi-generator) dans divers langages de programmation
-- permet l’utilisation d’outils de génération de documentation pour écrire une doc
-- permet l’utilisation de [nombreux outils](https://openapi.tools/)
+* favorise l’expérience développeur et la collaboration avec les autres équipes (front, QA, ops, etc)
+* facilite l’expression du besoin avec les responsables métier et minimise le risque d’incompréhensions au cours de développement
+* permet aux équipes de développement de travailler en parallèle en utilisant un serveur de mock
+* permet l’utilisation d’outils de génération de code pour générer [des serveurs et des clients](https://github.com/OpenAPITools/openapi-generator) dans divers langages de programmation
+* permet l’utilisation d’outils de génération de documentation pour écrire une doc
+* permet l’utilisation de [nombreux outils](https://openapi.tools/)
 
 Cette approche peut être plus “bloquante” que l’approche code-first, car elle demande de passer par la phase de discussion du contrat (qui peut prendre plus ou moins de temps) avec toutes les parties prenantes du projet avant d’attaquer le développement et d’expérimenter.
 
@@ -71,11 +71,11 @@ En revanche, nous voulions éviter d’écrire des milliers de lignes de Yaml/Js
 
 ### Éditer un contrat OpenAPI avec Stoplight
 
-![From Slite.com](https://storage.googleapis.com/slite-api-files-production/files/af8cc26c-99df-4bdb-907d-81ab51c3ff61/6x69yQTP1HgbC82DCw_WE9fXn6KNEzdICL6jx8cv8nq03RMqXlen4yXGV_VMZbwAXbO10VTnAb26jE8izJeDw79iuSl9JXGQeQzOpkRaf8Fc7YnfP6jGgHwG14bmEf-gcCXG9X0l 'Spotlight studio')
+![From Slite.com](https://storage.googleapis.com/slite-api-files-production/files/af8cc26c-99df-4bdb-907d-81ab51c3ff61/6x69yQTP1HgbC82DCw_WE9fXn6KNEzdICL6jx8cv8nq03RMqXlen4yXGV_VMZbwAXbO10VTnAb26jE8izJeDw79iuSl9JXGQeQzOpkRaf8Fc7YnfP6jGgHwG14bmEf-gcCXG9X0l "Spotlight studio")
 
 Stoplight est un outil tout en un qui intègre un [excellent éditeur](https://meta.stoplight.io/docs/studio/README.md) permettant d’éditer un fichier OpenAPI aussi bien en mode texte qu’en mode interface graphique. Cette dernière permet de réaliser tout ce qui est possible de faire en temps normal, avec la réutilisation des composants (models, responses, parameters), une prévisualisation de la doc produite avec possibilité de tester le serveur de mock intégré, de voir les erreurs de syntaxes et le code yaml produit dans l’onglet “code”. Le tout est synchronisé avec un repository Github permettant la création d’une PR et un code review avant qu’une modification du contrat soit mergée sur le tronc commun.
 
-![image.png](https://yousign.slite.com/api/files/8rQt71_7K1/image.png 'Spotlight studio')
+![image.png](https://yousign.slite.com/api/files/8rQt71_7K1/image.png "Spotlight studio")
 
 Une fois la modification du contrat acceptée et mergée sur master, nous utilisons ce contrat pour procéder au développement.
 
