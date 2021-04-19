@@ -1,6 +1,6 @@
 ---
 tags: []
-title: Contract-first API Development flow
+title: Flow de développement API Contract-first
 excerpt: À l’ère du web, nous sommes de plus en plus amenés à développer des API Rest.
   Lorsqu’il s’agit de développer une API Rest, deux flows de développement s’offrent
   à nous. Le premier consiste à commencer la spécification de l’API par le code (code-first),
