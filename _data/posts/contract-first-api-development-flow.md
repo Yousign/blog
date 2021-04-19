@@ -6,10 +6,10 @@ excerpt: À l’ère du web, nous sommes de plus en plus amenés à développer 
   à nous. Le premier consiste à commencer la spécification de l’API par le code (code-first),
   l’autre consiste à partir plutôt du contrat d’API (contract-first).
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/contract-first-api-v2@2x.png
-date: 2021-04-19T22:00:00Z
+date: 2021-04-18T22:00:00Z
 authors:
 - _data/authors/Lucas.md
-published: false
+published: true
 
 ---
 # Flow de développement API Contract-first
