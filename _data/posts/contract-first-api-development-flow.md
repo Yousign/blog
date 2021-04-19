@@ -12,7 +12,6 @@ authors:
 published: true
 
 ---
-# Flow de développement API Contract-first
 
 ![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/API-frist-yousign.png)
 
