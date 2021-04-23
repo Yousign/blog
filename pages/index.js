@@ -6,7 +6,7 @@ import Intro from '../components/intro';
 import Layout from '../components/layout';
 import { getAllPosts, getAuthorByPath } from '../lib/api';
 import generateRssFeed from '../lib/rss';
-import { BLOG_TITLE, BLOG_BASELINE } from '../lib/constants';
+import { BLOG_TITLE, BLOG_BASELINE, HOME_OG_IMAGE_URL } from '../lib/constants';
 
 export default function Index({ allPosts }) {
   const heroPost = allPosts[0];
@@ -14,7 +14,7 @@ export default function Index({ allPosts }) {
   return (
     <>
       <Layout>
-        <Metas title={BLOG_TITLE} description={BLOG_BASELINE} imgSrc="/assets/og-image.png" />
+        <Metas title={BLOG_TITLE} description={BLOG_BASELINE} imgSrc={HOME_OG_IMAGE_URL} />
         <Intro />
         <Container>
           {heroPost && (
