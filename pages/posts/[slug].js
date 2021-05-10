@@ -1,14 +1,13 @@
 import { useRouter } from 'next/router';
 
 import ErrorPage from 'next/error';
-import Container from '../../components/container';
-import PostBody from '../../components/post-body';
-import PostHeader from '../../components/post-header';
-import Layout from '../../components/layout';
-import { getPostBySlug, getAllPosts, getAuthorByPath } from '../../lib/api';
-import PostTitle from '../../components/post-title';
-import Metas from '../../components/metas';
-import markdownToHtml from '../../lib/markdownToHtml';
+import PostBody from 'components/post-body';
+import PostHeader from 'components/post-header';
+import Layout from 'components/layout';
+import { getPostBySlug, getAllPosts, getAuthorByPath } from 'lib/api';
+import PostTitle from 'components/post-title';
+import Metas from 'components/metas';
+import markdownToHtml from 'lib/markdownToHtml';
 
 export default function Post({ post, preview }) {
   const router = useRouter();
@@ -41,23 +40,21 @@ export default function Post({ post, preview }) {
         />
         <link href={`https://unpkg.com/prismjs@0.0.1/themes/prism-okaidia.css`} rel="stylesheet" />
       </Metas>
-      <Container>
+      <div className="md:container md:mx-auto px-6 md:px-0 dark:text-white">
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
         ) : (
-          <>
-            <article className="lg:w-2/3 mx-auto py-8">
-              <PostHeader
-                title={post.title}
-                coverImage={post.coverImage}
-                date={post.date}
-                authors={post.authors}
-              />
-              <PostBody content={post.content} />
-            </article>
-          </>
+          <article className="lg:w-2/3 mx-auto py-8">
+            <PostHeader
+              title={post.title}
+              coverImage={post.coverImage}
+              date={post.date}
+              authors={post.authors}
+            />
+            <PostBody content={post.content} />
+          </article>
         )}
-      </Container>
+      </div>
     </Layout>
   );
 }

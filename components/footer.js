@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
-import Container from './container';
+import { useTheme } from 'next-themes';
 import CookieConsent, { Cookies, getCookieConsentValue } from 'react-cookie-consent';
-import { consentGranted, consentDenied } from '../lib/gtag';
+import { DarkModeSwitch } from 'react-toggle-dark-mode';
+import { consentGranted, consentDenied } from 'lib/gtag';
 
 const CONTACT_MAIL = 'nbjmup;cmphAzpvtjho/jp';
 
@@ -19,7 +20,9 @@ function unCryptMailto(encryptedMail) {
 }
 
 export default function Footer() {
+  const { theme, setTheme } = useTheme();
   const [showCookieBar, setShowCookieBar] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
   const today = new Date();
   const year = today.getFullYear();
 
@@ -53,41 +56,53 @@ export default function Footer() {
     }
   }, [showCookieBar]);
 
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  const toggleDarkMode = () => {
+    if (isMounted) {
+      setTheme(theme === 'light' ? 'dark' : 'light');
+    }
+  };
+
   return (
-    <footer className="navbar mt-8">
-      <Container>
-        <div className="footer--inner">
-          <span>&copy; Yousign - {year}</span>
-          <div className="md:hidden flex flex-col items-center">
+    <footer className="bg-coral text-white text-sm mt-8">
+      <div className="md:container md:mx-auto">
+        <div className="min-h-navbar flex flex-col md:flex-row justify-center md:items-center md:justify-end px-4 py-4">
+          <div className="md:hidden">
             <a
               href="https://www.welcometothejungle.co/fr/companies/yousign/jobs"
-              className="btn btn-primary my-4"
+              className="btn btn-default my-4"
             >
               On recrute !
             </a>
-            <a href="https://yousign.com" className="link text-white">
-              yousign.com
-            </a>
           </div>
-          <div className="flex flex-col md:flex-row items-center">
-            <a href="https://yousign.com/fr-fr/mentions" className="link my-4 md:my-0">
-              Mentions légales
-            </a>
-            <a
-              href="https://yousign.com/fr-fr/confidentialite"
-              className="mb-4 md:ml-4 md:mb-0 link"
-            >
-              Politique de confidentialité
-            </a>
-            <a href={href} className="md:ml-4 link">
-              Contactez-nous
-            </a>
-            <button onClick={onRemoveCookieConsent} className="md:ml-4 link">
-              Gérer les cookies
-            </button>
-          </div>
+          <span className="md:mr-auto">&copy; Yousign - {year}</span>
+          <a href="https://yousign.com" className="link text-white md:hidden">
+            yousign.com
+          </a>
+          <a href="https://yousign.com/fr-fr/mentions" className="link md:my-0">
+            Mentions légales
+          </a>
+          <a href="https://yousign.com/fr-fr/confidentialite" className="md:ml-4 link">
+            Politique de confidentialité
+          </a>
+          <a href={href} className="md:ml-4 link">
+            Contactez-nous
+          </a>
+          <button onClick={onRemoveCookieConsent} className="md:ml-4 link text-left md:text-center">
+            Gérer les cookies
+          </button>
+          <DarkModeSwitch
+            className="md:ml-8 mt-4 md:mt-0"
+            checked={theme === 'dark'}
+            onChange={toggleDarkMode}
+            sunColor="#111028"
+            size={20}
+          />
         </div>
-      </Container>
+      </div>
       {showCookieBar && (
         <CookieConsent
           enableDeclineButton

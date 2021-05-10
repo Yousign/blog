@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
-import * as gtag from '../lib/gtag';
-import '../styles/index.css';
+import { ThemeProvider } from 'next-themes';
+import * as gtag from 'lib/gtag';
+import 'styles/index.css';
 
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -16,5 +17,9 @@ export default function MyApp({ Component, pageProps }) {
     };
   }, [router.events]);
 
-  return <Component {...pageProps} />;
+  return (
+    <ThemeProvider attribute="class">
+      <Component {...pageProps} />
+    </ThemeProvider>
+  );
 }

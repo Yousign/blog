@@ -1,21 +1,22 @@
-import PostPreview from '../components/post-preview';
+import PostPreview from './post-preview';
 
 export default function MoreStories({ posts }) {
   return (
-    <section>
-      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-16 lg:gap-x-32 gap-y-20 md:gap-y-32 mb-28">
+    <section className="py-4 md:py-15 px-6 md:px-0 container mx-auto">
+      <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-13 xl:gap-15">
         {posts.map((post) => (
-          <PostPreview
-            key={post.slug}
-            title={post.title}
-            coverImage={post.coverImage}
-            date={post.date}
-            authors={post.authors}
-            slug={post.slug}
-            excerpt={post.excerpt}
-          />
+          <li key={post.slug}>
+            <PostPreview
+              title={post.title}
+              coverImage={post.coverImage}
+              date={post.date}
+              authors={post.authors}
+              slug={post.slug}
+              excerpt={post.excerpt}
+            />
+          </li>
         ))}
-      </div>
+      </ul>
     </section>
   );
 }

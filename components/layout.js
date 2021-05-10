@@ -1,6 +1,6 @@
-import Alert from '../components/alert';
-import Footer from '../components/footer';
-import Navbar from '../components/navbar';
+import Alert from './alert';
+import Footer from './footer';
+import Navbar from './navbar';
 
 export default function Layout({ preview, children }) {
   return (

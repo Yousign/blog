@@ -1,11 +1,13 @@
-import Avatar from '../components/avatar';
-import DateFormatter from '../components/date-formatter';
-import CoverImage from '../components/cover-image';
-import PostTitle from '../components/post-title';
+import Image from 'next/image';
+
+import Avatar from './avatar';
+import DateFormatter from './date-formatter';
+
+import PostTitle from './post-title';
 
 export default function PostHeader({ title, coverImage, date, authors }) {
   return (
-    <header className="my-12">
+    <header className="my-6 md:my-12">
       <PostTitle>{title}</PostTitle>
       <div className="flex justify-between items-center my-10">
         {authors.map((author, index) => (
@@ -13,15 +15,13 @@ export default function PostHeader({ title, coverImage, date, authors }) {
         ))}
         <DateFormatter dateString={date} />
       </div>
-      <div className="mb-8 md:mb-16" style={{ height: 500 }}>
-        <CoverImage
-          title={title}
-          src={coverImage}
-          className="rounded-md w-full"
-          layout="fill"
-          objectFit="cover"
-        />
-      </div>
+      <Image
+        title={title}
+        src={coverImage}
+        className="rounded-md w-full"
+        width={800}
+        height={480}
+      />
     </header>
   );
 }

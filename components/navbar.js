@@ -1,13 +1,13 @@
 import Link from 'next/link';
+import { BLOG_TITLE } from 'lib/constants';
 import Container from './container';
 import Logo from './logo';
-import { BLOG_TITLE } from '../lib/constants';
 
 export default function Navbar() {
   return (
     <nav className="navbar">
       <Container>
-        <div className="navbar--inner text-xl">
+        <div className="navbar--inner">
           <Link href="/">
             <a className="flex items-center">
               <Logo className="hidden md:block" />
@@ -20,7 +20,7 @@ export default function Navbar() {
           <div className="ml-auto hidden md:block">
             <a
               href="https://www.welcometothejungle.co/fr/companies/yousign/jobs"
-              className="btn btn-primary"
+              className="btn btn-primary transition delay-150 duration-300 ease-in-out transform hover:scale-105"
             >
               On recrute !
             </a>

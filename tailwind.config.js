@@ -3,13 +3,14 @@ module.exports = {
   presets: [require('./theme/tailwind-yousign-preset.js')],
   theme: {
     colors: {
-      black: '#00010E',
+      black: '#111028',
       white: '#FFFFFF',
       grey: {
         light: '#FCF8F3',
         medium: '#D8D8D8',
       },
-      turquoiseBlue: { light: '#C2FFEA', medium: '#AFFFE3' },
+      turquoiseBlue: '#5DE8C1',
+      shamrock: '#1bc091',
       purple: {
         light: '#7355EC',
         medium: '#090022',
@@ -18,18 +19,18 @@ module.exports = {
       },
       yellow: '#FFE392',
       prussianBlue: '#002B44',
+      coral: '#F4877A',
     },
     fontFamily: {
-      sans: ['DM Sans', 'Helvetica', 'Arial', 'sans-serif'],
+      sans: ['URWGeometric', 'Helvetica', 'Arial', 'sans-serif'],
     },
     container: {
       center: true,
-      padding: '1rem',
       screens: {
-        sm: '100%',
-        md: '100%',
-        lg: '1024px',
-        xl: '1280px',
+        sm: '480px',
+        md: '740px',
+        lg: '992px',
+        xl: '1200px',
       },
     },
     extend: {
@@ -37,7 +38,7 @@ module.exports = {
         navbar: '80px',
       },
       minHeight: {
-        navbar: '80px',
+        navbar: '60px',
       },
       letterSpacing: {
         tighter: '-.04em',
@@ -51,4 +52,11 @@ module.exports = {
       },
     },
   },
+  variants: {
+    extend: {
+      scale: ['group-hover'],
+      rotate: ['group-hover'],
+    },
+  },
+  darkMode: 'class',
 };

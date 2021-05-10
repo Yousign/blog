@@ -2,6 +2,35 @@
 
 /* Write your own custom base styles here */
 
+@font-face {
+  font-family: 'URWGeometric';
+  src: url('/fonts/URWGeometric/URWGeometric-Regular.woff2') format('woff2'),
+    url('/fonts/URWGeometric/URWGeometric-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'URWGeometric';
+  src: url('/fonts/URWGeometric/URWGeometric-Medium.woff2') format('woff2'),
+    url('/fonts/URWGeometric/URWGeometric-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'URWGeometric';
+  src: url('/fonts/URWGeometric/URWGeometric-Bold.woff2') format('woff2'),
+    url('/fonts/URWGeometric/URWGeometric-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'URWGeometric';
+  src: url('/fonts/URWGeometric/URWGeometric-ExtraBold.woff2') format('woff2'),
+    url('/fonts/URWGeometric/URWGeometric-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
 @layer base {
   body {
     @apply font-sans text-base text-black bg-white antialiased leading-tight;
@@ -26,14 +55,15 @@
 
 @layer components {
   .btn {
-    @apply inline-block py-2 px-6 transition duration-200 ease-in-out font-semibold rounded-full;
+    @apply inline-flex items-center px-8 transition duration-200 ease-in-out font-semibold rounded-full;
+    height: 40px;
   }
   .btn-default {
-    @apply bg-grey-medium text-black hover:bg-grey-light focus:bg-grey-light;
+    @apply bg-black text-white hover:bg-grey-light focus:bg-grey-light;
   }
 
   .btn-primary {
-    @apply bg-turquoiseBlue-medium text-black hover:bg-turquoiseBlue-light focus:bg-turquoiseBlue-light;
+    @apply bg-turquoiseBlue text-black hover:bg-shamrock focus:bg-shamrock;
   }
 
   .link {
@@ -41,13 +71,22 @@
   }
 
   .navbar {
-    @apply bg-purple-darker text-white;
+    @apply bg-black text-white text-lg;
   }
   .navbar--inner {
     @apply h-navbar flex items-center justify-center md:justify-between;
   }
-  .footer--inner {
-    @apply min-h-navbar flex flex-col md:flex-row justify-center items-center md:justify-between py-8 px-4;
+
+  .banner {
+    @apply flex-row flex items-center justify-center bg-black text-white bg-no-repeat bg-top;
+
+    height: 220px;
+    background-image: url('/assets/lego.svg');
+    background-position: center 20px;
+  }
+
+  .hero-post {
+    heigth: auto;
   }
 
   .avatar {
@@ -59,7 +98,7 @@
 
   .avatar::before {
     content: '';
-    @apply block w-16 h-16 bg-turquoiseBlue-light rounded-full absolute top-1 left-1 z-0;
+    @apply block w-16 h-16 bg-turquoiseBlue rounded-full absolute top-1 left-1 z-0;
   }
 
   .cookie-banner {
@@ -70,12 +109,40 @@
     right: 0;
     max-width: 320px;
   }
-}
 
-@screen md {
-  .cookie-banner {
-    right: 3rem;
-    bottom: 3rem;
+  @screen md {
+    .banner {
+      height: 420px;
+      padding-bottom: 130px;
+      margin-bottom: -130px;
+    }
+    .hero-post {
+      min-height: 260px;
+    }
+    .cookie-banner {
+      right: 3rem;
+      bottom: 3rem;
+    }
+  }
+  @screen lg {
+    .banner {
+      height: 470px;
+      padding-bottom: 180px;
+      margin-bottom: -180px;
+    }
+    .hero-post {
+      height: 355px;
+    }
+  }
+  @screen xl {
+    .banner {
+      height: 500px;
+      padding-bottom: 212px;
+      margin-bottom: -212px;
+    }
+    .hero-post {
+      height: 425px;
+    }
   }
 }
 

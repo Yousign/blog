@@ -27,11 +27,56 @@ export default class MyDocument extends Document {
             type="application/atom+xml"
             href="rss/atom.xml"
           />
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          {/* Preload fonts */}
           <link
-            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
-            rel="stylesheet"
+            rel="preload"
+            href="/fonts/URWGeometric/URWGeometric-Regular.woff"
+            as="font"
+            crossOrigin=""
           />
+          <link
+            rel="preload"
+            href="/fonts/URWGeometric/URWGeometric-Regular.woff2"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/URWGeometric/URWGeometric-Medium.woff"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/URWGeometric/URWGeometric-Medium.woff2"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/URWGeometric/URWGeometric-Bold.woff"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/URWGeometric/URWGeometric-Bold.woff2"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/URWGeometric/URWGeometric-ExtraBold.woff"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/URWGeometric/URWGeometric-ExtraBold.woff2"
+            as="font"
+            crossOrigin=""
+          />
+
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
           <script
@@ -53,7 +98,7 @@ export default class MyDocument extends Document {
             }}
           />
         </Head>
-        <body>
+        <body className="bg-white dark:bg-black">
           <Main />
           <NextScript />
         </body>
