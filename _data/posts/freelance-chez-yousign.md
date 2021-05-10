@@ -44,12 +44,12 @@ Pour ce qui est de ma squad, nous fonctionnons en mode projet et différons un p
 
 Au quotidien, pour le développement d’une fonctionnalité je dirais que l’on itère de la manière suivante (ce processus est spécifique à notre fonctionnement actuel "build", il est différent des autres squads qui livrent en production) :
 
-- Réunion de présentation du besoin
-- Rédaction de l’ADR (Architecture Decision Record), présentant les choix et décisions fonctionnelles/techniques Spécification / découpage technique de la fonctionnalité
-- Développements
-- Code Reviews
-- Tests & recettes
-- Livraison
+* Réunion de présentation du besoin
+* Rédaction de l’ADR (Architecture Decision Record), présentant les choix et décisions fonctionnelles/techniques Spécification / découpage technique de la fonctionnalité
+* Développements
+* Code Reviews
+* Tests & recettes
+* Livraison
 
 ## Stack technique
 
@@ -61,17 +61,19 @@ Une grande attention est apportée à la CI/CD, avec la possibilité de créer d
 
 ![From Slite.com](https://storage.googleapis.com/slite-api-files-production/files/880cdb9b-ad7f-4d5d-99bb-d9344208f0a4/3TOBsjRw6QkW_EJQCixtHYL2ye9N-9vYGLOFAFeYJ29UHpsB8xmg9rzgzmtrNJjU3IgAqy3HfyOEEiiQwSRXcP41HRkcmkqlAanWldIlo0ws9tidph8sCdIkSwCTiRhBfNY2KG5Z)
 
-Coté stack technique, tout se trouve ici : [https://stackshare.io/yousign/yousign](https://stackshare.io/yousign/yousign 'https://stackshare.io/yousign/yousign').
+Coté stack technique, tout se trouve ici : [https://stackshare.io/yousign/yousign](https://stackshare.io/yousign/yousign "https://stackshare.io/yousign/yousign").
 
 Yousign, pour moi, c'est également la découverte de nouveaux outils comme :
 
-- [https://github.com/commitizen/cz-cli](https://github.com/commitizen/cz-cli 'https://github.com/commitizen/cz-cli') pour la convention de nommage des commits
-- [https://slite.com/](https://slite.com/ 'https://slite.com/') pour le suivi des développements par projet (Kanban)
-- [https://launchdarkly.com/](https://launchdarkly.com/ 'https://launchdarkly.com/') pour le feature flag
-- [https://stoplight.io/](https://stoplight.io/ 'https://stoplight.io/') pour le design & la documentation API
+* [https://github.com/commitizen/cz-cli](https://github.com/commitizen/cz-cli "https://github.com/commitizen/cz-cli") pour la convention de nommage des commits
+* [https://slite.com/](https://slite.com/ "https://slite.com/") pour le suivi des développements par projet (Kanban)
+* [https://launchdarkly.com/](https://launchdarkly.com/ "https://launchdarkly.com/") pour le feature flag
+* [https://stoplight.io/](https://stoplight.io/ "https://stoplight.io/") pour le design & la documentation API
 
 Être freelance chez Yousign, c’est donc faire partie d’une équipe solide techniquement ou règne une ambiance conviviale. C’est aussi aimer sortir de sa zone de confort, car les défis et challenges techniques ne manquent pas. Savoir s’adapter au changement pour répondre à une forte croissance demandant certaines remises en question de l’existant, que ce soit d’un point de vue technique ou organisationnel.
 
 En résumé, si vous êtes intéressé(e) par le produit, que vous aimez les challenges techniques et travailler en équipe, alors Yousign est sûrement une entreprise à considérer dans votre recherche de job. 😉
 
 Et si vous voulez en savoir davantage, n'hésitez pas à venir me voir sur [LinkedIn](https://www.linkedin.com/in/damienrochette/) ✌️
+
+**Damien Rochette**

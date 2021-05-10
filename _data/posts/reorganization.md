@@ -99,4 +99,4 @@ Les équipes quant à elles apprécient la cohésion et la cohérence de notre d
 
 C'est le début de la suite, nous reviendrons prochainement avec de nouvelles informations (petit spoil pour un autre article, mais nous avons déjà remis en cause la notion de Lead Tech fraîchement présentée).
 
-[**Kevin Dubourg**](https://www.linkedin.com/in/kevin-dubourg-586351146/) **- Engineering Director, Yousign**
+[**Kevin Dubourg**](https://www.linkedin.com/in/kevin-dubourg-586351146/)

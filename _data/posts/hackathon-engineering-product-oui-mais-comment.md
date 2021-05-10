@@ -26,10 +26,10 @@ Nous avions déjà organisé un Hackathon off-site en 2019 qui avait remporté l
 
 Nous étions à peine une quinzaine à ce moment-là, mais fin 2020, la situation est différente :
 
-- 👥 Nous sommes plus d'une trentaine au sein de l'Engineering & Product
-- 👭 Nous souhaitons inclure nos collègues du Design
-- 💡 Nous n'avons pas vraiment d'idées sur la meilleure façon de l'organiser
-- 🔥 Les équipes sont dans le rush de fin d'année
+* 👥 Nous sommes plus d'une trentaine au sein de l'Engineering & Product
+* 👭 Nous souhaitons inclure nos collègues du Design
+* 💡 Nous n'avons pas vraiment d'idées sur la meilleure façon de l'organiser
+* 🔥 Les équipes sont dans le rush de fin d'année
 
 Bref, nous avions toutes les raisons de ne pas le faire et de décaler à 2021. Mais cela serait mal nous connaître chez Yousign 💪 !
 
@@ -49,16 +49,16 @@ Nous avons donc réparti les 35 personnes en 4 équipes (mixées). Leur objectif
 
 Le programme de la journée était le suivant :
 
-- **9h30 - 9h40 :** Overview WorkAdventure
-- **09h40 - 10h** **:** Présentation de la journée
-- **10h - 12h :** Brainstorming par équipe
-- **12h - 14h :** Temps libre / pause déjeuner
-- **14h - 15h :** Création du pitch par équipe
-- **15h - 16h30 :** Pitch des équipes (20 minutes/team)
+* **9h30 - 9h40 :** Overview WorkAdventure
+* **09h40 - 10h** **:** Présentation de la journée
+* **10h - 12h :** Brainstorming par équipe
+* **12h - 14h :** Temps libre / pause déjeuner
+* **14h - 15h :** Création du pitch par équipe
+* **15h - 16h30 :** Pitch des équipes (20 minutes/team)
 
 Pour faciliter le travail des équipes, nous avions fourni une trame de base pour le pitch :
 
-![hackathon-yousign.png](https://yousign.slite.com/api/files/btBaDo~bIG/hackathon-yousign.png)
+![hackathon-yousign.png](https://yousign.slite.com/api/files/btBaDo\~bIG/hackathon-yousign.png)
 
 ## Bilan
 
@@ -78,11 +78,11 @@ Il est clair que ce type de journée est un plus pour la cohésion et les échan
 
 Si vous organisez un Hackathon, nous pouvons que recommander de :
 
-- 📅 S'efforcer de planifier même si les plannings sont remplis et la charge des équipes importante (l'alignement des étoiles est rare)
-- 👾 Trouver un sujet "léger" qui n'est pas directement lié au business de l'entreprise qui fédère l'ensemble des équipes
-- 🥅 Rester sur un objectif réaliste pour ne pas créer de frustration et la sensation de ne rien avoir produit
-- ⏱️ Proposer une organisation de journée définie et rythmée pour éviter les temps morts
-- 👭 Mixer les équipes pour favoriser les interactions et faire connaissance
-- 😁 Ajouter une bonne dose de bonne humeur
+* 📅 S'efforcer de planifier même si les plannings sont remplis et la charge des équipes importante (l'alignement des étoiles est rare)
+* 👾 Trouver un sujet "léger" qui n'est pas directement lié au business de l'entreprise qui fédère l'ensemble des équipes
+* 🥅 Rester sur un objectif réaliste pour ne pas créer de frustration et la sensation de ne rien avoir produit
+* ⏱️ Proposer une organisation de journée définie et rythmée pour éviter les temps morts
+* 👭 Mixer les équipes pour favoriser les interactions et faire connaissance
+* 😁 Ajouter une bonne dose de bonne humeur
 
-[**Kevin Dubourg**](https://www.linkedin.com/in/kevin-dubourg-586351146/) **- Engineering Director, Yousign**
+[**Kevin Dubourg**](https://www.linkedin.com/in/kevin-dubourg-586351146/)
