@@ -1,17 +1,17 @@
 ---
 tags:
-  - hackathon
+- hackathon
 title: 'Hackathon Engineering & Product : oui, mais comment ?'
 excerpt: Durant l'année 2020, l'Engineering & Product a vu ses équipes grandir fortement,
   en particulier sur le dernier trimestre. Quoi de mieux qu'un Hackathon pour renforcer
   la cohésion des équipes ?
-coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/2-youniverse.jpg
-date: 2021-03-01T07:00:00Z
+coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/02-hackathon@2x.png
+date: 2021-03-01T07:00:00.000+00:00
 authors:
-  - _data/authors/kevindubourg.md
+- _data/authors/kevindubourg.md
 published: true
----
 
+---
 Durant l'année 2020, l'Engineering & Product a vu ses équipes grandir fortement, en particulier sur le dernier trimestre. La fin d'année a été dense pour l'ensemble des équipes avec une activité croissante, de nombreux recrutements et la crise sanitaire qui perdure et empêche nos traditionnels regroupements off-site.
 
 Il nous paraissait important, avec [Romain Pichard](https://www.linkedin.com/in/romainpichard/) et [Antoine Louiset](https://www.linkedin.com/in/antoine-louiset-34b89a30/), de proposer un événement qui permette de renforcer la cohésion des équipes, d'apporter de la convivialité et de favoriser les échanges. Nos équipes étant majoritairement en full remote, il a fallu réfléchir à un nouveau format adapté.
