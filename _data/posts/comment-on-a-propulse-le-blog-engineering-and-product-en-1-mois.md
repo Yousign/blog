@@ -2,13 +2,13 @@
 tags: []
 title: Comment on a propulsé le blog Engineering and Product en 1 mois
 excerpt: ''
-coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/1-launch-blog-bis-bis.jpg
+coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/03-new-blog@2x.png
 date: 2021-03-08T07:00:00.000+00:00
 authors:
-  - _data/authors/kevindubourg.md
+- _data/authors/kevindubourg.md
 published: true
----
 
+---
 ## La genèse du blog
 
 _A long time ago in a galaxy far_, _far away_.... Nous avions évoqué la création d'un blog Tech sans jamais vraiment nous lancer, car nous étions peu, nous avions conscience du temps et de l'énergie demandés, ce qui manquait cruellement. Autant dire que notre plan de charge était bien rempli et les raisons de procrastiner sur la mise en œuvre du blog étaient nombreuses.
