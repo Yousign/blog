@@ -3,13 +3,13 @@ tags: []
 title: Freelance chez Yousign
 excerpt: Je m’appelle Damien Rochette, je suis développeur depuis plus de 10 ans.
   Je suis arrivé chez Yousign en décembre 2020 pour travailler sur les sujets d'API.
-coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/freelance-at-yousign.png
-date: 2021-03-23T13:00:00Z
+coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/04-freelance@2x.png
+date: 2021-03-23T13:00:00.000+00:00
 authors:
-  - _data/authors/Damien.md
+- _data/authors/Damien.md
 published: true
----
 
+---
 C’est dans le contexte de la création de ce blog Tech que [Kevin Dubourg](https://www.linkedin.com/in/kevin-dubourg-586351146/), Engineering Director, a proposé aux freelances de participer à la rédaction de son contenu avec plusieurs idées d’articles. Dans celui-ci, l’idée est de présenter en quelques lignes mon ressenti sur ces 3 premiers mois chez Yousign en tant que développeur freelance, en me laissant bien sûr maître sur le ton et la forme de l'article 🙂.
 
 ## Freelance chez Yousign ?
