@@ -5,14 +5,13 @@ excerpt: À l’ère du web, nous sommes de plus en plus amenés à développer 
   Lorsqu’il s’agit de développer une API Rest, deux flows de développement s’offrent
   à nous. Le premier consiste à commencer la spécification de l’API par le code (code-first),
   l’autre consiste à partir plutôt du contrat d’API (contract-first).
-coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/contract-first-api-v2@2x.png
-date: 2021-04-18T22:00:00Z
+coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/06-contract-first-api@2x.png
+date: 2021-04-18T22:00:00.000+00:00
 authors:
 - _data/authors/Lucas.md
 published: true
 
 ---
-
 ![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/API-frist-yousign.png)
 
 À l’ère du web, nous sommes de plus en plus amenés à développer des API Rest.
