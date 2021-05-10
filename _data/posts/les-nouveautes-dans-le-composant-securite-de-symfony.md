@@ -4,15 +4,13 @@ title: Les nouveautés dans le composant Sécurité de Symfony
 excerpt: Chaque nouvelle version de Symfony apporte son lot de nouveautés. Mais la
   version 5.1 propose un nouveau système d’authentification et ce système change le
   comportement interne de la sécurité Symfony, pour le rendre extensible et plus compréhensible.
-coverImage:
-  https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/maj-security-symfony
-  copie 5@2x.png
-date: 2021-04-11T22:00:00Z
+coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/05-security-symfony@2x.png
+date: 2021-04-11T22:00:00.000+00:00
 authors:
-  - _data/authors/Smaïne.md
+- _data/authors/Smaïne.md
 published: true
----
 
+---
 Chaque nouvelle version de Symfony apporte son lot de nouveautés. 🥰 Mais la version 5.1 propose un nouveau système d’authentification et ce système change le comportement interne de la sécurité Symfony, pour le rendre extensible et plus compréhensible.
 
 ![Symfony-secu-new.png](https://yousign.slite.com/api/files/qJqX78Jr7G/Symfony-secu-new.png 'Résumé des nouveautés Symfony - Source : Symfony')
