@@ -1,13 +1,15 @@
 ---
 tags: []
-published: false
+published: true
 title: Comment nous avons protégé notre panneau d'administration Forest Admin avec
   notre propre couche sécurité
-excerpt: ''
+excerpt: Nous avons à cœur la sécurité des données de nos utilisateurs, c'est pourquoi
+  nous avons souhaité renforcer le système proposé par Forest Admin en ajoutant une
+  vérification d'accès supplémentaire. Voici comment nous avons fait.
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/07-forest-admin@2x.png
 date: 2021-05-20T22:00:00Z
 authors:
-- _data/authors/Damien.md
+- _data/authors/Thibault.md
 
 ---
 Chez Yousign, nous utilisons depuis quelque temps [Forest Admin](https://www.forestadmin.com/), également membre d'eFounders depuis 2016, comme panneau d'administration de notre application web et nous allons intensifier son usage au sein de nos différentes typologies d'équipe. Nous avons à cœur la sécurité des données de nos utilisateurs, c'est pourquoi nous avons souhaité renforcer le système proposé par Forest Admin en ajoutant une vérification d'accès supplémentaire. Ces différents points vont être abordés dans cet article.
