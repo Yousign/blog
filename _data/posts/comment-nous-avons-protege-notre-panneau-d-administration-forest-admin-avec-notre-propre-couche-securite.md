@@ -14,7 +14,7 @@ Chez Yousign, nous utilisons depuis quelque temps [Forest Admin](https://www.for
 
 # **Comment fonctionne Forest Admin ?**
 
-![0_3fq2ebjMBeMHpSKD.png](https://yousign.slite.com/api/files/L95qSFpD4E/0_3fq2ebjMBeMHpSKD.png)
+![0](https://yousign.slite.com/api/files/L95qSFpD4E/0_3fq2ebjMBeMHpSKD.png)
 
 L'architecture logicielle des éléments de Forest Admin est composée de deux parties :
 
@@ -63,4 +63,4 @@ Cela se schématise comme ceci :
 
 Le système a été mis en place en intelligence avec les équipes de Forest Admin, qui nous ont vraiment bien accompagnés sur la compréhension des échanges entre leurs différentes briques logicielles pour garantir le succès du projet.
 
-Aujourd'hui, les données de Yousign jouissent d'une protection renforcée. Le système a été déployé et est pratiquement transparent, à travers la connexion via Okta, pour les personnes autorisées à accéder à Forest Admin. Elles ont désormais la possibilité de personnaliser l'interface de Forest Admin pour les besoins spécifiques liés à leur profil.
+Aujourd'hui, les données de Yousign jouissent d'une protection renforcée. Le système a été déployé et est pratiquement transparent, à travers la connexion via Okta, pour les personnes autorisées à accéder à Forest Admin. Elles ont désormais la possibilité de personnaliser l'interface de [Forest Admin](https://www.forestadmin.com/) pour les besoins spécifiques liés à leur profil.
