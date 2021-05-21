@@ -19,7 +19,7 @@ Chez Yousign, nous utilisons depuis quelque temps [Forest Admin](https://www.for
 
 L'architecture logicielle des éléments de Forest Admin est composée de deux parties :
 
-* la partie hébergée sur notre infrastructure : l'API appelé "Admin Backend" qui se connecte à nos différentes bases de données applicatives et permet de réaliser des actions avancées via du développement réalisé chez nous
+* la partie hébergée sur notre infrastructure : l'API appelée "Admin Backend" qui se connecte à nos différentes bases de données applicatives et permet de réaliser des actions avancées via du développement réalisé chez nous
 * la partie hébergée chez Forest Admin : l'interface utilisateur web et son API de gestion entièrement gérés par les équipes de Forest Admin
 
 Pour plus d'informations, veuillez vous reporter à [cet article](https://medium.com/forest-admin/a-deep-dive-into-forest-admins-architecture-and-its-benefits-for-the-developers-who-trust-it-1d49212fb4b), écrit par les équipes de Forest Admin.
@@ -32,13 +32,13 @@ Dans un premier temps, avec l'architecture créée par Forest Admin, nos donnée
 
 La sécurité est portée par le standard JWT. Les communications entre le backend et les serveurs Forest Admin sont protégées par deux JWT différents signés avec deux clés différentes.
 
-Trois autres options de sécurité sont proposés dans le plan Plus :
+Trois autres options de sécurité sont proposées dans le plan Plus :
 
 * la liste blanche d'IP
 * l'auto-déconnexion
 * le double facteur d'authentification (2FA)
 
-# Comment renforcer la sécurité en apportant notre propre couche de sécurité ?
+# Comment renforcer la sécurité en apposant notre propre couche ?
 
 Chez Yousign, nous sommes très vigilants sur la sécurité à tous les niveaux. Même si Forest Admin propose une architecture et des mécanismes de protection bien pensés, nous voulions absolument rajouter une couche de sécurité entièrement portée chez nous dans une logique de "Zero Trust".
 
