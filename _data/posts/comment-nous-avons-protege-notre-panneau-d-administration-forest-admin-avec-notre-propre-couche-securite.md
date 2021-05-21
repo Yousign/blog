@@ -1,8 +1,7 @@
 ---
 tags: []
 published: true
-title: Comment nous avons protégé notre panneau d'administration Forest Admin avec
-  notre propre couche sécurité
+title: Comment nous avons sécurisé notre panneau d'administration Forest Admin
 excerpt: Nous avons à cœur la sécurité des données de nos utilisateurs, c'est pourquoi
   nous avons souhaité renforcer le système proposé par Forest Admin en ajoutant une
   vérification d'accès supplémentaire. Voici comment nous avons fait.
