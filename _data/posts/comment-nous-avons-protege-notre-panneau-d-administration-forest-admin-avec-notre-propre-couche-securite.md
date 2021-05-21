@@ -66,4 +66,4 @@ Le système a été mis en place en intelligence avec les équipes de Forest Adm
 
 Aujourd'hui, les données de Yousign jouissent d'une protection renforcée. Le système a été déployé et est pratiquement transparent, à travers la connexion via Okta, pour les personnes autorisées à accéder à Forest Admin. Elles ont désormais la possibilité de personnaliser l'interface de [Forest Admin](https://www.forestadmin.com/) pour les besoins spécifiques liés à leur profil.
 
-**Thibault Nucéa**
+**Thibault Nucéra**
