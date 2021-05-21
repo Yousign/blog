@@ -40,7 +40,7 @@ Trois autres options de sécurité sont proposées dans le plan Plus :
 
 # Comment renforcer la sécurité en apposant notre propre couche ?
 
-Chez Yousign, nous sommes très vigilants sur la sécurité à tous les niveaux. Même si Forest Admin propose une architecture et des mécanismes de protection bien pensés, nous voulions absolument rajouter une couche de sécurité entièrement portée chez nous dans une logique de "Zero Trust".
+Chez Yousign, nous sommes très vigilants sur la sécurité à tous les niveaux. Même si Forest Admin propose une architecture et des mécanismes de protection bien pensés, nous voulions absolument rajouter une strate de sécurité entièrement portée chez nous dans une logique de "Zero Trust".
 
 La documentation officielle indique actuellement ceci aussi :
 
@@ -48,7 +48,9 @@ La documentation officielle indique actuellement ceci aussi :
 
 ## VPN
 
-Bien évidement la solution qui vient en premier et qui est d'ailleurs proposée dans la documentation de Forest Admin est de protéger l'accès au backend en utilisant un VPN. En effet, en installant un VPN sur nos serveurs qui hébergent l'API admin, tous les appels API de nos utilisateurs effectués depuis l'interface web seraient sécurisés par notre VPN. Mais cela impliquait de déployer le VPN à l'ensemble de nos utilisateurs internes, chose que nous ne souhaitions pas dans ce contexte précis d'utilisation. Nous utilisons toujours les VPN, mais pour des usages bien précis que nous ne détaillerons pas ici.
+Bien évidement, la solution qui vient en premier et qui est d'ailleurs proposée dans la documentation de Forest Admin est de protéger l'accès au backend en utilisant un VPN. En effet, en installant un VPN sur nos serveurs qui hébergent l'API admin, tous les appels API de nos utilisateurs effectués depuis l'interface web seraient sécurisés par notre VPN. 
+
+Mais cela impliquait de déployer le VPN à l'ensemble de nos utilisateurs internes, chose que nous ne souhaitions pas dans ce contexte précis d'utilisation. Nous utilisons toujours les VPN, mais pour des usages bien précis que nous ne détaillerons pas ici.
 
 ## API Gateway et IAM
 
@@ -58,10 +60,10 @@ Nous avons donc eu l'idée de placer l'API backend derrière notre API Gateway e
 
 Cela se schématise comme ceci :
 
-[https://miro.com/app/board/o9J_lH43HMM=/](https://miro.com/app/board/o9J_lH43HMM=/ "https://miro.com/app/board/o9J_lH43HMM=/")
-
 ![Forest Admin + Kong.jpg](https://yousign.slite.com/api/files/F2Q2G_SS7z/Forest%20Admin%20+%20Kong.jpg)
 
 Le système a été mis en place en intelligence avec les équipes de Forest Admin, qui nous ont vraiment bien accompagnés sur la compréhension des échanges entre leurs différentes briques logicielles pour garantir le succès du projet.
 
 Aujourd'hui, les données de Yousign jouissent d'une protection renforcée. Le système a été déployé et est pratiquement transparent, à travers la connexion via Okta, pour les personnes autorisées à accéder à Forest Admin. Elles ont désormais la possibilité de personnaliser l'interface de [Forest Admin](https://www.forestadmin.com/) pour les besoins spécifiques liés à leur profil.
+
+**Thibault Nucéa**
