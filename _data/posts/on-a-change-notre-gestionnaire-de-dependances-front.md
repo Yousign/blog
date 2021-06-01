@@ -36,7 +36,7 @@ D'abord les benchmarks exposés par l'outil semblent prometteur :
 
 ![Capture d’écran 2021-04-12 à 09.23.46.png](https://yousign.slite.com/api/files/cJqyJv6JTw/Capture%20d%E2%80%99e%CC%81cran%202021-04-12%20a%CC%80%2009.23.46.png)
 
-    Ensuite, c'est la migration qui nous apparait comme la plus simple, il n'y a aucun breaking changes à utiliser pnpm plutôt que yarn, juste des cmd à adapter.
+Ensuite, c'est la migration qui nous apparait comme la plus simple, il n'y a aucun breaking changes à utiliser pnpm plutôt que yarn, juste des cmd à adapter.
 
 Mais surtout, la réponse est plus théorique et se trouve dans la structure utilisée par `pnpm` pour organiser les dépendances : _flat node_modules directory structure_.
 
@@ -67,13 +67,13 @@ Plutôt bien pensé, direz-vous, à ceci près que dans un arbre de dépendances
 
 `pnpm` essaye de résoudre la problématique de lourdeur que pose la structure `npm version 2`sans aplatir l'arbre de dépendances. Pour ceci, il s'appuie sur un système astucieux de symlinks et de stores :
 
-    -> - a symlink
+    → - a symlink
 
     node_modules
-    ├─ foo -> .pnpm/foo/1.0.0/node_modules/foo
+    ├─ foo → .pnpm/foo/1.0.0/node_modules/foo
     └─ .pnpm
        ├─ foo/1.0.0/node_modules
-       |  ├─ bar -> ../../bar/2.0.0/node_modules/bar
+       |  ├─ bar → ../../bar/2.0.0/node_modules/bar
        |  └─ foo
        |     ├─ index.js
        |     └─ package.json
