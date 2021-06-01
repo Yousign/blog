@@ -6,7 +6,8 @@ excerpt: Chez Yousign, nous cherchons en permanence à challenger nos outils, no
   bref nous recherchons l'amélioration continue. Comme beaucoup, nous utilisons Yarn
   comme package manager sur notre stack front. Mais alors pourquoi venir le challenger
   ? Explications dans cet article.
-coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/gestionnaire-dependance-front@2x.png
+coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/gestionnaire-dependance-front@2x
+  (1).png
 date: 2021-06-01T06:00:00.000+00:00
 authors:
 - _data/authors/jeromeboileux.md
