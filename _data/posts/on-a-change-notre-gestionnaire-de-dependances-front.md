@@ -7,7 +7,7 @@ excerpt: Chez Yousign, nous cherchons en permanence à challenger nos outils, no
   comme package manager sur notre stack front. Mais alors pourquoi venir le challenger
   ? Explications dans cet article.
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/gestionnaire-dependance-front@2x.png
-date: 2021-06-01T06:00:00Z
+date: 2021-06-01T06:00:00.000+00:00
 authors:
 - _data/authors/jeromeboileux.md
 
@@ -36,7 +36,7 @@ D'abord les benchmarks exposés par l'outil semblent prometteur :
 
 ![Capture d’écran 2021-04-12 à 09.23.46.png](https://yousign.slite.com/api/files/cJqyJv6JTw/Capture%20d%E2%80%99e%CC%81cran%202021-04-12%20a%CC%80%2009.23.46.png)
 
-Ensuite, c'est la migration qui nous apparait comme la plus simple, il n'y a aucun breaking changes à utiliser pnpm plutôt que yarn, juste des cmd à adapter.
+    Ensuite, c'est la migration qui nous apparait comme la plus simple, il n'y a aucun breaking changes à utiliser pnpm plutôt que yarn, juste des cmd à adapter.
 
 Mais surtout, la réponse est plus théorique et se trouve dans la structure utilisée par `pnpm` pour organiser les dépendances : _flat node_modules directory structure_.
 
@@ -50,7 +50,6 @@ Reprenons la structure classique proposée par `npm` avant la version 3 :
           └─ bar
              ├─ index.js
              └─ package.json
-    
 
 Ici, chaque dépendance a donc son propre dossier `/node_modules`, ce qui semble plutôt propre ; cependant, ce que les versions supérieures de `npm` (tout comme `yarn`) ont tenté de résoudre, c'est la profondeur de l'arbre de dépendances qui en résulte, ainsi que le fait que les dépendances étaient copiées plusieurs fois dans ces dossiers.
 
@@ -63,11 +62,10 @@ On se retrouvait alors avec une structure dite "flat", quelque chose comme ceci 
     └─ bar
        ├─ index.js
        └─ package.json 
-    
 
 Plutôt bien pensé, direz-vous, à ceci près que dans un arbre de dépendances complexe comme on peut rapidement en avoir avec des workspaces, toutes les dépendances se retrouvaient accessibles par tous les modules, sans nécessiter de déclaration. Ouch !
 
-`pnpm` essaye de résoudre la problématique de lourdeur que pose la structure `npm version 2 `sans aplatir l'arbre de dépendances. Pour ceci, il s'appuie sur un système astucieux de symlinks et de stores :
+`pnpm` essaye de résoudre la problématique de lourdeur que pose la structure `npm version 2`sans aplatir l'arbre de dépendances. Pour ceci, il s'appuie sur un système astucieux de symlinks et de stores :
 
     -> - a symlink
     
@@ -83,7 +81,6 @@ Plutôt bien pensé, direz-vous, à ceci près que dans un arbre de dépendances
           └─ bar
              ├─ index.js
              └─ package.json
-    
 
 On obtient alors une structure compatible, propre et prévisible, qui reste efficace à construire car les symlinks sont plus rapides à copier que les packages en entiers.
 
@@ -99,7 +96,7 @@ La théorie est alléchante, mais dans la pratique, cad avec un monorepo et un a
 
 La migration fut en réalité plutôt simple à mettre en place et facile à exécuter, il a fallu :
 
-* installer `pnpm` globalement ne local en dans la CI
+* installer `pnpm` globalement en local et dans la CI
 * remplacer les commandes `yarn` par `pnpm` ou leur équivalent (`yarn worspaces appName cmd` 👉 `pnpm cmd --filter appName`)
 * supprimer les `yarn.lock` et les remplacer pas des `pnpm-lock.yaml` (plus lisibles sur le repo)
 * faire une étape intermédiaire de nettoyage, car certains imports ne fonctionnaient plus (ils n'étaient simplement pas correctement déclarés)
