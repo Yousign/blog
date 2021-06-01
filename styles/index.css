@@ -96,10 +96,11 @@
     @apply w-16 h-16 rounded-full relative;
   }
 
+  /*
   .avatar::before {
     content: '';
     @apply block w-16 h-16 bg-turquoiseBlue rounded-full absolute top-1 left-1 z-0;
-  }
+  } */
 
   .cookie-banner {
     @apply bg-purple-light fixed flex flex-wrap items-center text-white p-8 z-50 rounded-xl shadow-sm;
