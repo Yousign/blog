@@ -6,13 +6,12 @@ excerpt: Chez Yousign, nous cherchons en permanence à challenger nos outils, no
   bref nous recherchons l'amélioration continue. Comme beaucoup, nous utilisons Yarn
   comme package manager sur notre stack front. Mais alors pourquoi venir le challenger
   ? Explications dans cet article.
-coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/gestionnaire-dependance-front@2x
-  (1).png
+coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/gestionnaire-dependance-front@2x (1).png
 date: 2021-06-01T06:00:00.000+00:00
 authors:
-- _data/authors/jeromeboileux.md
-
+  - _data/authors/jeromeboileux.md
 ---
+
 Chez **Yousign**, vous le savez peut-être déjà, nous sommes très early adopters. Nous cherchons en permanence à challenger nos outils, nos process, bref nous recherchons l'amélioration continue.
 
 ## Pourquoi changer de gestionnaire de dépendances ?
@@ -25,15 +24,15 @@ Le véritable point de départ est la volonté d'optimiser nos builds en CI, c'e
 
 Trois pistes s'offraient alors à nous :
 
-* [yarn v2](https://yarnpkg.com/getting-started/install), aka yarn berry
-* [npm v7](https://github.blog/2021-02-02-npm-7-is-now-generally-available/)
-* [pnpm](https://pnpm.io/)
+- [yarn v2](https://yarnpkg.com/getting-started/install), aka yarn berry
+- [npm v7](https://github.blog/2021-02-02-npm-7-is-now-generally-available/)
+- [pnpm](https://pnpm.io/)
 
 ### Pourquoi pnpm ?
 
 D'abord les benchmarks exposés par l'outil semblent prometteur :
 
-[https://pnpm.io/benchmarks](https://pnpm.io/benchmarks "https://pnpm.io/benchmarks")
+[https://pnpm.io/benchmarks](https://pnpm.io/benchmarks 'https://pnpm.io/benchmarks')
 
 ![Capture d’écran 2021-04-12 à 09.23.46.png](https://yousign.slite.com/api/files/cJqyJv6JTw/Capture%20d%E2%80%99e%CC%81cran%202021-04-12%20a%CC%80%2009.23.46.png)
 
@@ -62,14 +61,14 @@ On se retrouvait alors avec une structure dite "flat", quelque chose comme ceci 
     |  └─ package.json
     └─ bar
        ├─ index.js
-       └─ package.json 
+       └─ package.json
 
 Plutôt bien pensé, direz-vous, à ceci près que dans un arbre de dépendances complexe comme on peut rapidement en avoir avec des workspaces, toutes les dépendances se retrouvaient accessibles par tous les modules, sans nécessiter de déclaration. Ouch !
 
 `pnpm` essaye de résoudre la problématique de lourdeur que pose la structure `npm version 2`sans aplatir l'arbre de dépendances. Pour ceci, il s'appuie sur un système astucieux de symlinks et de stores :
 
     -> - a symlink
-    
+
     node_modules
     ├─ foo -> .pnpm/foo/1.0.0/node_modules/foo
     └─ .pnpm
@@ -87,9 +86,9 @@ On obtient alors une structure compatible, propre et prévisible, qui reste effi
 
 Résultat :
 
-* **pnpm** est plus sécurisant car plus strict
-* **pnpm** est plus rapide et plus efficace (liens vers un store)
-* **pnpm** gère mieux les architectures monorepos
+- **pnpm** est plus sécurisant car plus strict
+- **pnpm** est plus rapide et plus efficace (liens vers un store)
+- **pnpm** gère mieux les architectures monorepos
 
 ## De yarn à pnpm dans la pratique
 
@@ -97,10 +96,10 @@ La théorie est alléchante, mais dans la pratique, cad avec un monorepo et un a
 
 La migration fut en réalité plutôt simple à mettre en place et facile à exécuter, il a fallu :
 
-* installer `pnpm` globalement en local et dans la CI
-* remplacer les commandes `yarn` par `pnpm` ou leur équivalent (`yarn worspaces appName cmd` 👉 `pnpm cmd --filter appName`)
-* supprimer les `yarn.lock` et les remplacer pas des `pnpm-lock.yaml` (plus lisibles sur le repo)
-* faire une étape intermédiaire de nettoyage, car certains imports ne fonctionnaient plus (ils n'étaient simplement pas correctement déclarés)
+- installer `pnpm` globalement en local et dans la CI
+- remplacer les commandes `yarn` par `pnpm` ou leur équivalent (`yarn worspaces appName cmd` 👉 `pnpm cmd --filter appName`)
+- supprimer les `yarn.lock` et les remplacer pas des `pnpm-lock.yaml` (plus lisibles sur le repo)
+- faire une étape intermédiaire de nettoyage, car certains imports ne fonctionnaient plus (ils n'étaient simplement pas correctement déclarés)
 
 ## Conclusion
 

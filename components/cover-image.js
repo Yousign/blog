@@ -7,7 +7,7 @@ export default function CoverImage({ title, src, slug, ...rest }) {
     <div className="h-full w-full relative">
       {slug ? (
         <Link as={`/posts/${slug}`} href="/posts/[slug]">
-          <a aria-label={title} className="h-full block">
+          <a aria-label={title} className="h-full block" style={{ lineHeight: 0 }}>
             {image}
           </a>
         </Link>
