@@ -1,12 +1,17 @@
 ---
-tags: []
+tags:
+- Forest Admin
+- Engineering
+- Admin
+- Sécurité
+- VPN
 published: true
 title: Comment nous avons sécurisé notre panneau d'administration Forest Admin
 excerpt: Nous avons à cœur la sécurité des données de nos utilisateurs, c'est pourquoi
   nous avons souhaité renforcer le système proposé par Forest Admin en ajoutant une
   vérification d'accès supplémentaire. Voici comment nous avons fait.
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/07-forest-admin@2x.png
-date: 2021-05-20T22:00:00Z
+date: 2021-05-20T22:00:00.000+00:00
 authors:
 - _data/authors/Thibault.md
 
