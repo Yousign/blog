@@ -12,7 +12,7 @@ authors:
 - _data/authors/Romain.md
 
 ---
-Le mois dernier, je soufflais ma 5ᵉ bougie chez Yousign. 🎂 🎈 Voilà maintenant 5 ans que j'ai rejoint l'aventure. Il est donc temps pour moi de prendre la plume et de me prêter à l'exercice de vous raconter rapidement mon parcours, mais surtout ce que j'ai pu vivre, observer et mettre en place chez Yousign et plus particulièrement au Produit durant ces 5 dernières années.
+Début avril, je soufflais ma 5ᵉ bougie chez Yousign. 🎂 🎈 Il est donc temps pour moi de prendre la plume et de me prêter à l'exercice de vous raconter rapidement mon parcours, mais surtout ce que j'ai pu vivre, observer et mettre en place chez Yousign et plus particulièrement au Produit durant ces 5 dernières années.
 
 ## ⚔️ L'ambition de Yousign
 
