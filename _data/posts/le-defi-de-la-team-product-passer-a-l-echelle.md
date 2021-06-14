@@ -1,7 +1,7 @@
 ---
 tags:
 - Product
-published: false
+published: true
 title: 'Le défi de la team Product : passer à l''échelle !'
 excerpt: Déjà 5 ans que je suis chez Yousign, il était temps de raconter mon parcours,
   mais surtout ce que j'ai pu vivre, observer et mettre en place chez Yousign et plus
