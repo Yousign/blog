@@ -19,6 +19,7 @@ fields:
     maxSize: 64
   label: Avatar
 pages:
+- _data/authors/Benjamin R.md
 - _data/authors/Damien.md
 - _data/authors/Lucas.md
 - _data/authors/Romain.md
