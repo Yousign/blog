@@ -4,7 +4,7 @@ tags:
 - Auth0
 - Sécurité
 published: false
-title: Kong, pour les gouverner tous
+title: 'On a mis en place une API gateway : Kong'
 excerpt: Chez Yousign on a bien conscience de l'importance de la sécurité de notre
   application et le meilleur moyen que l'on a trouvé pour protéger notre application
   a été de ne pas faire porter la totalité de la sécurité sur celle-ci, grâce à Kong
