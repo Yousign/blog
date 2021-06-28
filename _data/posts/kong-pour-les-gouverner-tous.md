@@ -3,14 +3,14 @@ tags:
 - Kong
 - Auth0
 - Sécurité
-published: false
+published: true
 title: 'On a mis en place une API gateway : Kong'
 excerpt: Chez Yousign on a bien conscience de l'importance de la sécurité de notre
   application et le meilleur moyen que l'on a trouvé pour protéger notre application
   a été de ne pas faire porter la totalité de la sécurité sur celle-ci, grâce à Kong
   et Auth0.
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/kongv2-a@2x.png
-date: 2021-06-28T06:00:00Z
+date: 2021-06-29T06:00:00Z
 authors:
 - _data/authors/Benjamin R.md
 
@@ -39,9 +39,9 @@ Avec [KongMap](https://docs.konghq.com/hub/yesinteractive/kongmap/), nous avons 
 
 ![Capture d’écran du 2021-06-16 11-55-26.png](https://yousign.slite.com/api/files/avABveXzh2/Capture%20d%E2%80%99%C3%A9cran%20du%202021-06-16%2011-55-26.png)
 
-Afin de donner une vision un peu plus claire, voici une représentation du cycle de vie d'une requête de notre application vers notre API.
+Afin de donner une vision un peu plus claire, voici une représentation du cycle de vie d'une requête de notre application vers notre API. 
 
-![schema API kong.png](https://yousign.slite.com/api/files/\~dBeg3EbU/schema%20API%20kong.png)
+![schema API kong.png](https://yousign.slite.com/api/files/YCnUR68UO/schema%20API%20kong.png)
 
 ## La mise en place
 
