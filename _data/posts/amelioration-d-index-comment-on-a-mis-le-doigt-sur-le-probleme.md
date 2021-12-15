@@ -216,13 +216,15 @@ Suite à cette nette amélioration, nous avons encore réussi à améliorer lég
 
 Ci-dessous, un aperçu visuel du gain de performance que nous avons obtenu :
 
-<aside> 💡 les graphes proviennent de notre environnement de staging, mais les gains ont été les mêmes sur la prod. Nous n'avons malheureusement pas pris de captures à l'époque ...
-
-</aside>
+💡 les graphes proviennent de notre environnement de staging, mais les gains ont été les mêmes sur la prod. Nous n'avons malheureusement pas pris de captures à l'époque ...
 
 ![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Capture d’écran de 2021-02-19 11-48-03.png)**Gain au niveau de la route GET /procedures**
 
-**![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Capture d’écran de 2021-02-22 08-31-33.png)Gain de performance au niveau de la base de données**
+**Gain au niveau de la route GET /procedures**
+
+![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Capture d’écran de 2021-02-22 08-31-33.png)
+
+**Gain de performance au niveau de la base de données**
 
 ## Que peut-on en dire et qu'a t-on appris ?
 
