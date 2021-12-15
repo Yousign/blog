@@ -38,9 +38,7 @@ Nous avons donc réalisé un petit script fait maison pour cibler la cause qui :
 
 Ces métriques nous ont ainsi permis de pouvoir définir plus facilement une priorisation des requêtes à traiter.
 
-<aside> 💡 Pour cet article nous mettrons le focus sur la requête principale qui nous a posé souci de par sa complexité et ses variantes, à savoir celle du listing de procédures et des recherches de ces dernières.
-
-</aside>
+💡 Pour cet article nous mettrons le focus sur la requête principale qui nous a posé souci de par sa complexité et ses variantes, à savoir celle du listing de procédures et des recherches de ces dernières.
 
 # Après la stratégie, les mains dans le cambouis
 
