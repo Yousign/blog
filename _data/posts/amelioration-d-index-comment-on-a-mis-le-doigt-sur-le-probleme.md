@@ -74,47 +74,48 @@ Elle permet de jouer des requêtes en amont de notre `SELECT` et de stocker le r
 
 C'est pratique pour limiter les jointures et optimiser au maximum les index définis sur les tables.
 
-    ```sql
-        WITH
-            temp_table_1 AS (
-                SELECT id as table_1_id
-                FROM "table_1"
-                WHERE name ILIKE '%<value>%'
-            ),
-            temp_table_2 AS (
-                SELECT table_1_id
-                FROM "table_2"
-                WHERE first_name ILIKE '%<value>%'
-                OR  last_name ILIKE '%<value>%'
-                OR  phone ILIKE '%<value>%'
-                OR  email ILIKE '%<value>%'
-            ),
-            temp_table_3 AS (
-                SELECT table_1_id
-                FROM "table_3"
-                WHERE name ILIKE '%<value>%'
-            ),
-            temp_table_2_bis AS (
-                SELECT table_1_id
-                FROM "table_2"
-                WHERE "user" = '<user_id>'
-            )
-        SELECT t.*
-        FROM "table_1" s
-        WHERE t.workspace = '<workspace_id>'
-        AND t.deleted = FALSE
-        AND t.template = FALSE
-        AND t.status = 'finished'
-        AND (
-                EXISTS(SELECT table_1_id FROM temp_table_2_bis WHERE table_1_id = t.id)
-            OR  t.creator = '<user_id>'
+```sql
+    WITH
+        temp_table_1 AS (
+            SELECT id as table_1_id
+            FROM "table_1"
+            WHERE name ILIKE '%<value>%'
+        ),
+        temp_table_2 AS (
+            SELECT table_1_id
+            FROM "table_2"
+            WHERE first_name ILIKE '%<value>%'
+            OR  last_name ILIKE '%<value>%'
+            OR  phone ILIKE '%<value>%'
+            OR  email ILIKE '%<value>%'
+        ),
+        temp_table_3 AS (
+            SELECT table_1_id
+            FROM "table_3"
+            WHERE name ILIKE '%<value>%'
+        ),
+        temp_table_2_bis AS (
+            SELECT table_1_id
+            FROM "table_2"
+            WHERE "user" = '<user_id>'
         )
-        AND (
-                EXISTS(SELECT table_1_id FROM temp_table_1 WHERE table_1_id = t.id)
-            OR  EXISTS(SELECT table_1_id FROM temp_table_2 WHERE table_1_id = t.id)
-            OR  EXISTS(SELECT table_1_id FROM temp_table_3 WHERE table_1_id = t.id)
-        )
-        ORDER BY t.created_at DESC, t.id ASC LIMIT 20;```
+    SELECT t.*
+    FROM "table_1" s
+    WHERE t.workspace = '<workspace_id>'
+    AND t.deleted = FALSE
+    AND t.template = FALSE
+    AND t.status = 'finished'
+    AND (
+            EXISTS(SELECT table_1_id FROM temp_table_2_bis WHERE table_1_id = t.id)
+        OR  t.creator = '<user_id>'
+    )
+    AND (
+            EXISTS(SELECT table_1_id FROM temp_table_1 WHERE table_1_id = t.id)
+        OR  EXISTS(SELECT table_1_id FROM temp_table_2 WHERE table_1_id = t.id)
+        OR  EXISTS(SELECT table_1_id FROM temp_table_3 WHERE table_1_id = t.id)
+    )
+    ORDER BY t.created_at DESC, t.id ASC LIMIT 20;
+```
 
 L'utilisation de la commande `WITH` nous a permis d'avoir de bons résultats. Lors de nos tests sur un replica de nos tables, pour la même requête réécrite, nous passions d'environ 45 secondes à seulement 2 secondes !
 
@@ -134,23 +135,26 @@ A l'aide des analyses précédentes et en jouant certaines parties indépendamme
 
 Par exemple la requête ci-dessous, mettait en moyenne moins d'une seconde pour avoir un résultat :
 
-    ```sql
+```sql
     SELECT id
     FROM "table_2"
-    WHERE name ILIKE '%<value>%';```
+    WHERE name ILIKE '%<value>%';
+```
 
 Idem, pour la requête ci-dessous :
 
-    ```sql
+```sql
     SELECT id
     FROM "table_2"
     WHERE first_name ILIKE '%<value>%'
     OR  last_name ILIKE '%<value>%'
     OR  phone ILIKE '%<value>%'
-    OR  email ILIKE '%<value>%';```
+    OR  email ILIKE '%<value>%';
+```
 
 Par contre, ces deux requêtes ensemble avec une jointure et des conditions `WHERE ... OR ...` comme ci-dessous dedans faisait exploser le temps à plus de 60 secondes.
 
+```sql
     SELECT t.*
     FROM "table_1" s
     WHERE t.workspace = '<workspaceIri>'
@@ -190,6 +194,7 @@ Par contre, ces deux requêtes ensemble avec une jointure et des conditions `WHE
         )
     )
     ORDER BY t.created_at DESC, t.id ASC LIMIT 20;
+```
 
 Du coup, on s'est dit, pourquoi ne pas tout mettre à plat ?
 
