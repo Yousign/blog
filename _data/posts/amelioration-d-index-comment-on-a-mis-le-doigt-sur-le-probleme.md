@@ -113,11 +113,10 @@ C'est pratique pour limiter les jointures et optimiser au maximum les index déf
         OR  EXISTS(SELECT table_1_id FROM temp_table_3 WHERE table_1_id = t.id)
     )
     ORDER BY t.created_at DESC, t.id ASC LIMIT 20;
-    
 
 L'utilisation de la commande `WITH` nous a permis d'avoir de bons résultats. Lors de nos tests sur un replica de nos tables, pour la même requête réécrite, nous passions d'environ 45 secondes à seulement 2 secondes !
 
-![Graphique d'analyse effectué grâce aux résultats de la commande  de PostgreSQL](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/94276c3b-15ce-4399-8838-5538d22ed81a/Capture_dcran_de_2021-02-05_19-34-25.png)
+![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Capture_dcran_de_2021-02-05_19-34-25.png)
 
 **Graphique d'analyse effectué grâce aux résultats de la commande `EXPLAIN ANALYZE` de PostgreSQL**
 
@@ -136,7 +135,6 @@ Par exemple la requête ci-dessous, mettait en moyenne moins d'une seconde pour 
     SELECT id
     FROM "table_2"
     WHERE name ILIKE '%<value>%';
-    
 
 Idem, pour la requête ci-dessous :
 
@@ -146,7 +144,6 @@ Idem, pour la requête ci-dessous :
     OR  last_name ILIKE '%<value>%'
     OR  phone ILIKE '%<value>%'
     OR  email ILIKE '%<value>%';
-    
 
 Par contre, ces deux requêtes ensemble avec une jointure et des conditions `WHERE ... OR ...` comme ci-dessous dedans faisait exploser le temps à plus de 60 secondes.
 
@@ -189,7 +186,6 @@ Par contre, ces deux requêtes ensemble avec une jointure et des conditions `WHE
         )
     )
     ORDER BY t.created_at DESC, t.id ASC LIMIT 20;
-    
 
 Du coup, on s'est dit, pourquoi ne pas tout mettre à plat ?
 
@@ -223,13 +219,9 @@ Ci-dessous, un aperçu visuel du gain de performance que nous avons obtenu :
 
 </aside>
 
-![Gain au niveau de la route GET /procedures](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fb6d83a4-8c59-48f4-aab4-94a7d3b58224/Capture_dcran_de_2021-02-19_11-48-03.png)
+![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Capture d’écran de 2021-02-19 11-48-03.png)**Gain au niveau de la route GET /procedures**
 
-**Gain au niveau de la route GET /procedures**
-
-![Gain de performance au niveau de la base de données](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/20872ba4-0e77-4f31-b0a6-81c7f4d5d1fe/Capture_dcran_de_2021-02-22_08-31-33.png)
-
-**Gain de performance au niveau de la base de données**
+**![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Capture d’écran de 2021-02-22 08-31-33.png)Gain de performance au niveau de la base de données**
 
 # Que peut-on en dire et qu'a t-on appris ?
 
