@@ -26,7 +26,6 @@
 }
 .markdown ul li::marker,
 .markdown ol li::marker {
-  @apply text-prussianBlue;
 }
 
 .markdown ol li {
@@ -52,6 +51,5 @@
 }
 
 .markdown blockquote {
-  border-color: currentColor;
-  @apply p-4 border-2 border-dashed rounded-xl;
+  @apply p-4 border-2 border-purple-light border-dashed rounded-xl;
 }
