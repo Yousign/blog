@@ -238,3 +238,5 @@ Pourquoi nous avons décidé de nous arrêter là? C'est le contexte, qui nous a
 Par ailleurs, nous avons conscience que faire de la recherche de données au sein d'une base de données est possible, mais n'est pas optimal. Nous aurions pu construire une table dédiée à la recherche en y agrégeant des données, mais une solution telle qu'un Elasticsearch ou un Algolia est préférable sur le long terme. Après, comme toutes solutions techniques, il est préférable de peser le pour et le contre, car de telles solutions, malgré le gain qu'elles apportent, peuvent être lourdes à mettre en œuvre et/ou coûteuses !
 
 \** Une nouvelle version était en développement*
+
+[**Kevin Auvinet**](https://www.linkedin.com/in/kevin-auvinet-1614493a/)
