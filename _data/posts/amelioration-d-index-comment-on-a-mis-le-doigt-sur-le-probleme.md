@@ -3,7 +3,9 @@ tags: []
 published: false
 title: Amélioration d'index, comment on a mis le doigt sur le problème ?
 excerpt: Nous avions un gros pain concernant le listing de nos procédures en production,
-  ainsi que sur la recherche au sein de ces dernières.
+  ainsi que sur la recherche au sein de ces dernières. À l'heure où ces lignes sont
+  écrites, cela fait maintenant 8 mois que nous avons divisé par 4, voire 5, le temps
+  d'affichage du listing de nos procédures.
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/10-optimization-request@2x.png
 date: 2021-12-15T08:00:00Z
 authors:
@@ -58,7 +60,7 @@ Pour analyser nos requêtes, c'est à dire comprendre au mieux comment elles ét
 
 Nous avons ensuite utilisé un l'outil en ligne [https://tatiyants.com/pev/#/plans/new](https://tatiyants.com/pev/#/plans/new "https://tatiyants.com/pev/#/plans/new") pour avoir une représentation graphique du résultat. Nous pouvions ainsi voir quels traitements étaient faits en parallèle, ceux qui nécessitaient le résultat d'un autre, ceux qui prenaient plus de temps, etc...
 
-## Comment solutionner tout ça
+# Comment solutionner tout ça
 
 À partir de ces résultats, nous avons itéré sur plusieurs solutions jusqu'à trouver la bonne.
 
@@ -66,7 +68,7 @@ Les solutions ci-dessous sont listées dans le même ordre que nous les avons es
 
 Nous sommes d'accord, pour certains d'entre vous ce n'est sûrement pas logique, mais pour nous ça l'était à ce moment-là 😅 (les analyses et le troubleshooting sont souvent issues d'une approche empirique et donc ne se font pas dans un sens logique)
 
-### 1ère approche - la clause SQL "WITH"
+## 1ère approche - la clause SQL "WITH"
 
 Au vu des résultats et de la complexité de notre 1ère requête, nous avons fait des essais en utilisant la commande `WITH` de SQL.
 
@@ -125,7 +127,7 @@ Malgré ces résultats encourageants, nous avons dû renoncer à cette solution.
 
 En effet, le QueryBuilder de Doctrine, ne gère pas par défaut l'utilisation de la commande `WITH`. Il aurait donc fallu faire hériter ou décorer la classe `Doctrine\\ORM\\QueryBuilder` , ce qui n'est pas une mince affaire, que ce soit en terme de complexité, de maintenance ou d'éventuelles régressions.
 
-### 2nde approche - un aplatissement des données
+## 2nde approche - un aplatissement des données
 
 Suite au postulat précédent, nous nous sommes demandés comment limiter au maximum les jointures.
 
@@ -198,7 +200,7 @@ Cette technique nous a permis d'avoir un gain de performance énorme ! Certaines
 
 Cependant, malgré cette nette amélioration, cette solution amenait une problématique sur laquelle nous n'avions que très peu de recul à ce moment là : comment mettre à jour cette table dans un délai raisonnable ? On aurait pu mettre en place des Triggers, mais nous n'avions aucune connaissance sur la gestion de la concurrence qui en découlait, et au vu du timing assez serré, nous avons fait le choix de ne garder cette solution qu'en cas de dernier recours. En effet, nous souhaitons dans la mesure du possible dans nos implémentations ne pas ajouter de complexité qui pourrait être évitée (le coût de maintenance et de dilution de la compétence est souvent important, sans parler du risque d'avoir des edge cases qui n'ont pas été vus à la conception).
 
-### 3ème et dernière approche - les index
+## 3ème et dernière approche - les index
 
 Comme indiqué au dessus, nous aurions pu nous pencher sur les index en premier. Nous ne l'avons pas fait, car nous avions déjà fait ce travail quelques mois auparavant, lorsque nous sommes passés d'un MariaDB à un PostgreSQL en terme de base de données.
 
@@ -238,6 +240,6 @@ Pourquoi nous avons décidé de nous arrêter là? C'est le contexte, qui nous a
 
 Par ailleurs, nous avons conscience que faire de la recherche de données au sein d'une base de données est possible, mais n'est pas optimal. Nous aurions pu construire une table dédiée à la recherche en y agrégeant des données, mais une solution telle qu'un Elasticsearch ou un Algolia est préférable sur le long terme. Après, comme toutes solutions techniques, il est préférable de peser le pour et le contre, car de telles solutions, malgré le gain qu'elles apportent, peuvent être lourdes à mettre en œuvre et/ou coûteuses !
 
-\** Une nouvelle version était en développement*
+_*Une nouvelle version était en développement_
 
 [**Kevin Auvinet**](https://www.linkedin.com/in/kevin-auvinet-1614493a/)
