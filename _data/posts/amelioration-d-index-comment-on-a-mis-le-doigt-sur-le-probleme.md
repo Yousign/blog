@@ -2,7 +2,8 @@
 tags: []
 published: false
 title: Amélioration d'index, comment on a mis le doigt sur le problème ?
-excerpt: ''
+excerpt: Nous avions un gros pain concernant le listing de nos procédures en production,
+  ainsi que sur la recherche au sein de ces dernières.
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/10-optimization-request@2x.png
 date: 2021-12-15T08:00:00Z
 authors:
