@@ -74,46 +74,47 @@ Elle permet de jouer des requêtes en amont de notre `SELECT` et de stocker le r
 
 C'est pratique pour limiter les jointures et optimiser au maximum les index définis sur les tables.
 
-    WITH
-        temp_table_1 AS (
-            SELECT id as table_1_id
-            FROM "table_1"
-            WHERE name ILIKE '%<value>%'
-        ),
-        temp_table_2 AS (
-            SELECT table_1_id
-            FROM "table_2"
-            WHERE first_name ILIKE '%<value>%'
-            OR  last_name ILIKE '%<value>%'
-            OR  phone ILIKE '%<value>%'
-            OR  email ILIKE '%<value>%'
-        ),
-        temp_table_3 AS (
-            SELECT table_1_id
-            FROM "table_3"
-            WHERE name ILIKE '%<value>%'
-        ),
-        temp_table_2_bis AS (
-            SELECT table_1_id
-            FROM "table_2"
-            WHERE "user" = '<user_id>'
+    ```sql
+        WITH
+            temp_table_1 AS (
+                SELECT id as table_1_id
+                FROM "table_1"
+                WHERE name ILIKE '%<value>%'
+            ),
+            temp_table_2 AS (
+                SELECT table_1_id
+                FROM "table_2"
+                WHERE first_name ILIKE '%<value>%'
+                OR  last_name ILIKE '%<value>%'
+                OR  phone ILIKE '%<value>%'
+                OR  email ILIKE '%<value>%'
+            ),
+            temp_table_3 AS (
+                SELECT table_1_id
+                FROM "table_3"
+                WHERE name ILIKE '%<value>%'
+            ),
+            temp_table_2_bis AS (
+                SELECT table_1_id
+                FROM "table_2"
+                WHERE "user" = '<user_id>'
+            )
+        SELECT t.*
+        FROM "table_1" s
+        WHERE t.workspace = '<workspace_id>'
+        AND t.deleted = FALSE
+        AND t.template = FALSE
+        AND t.status = 'finished'
+        AND (
+                EXISTS(SELECT table_1_id FROM temp_table_2_bis WHERE table_1_id = t.id)
+            OR  t.creator = '<user_id>'
         )
-    SELECT t.*
-    FROM "table_1" s
-    WHERE t.workspace = '<workspace_id>'
-    AND t.deleted = FALSE
-    AND t.template = FALSE
-    AND t.status = 'finished'
-    AND (
-            EXISTS(SELECT table_1_id FROM temp_table_2_bis WHERE table_1_id = t.id)
-        OR  t.creator = '<user_id>'
-    )
-    AND (
-            EXISTS(SELECT table_1_id FROM temp_table_1 WHERE table_1_id = t.id)
-        OR  EXISTS(SELECT table_1_id FROM temp_table_2 WHERE table_1_id = t.id)
-        OR  EXISTS(SELECT table_1_id FROM temp_table_3 WHERE table_1_id = t.id)
-    )
-    ORDER BY t.created_at DESC, t.id ASC LIMIT 20;
+        AND (
+                EXISTS(SELECT table_1_id FROM temp_table_1 WHERE table_1_id = t.id)
+            OR  EXISTS(SELECT table_1_id FROM temp_table_2 WHERE table_1_id = t.id)
+            OR  EXISTS(SELECT table_1_id FROM temp_table_3 WHERE table_1_id = t.id)
+        )
+        ORDER BY t.created_at DESC, t.id ASC LIMIT 20;```
 
 L'utilisation de la commande `WITH` nous a permis d'avoir de bons résultats. Lors de nos tests sur un replica de nos tables, pour la même requête réécrite, nous passions d'environ 45 secondes à seulement 2 secondes !
 
