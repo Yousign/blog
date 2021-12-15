@@ -22,7 +22,7 @@ Même si une première optimisation avait eu lieu (passage de MariaDb à Postgre
 
 Pour corriger cela en limitant au maximum les impacts, le temps alloué* et sans créer de régressions, nous avons tenté plusieurs approches avant de trouver la plus adaptée. Voici donc comment nous y sommes arrivés et les choix qui nous ont guidés jusque là.
 
-# Stratégie et frappe chirurgicale
+## Stratégie et frappe chirurgicale
 
 Outre les remontées clients de plus en plus nombreuses, nos différents dashboards sur nos outils de monitoring comme NewRelic ou Graylog nous alertaient également de la criticité de la situation.
 
@@ -40,13 +40,13 @@ Ces métriques nous ont ainsi permis de pouvoir définir plus facilement une pri
 
 💡 Pour cet article nous mettrons le focus sur la requête principale qui nous a posé souci de par sa complexité et ses variantes, à savoir celle du listing de procédures et des recherches de ces dernières.
 
-# Après la stratégie, les mains dans le cambouis
+## Après la stratégie, les mains dans le cambouis
 
 Maintenant, que nous avions une estimation des temps de traitement, ainsi que des principales requêtes en cause. Nous pouvions ainsi nous focus sur ces dernières.
 
 Il était temps de nous retrousser les manches et tenter de solutionner cette problématique de latence, en maximisant le temps investi et sans créer de régression sur les résultats des requêtes modifiées.
 
-## Place à l'analyse
+### Place à l'analyse
 
 La latence d'une requête peut être due à plusieurs facteurs ; les jointures, l'ordre des clauses, les index, etc... Sans compter bien évidemment la taille de(s) table(s) utilisée(s).
 
