@@ -226,6 +226,8 @@ Ci-dessous, un aperçu visuel du gain de performance que nous avons obtenu :
 
 **Gain de performance au niveau de la base de données**
 
+![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Capture d’écran de 2021-02-19 11-48-03.png)
+
 ## Que peut-on en dire et qu'a t-on appris ?
 
 On ne va pas se mentir, le sujet n'était pas des plus sexy de prime abord. Mettre le nez dans des requêtes SQL assez complexes, appréhender le code générique coté backend qui permettait de générer ces dernières et tenter de comprendre tant bien que mal le charabia analytique que nous retournait la commande `EXPLAIN ANALYZE` n'a pas toujours été une partie de plaisir.
