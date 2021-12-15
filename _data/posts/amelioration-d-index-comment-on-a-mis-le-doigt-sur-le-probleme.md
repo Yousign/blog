@@ -38,7 +38,7 @@ Nous avons donc réalisé un petit script fait maison pour cibler la cause qui :
 
 Ces métriques nous ont ainsi permis de pouvoir définir plus facilement une priorisation des requêtes à traiter.
 
-💡 Pour cet article nous mettrons le focus sur la requête principale qui nous a posé souci de par sa complexité et ses variantes, à savoir celle du listing de procédures et des recherches de ces dernières.
+> 💡 Pour cet article nous mettrons le focus sur la requête principale qui nous a posé souci de par sa complexité et ses variantes, à savoir celle du listing de procédures et des recherches de ces dernières.
 
 ## Après la stratégie, les mains dans le cambouis
 
@@ -52,9 +52,7 @@ La latence d'une requête peut être due à plusieurs facteurs ; les jointures, 
 
 Pour analyser nos requêtes, c'est à dire comprendre au mieux comment elles étaient interprétées par notre moteur PostgreSQL et identifier où l'analyse du moteur était la plus lente, nous avons utilisé l'outil `EXPLAIN ANALYZE` fourni par ce dernier.
 
-<aside> 💡 Le résultat de cette analyse peut-être retourné au format texte, json ou encore xml : Pratique si le parseur utilisé demande un format bien particulier !
-
-</aside>
+> 💡 Le résultat de cette analyse peut-être retourné au format texte, json ou encore xml : Pratique si le > parseur utilisé demande un format bien particulier !
 
 Nous avons ensuite utilisé un l'outil en ligne [https://tatiyants.com/pev/#/plans/new](https://tatiyants.com/pev/#/plans/new "https://tatiyants.com/pev/#/plans/new") pour avoir une représentation graphique du résultat. Nous pouvions ainsi voir quels traitements étaient faits en parallèle, ceux qui nécessitaient le résultat d'un autre, ceux qui prenaient plus de temps, etc...
 
@@ -224,7 +222,7 @@ Suite à cette nette amélioration, nous avons encore réussi à améliorer lég
 
 Ci-dessous, un aperçu visuel du gain de performance que nous avons obtenu :
 
-💡 les graphes proviennent de notre environnement de staging, mais les gains ont été les mêmes sur la prod. Nous n'avons malheureusement pas pris de captures à l'époque ...
+> 💡 les graphes proviennent de notre environnement de staging, mais les gains ont été les mêmes sur la prod. Nous n'avons malheureusement pas pris de captures à l'époque ...
 
 ![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Screen2.png)
 
