@@ -134,18 +134,20 @@ A l'aide des analyses précédentes et en jouant certaines parties indépendamme
 
 Par exemple la requête ci-dessous, mettait en moyenne moins d'une seconde pour avoir un résultat :
 
+    ```sql
     SELECT id
     FROM "table_2"
-    WHERE name ILIKE '%<value>%';
+    WHERE name ILIKE '%<value>%';```
 
 Idem, pour la requête ci-dessous :
 
+    ```sql
     SELECT id
     FROM "table_2"
     WHERE first_name ILIKE '%<value>%'
     OR  last_name ILIKE '%<value>%'
     OR  phone ILIKE '%<value>%'
-    OR  email ILIKE '%<value>%';
+    OR  email ILIKE '%<value>%';```
 
 Par contre, ces deux requêtes ensemble avec une jointure et des conditions `WHERE ... OR ...` comme ci-dessous dedans faisait exploser le temps à plus de 60 secondes.
 
