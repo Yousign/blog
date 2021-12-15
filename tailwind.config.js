@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['./components/**/*.js', './pages/**/*.js'],
+  content: ['./components/**/*.js', './pages/**/*.js'],
   presets: [require('./theme/tailwind-yousign-preset.js')],
   theme: {
     colors: {
