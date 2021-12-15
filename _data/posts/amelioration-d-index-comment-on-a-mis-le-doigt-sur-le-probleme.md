@@ -44,7 +44,7 @@ Ces métriques nous ont ainsi permis de pouvoir définir plus facilement une pri
 
 Maintenant, que nous avions une estimation des temps de traitement, ainsi que des principales requêtes en cause. Nous pouvions ainsi nous focus sur ces dernières.
 
-Il était temps de nous retrousser les manches et tenter de solutionner cette problématique de latence, en maximisant le temps investi et sans créer de régression sur les résultats des requêtes modifiées.
+Il était temps de nous retrousser les manches et tenter de résoudre cette problématique de latence, en maximisant le temps investi et sans créer de régression sur les résultats des requêtes modifiées.
 
 ## Place à l'analyse
 
@@ -58,7 +58,7 @@ Pour analyser nos requêtes, c'est à dire comprendre au mieux comment elles ét
 
 Nous avons ensuite utilisé un l'outil en ligne [https://tatiyants.com/pev/#/plans/new](https://tatiyants.com/pev/#/plans/new "https://tatiyants.com/pev/#/plans/new") pour avoir une représentation graphique du résultat. Nous pouvions ainsi voir quels traitements étaient faits en parallèle, ceux qui nécessitaient le résultat d'un autre, ceux qui prenaient plus de temps, etc...
 
-## Comment solutionner tout ça
+## Comment résoudre tout ça
 
 À partir de ces résultats, nous avons itéré sur plusieurs solutions jusqu'à trouver la bonne.
 
@@ -125,7 +125,7 @@ L'utilisation de la commande `WITH` nous a permis d'avoir de bons résultats. Lo
 
 Malgré ces résultats encourageants, nous avons dû renoncer à cette solution. En effet, l'utilisation de Doctrine et notamment l'abstraction que nous avions avec l'utilisation du QueryBuilder de Doctrine, nous a contraint à abandonner cette solution pour la complexité qu'elle engendrait.
 
-En effet, le QueryBuilder de Doctrine, ne gère pas par défaut l'utilisation de la commande `WITH`. Il aurait donc fallu faire hériter ou décorer la classe `Doctrine\\ORM\\QueryBuilder` , ce qui n'est pas une mince affaire, que ce soit en terme de complexité, de maintenance ou d'éventuelles régressions.
+En effet, le QueryBuilder de Doctrine, ne gère pas par défaut l'utilisation de la commande `WITH`. Il aurait donc fallu faire hériter ou décorer la classe `Doctrine\ORM\QueryBuilder` , ce qui n'est pas une mince affaire, que ce soit en terme de complexité, de maintenance ou d'éventuelles régressions.
 
 ## 2nde approche - un aplatissement des données
 
