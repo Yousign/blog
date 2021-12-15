@@ -58,7 +58,7 @@ Pour analyser nos requêtes, c'est à dire comprendre au mieux comment elles ét
 
 Nous avons ensuite utilisé un l'outil en ligne [https://tatiyants.com/pev/#/plans/new](https://tatiyants.com/pev/#/plans/new "https://tatiyants.com/pev/#/plans/new") pour avoir une représentation graphique du résultat. Nous pouvions ainsi voir quels traitements étaient faits en parallèle, ceux qui nécessitaient le résultat d'un autre, ceux qui prenaient plus de temps, etc...
 
-# Comment solutionner tout ça
+## Comment solutionner tout ça
 
 À partir de ces résultats, nous avons itéré sur plusieurs solutions jusqu'à trouver la bonne.
 
@@ -66,7 +66,7 @@ Les solutions ci-dessous sont listées dans le même ordre que nous les avons es
 
 Nous sommes d'accord, pour certains d'entre vous ce n'est sûrement pas logique, mais pour nous ça l'était à ce moment-là 😅 (les analyses et le troubleshooting sont souvent issues d'une approche empirique et donc ne se font pas dans un sens logique)
 
-## 1ère approche - la clause SQL "WITH"
+### 1ère approche - la clause SQL "WITH"
 
 Au vu des résultats et de la complexité de notre 1ère requête, nous avons fait des essais en utilisant la commande `WITH` de SQL.
 
