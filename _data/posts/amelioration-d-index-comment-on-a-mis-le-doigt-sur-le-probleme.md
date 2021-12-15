@@ -222,8 +222,6 @@ Ci-dessous, un aperçu visuel du gain de performance que nous avons obtenu :
 
 **Gain au niveau de la route GET /procedures**
 
-![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Capture d’écran de 2021-02-22 08-31-33.png)
-
 **Gain de performance au niveau de la base de données**
 
 ![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Capture d’écran 2021-12-15 à 09.45.29.jpg)
