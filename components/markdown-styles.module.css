@@ -50,3 +50,8 @@
 
   @apply bg-grey-medium bg-opacity-50 px-1 text-base;
 }
+
+.markdown blockquote {
+  border-color: currentColor;
+  @apply p-4 border-2 border-dashed rounded-xl;
+}
