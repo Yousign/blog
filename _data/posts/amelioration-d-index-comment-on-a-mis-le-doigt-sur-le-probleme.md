@@ -46,7 +46,7 @@ Maintenant, que nous avions une estimation des temps de traitement, ainsi que de
 
 Il était temps de nous retrousser les manches et tenter de solutionner cette problématique de latence, en maximisant le temps investi et sans créer de régression sur les résultats des requêtes modifiées.
 
-### Place à l'analyse
+## Place à l'analyse
 
 La latence d'une requête peut être due à plusieurs facteurs ; les jointures, l'ordre des clauses, les index, etc... Sans compter bien évidemment la taille de(s) table(s) utilisée(s).
 
@@ -66,7 +66,7 @@ Les solutions ci-dessous sont listées dans le même ordre que nous les avons es
 
 Nous sommes d'accord, pour certains d'entre vous ce n'est sûrement pas logique, mais pour nous ça l'était à ce moment-là 😅 (les analyses et le troubleshooting sont souvent issues d'une approche empirique et donc ne se font pas dans un sens logique)
 
-### 1ère approche - la clause SQL "WITH"
+## 1ère approche - la clause SQL "WITH"
 
 Au vu des résultats et de la complexité de notre 1ère requête, nous avons fait des essais en utilisant la commande `WITH` de SQL.
 
@@ -224,7 +224,7 @@ Ci-dessous, un aperçu visuel du gain de performance que nous avons obtenu :
 
 **![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Capture d’écran de 2021-02-22 08-31-33.png)Gain de performance au niveau de la base de données**
 
-# Que peut-on en dire et qu'a t-on appris ?
+## Que peut-on en dire et qu'a t-on appris ?
 
 On ne va pas se mentir, le sujet n'était pas des plus sexy de prime abord. Mettre le nez dans des requêtes SQL assez complexes, appréhender le code générique coté backend qui permettait de générer ces dernières et tenter de comprendre tant bien que mal le charabia analytique que nous retournait la commande `EXPLAIN ANALYZE` n'a pas toujours été une partie de plaisir.
 
