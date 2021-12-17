@@ -7,7 +7,7 @@ excerpt: Nous avions un gros pain concernant le listing de nos procédures en pr
   écrites, cela fait maintenant 8 mois que nous avons divisé par 4, voire 5, le temps
   d'affichage du listing de nos procédures.
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/10-optimization-request@2x.png
-date: 2021-12-15T08:00:00Z
+date: 2021-12-15T08:00:00.000+00:00
 authors:
 - _data/authors/Kevin Auvinet.md
 
@@ -218,7 +218,7 @@ On a donc regardé le code, la structure des tables (dont la principale qui gèr
 
 Sur le clone de la base de données, nous avons décidé de supprimer l'index en place, pour en recréer un autre plus cohérent avec notre code. Nous avons ensuite lancé la requête la plus longue que nous ayons identifiés pour voir la différence. Résultat : nous sommes passés pour certaines requêtes d'un timeout à un résultat en 7 ou 8 secondes 💪 !
 
-Suite à cette nette amélioration, nous avons encore réussi à améliorer légèrement le résultat en réorganisant plus intelligemment nos conditions dans la clause `WHERE` en fonction des paramètres de recherche les plus récurrents, mais également en fonction de leur type. Un index sur un champs de type `integer` est plus performant qu'un index sur un champs de type `text`, par exemple.
+Suite à cette nette amélioration, nous avons encore réussi à améliorer légèrement le résultat en réorganisant plus intelligemment nos conditions dans la clause `WHERE` en fonction des paramètres de recherche les plus récurrents, mais également en fonction de leur type. Un index sur un champ de type `integer` est plus performant qu'un index sur un champ de type `text`, par exemple.
 
 Ci-dessous, un aperçu visuel du gain de performance que nous avons obtenu :
 
