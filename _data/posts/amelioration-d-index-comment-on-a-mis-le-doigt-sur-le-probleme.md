@@ -208,7 +208,7 @@ Cependant, malgré cette nette amélioration, cette solution amenait une problé
 
 Comme indiqué au dessus, nous aurions pu nous pencher sur les index en premier. Nous ne l'avons pas fait, car nous avions déjà fait ce travail quelques mois auparavant, lorsque nous sommes passés d'un MariaDB à un PostgreSQL en terme de base de données.
 
-Du coup, nous avons pensé à ce moment là que le problème majeur ne pas pouvait venir de là, surtout connaissant l'ensemble du travail fournis et les résultats à l'époque (la confiance n'empêche pas la vérification, vieille adage qui aurait pu porter ses fruits ici).
+Du coup, nous avons pensé à ce moment là que le problème majeur ne pouvait pas venir de là, surtout connaissant l'ensemble du travail fournis et les résultats à l'époque (la confiance n'empêche pas la vérification, vieille adage qui aurait pu porter ses fruits ici).
 
 Cependant, nous étions arrivés à un stade où il nous fallait des résultats rapidement. L'insatisfaction client ne cessait d'augmenter, et les problèmes de s'accumuler.
 
