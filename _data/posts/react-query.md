@@ -1,22 +1,20 @@
 ---
 title: Comment la librairie react-query s’est imposée dans notre stack
-excerpt: Nous vous expliquons comment nous hydratons notre application avec la donnée serveur et pourquoi nous utilisons react-query.
-coverImage:
+excerpt: Nous vous expliquons comment nous hydratons notre application avec la donnée
+  serveur et pourquoi nous utilisons react-query.
+coverImage: 
 date: 2021-12-23T08:00:00.000+00:00
 authors:
-  - _data/authors/jeromeboileux.md
+- _data/authors/jeromeboileux.md
 tags:
-  - front
-  - library
+- front
+- library
 published: false
----
 
+---
 Lorsque nous avons commencé à imaginer la stack front de notre nouvelle version applicative, nous avions très rapidement décidé de ne pas utiliser Redux dans nos premières itérations de build afin de ne pas complexifier l'application trop tôt. En gros l'idée était de challenger notre manière de faire du state management, de n'apporter une librairie comme Redux que si cela s'avérait nécéssaire.
 
-<aside>
-ℹ️ Spoiler alert : nous n'avons toujours pas ajouté Redux ou autre librairie dédiée au state management mais nous allons vous expliquer pourquoi 😃
-
-</aside>
+ >>>ℹ️ Spoiler alert : nous n'avons toujours pas ajouté Redux ou autre librairie dédiée au state management mais nous allons vous expliquer pourquoi 😃
 
 ## UI state vs server state
 
@@ -27,8 +25,6 @@ Seule une petite partie est côté client uniquement, et elle correspond presque
 Cette partie est manipulable depuis des simples states internes aux composants (`useState`, `useReducer`), ou encore en ajoutant des contextes finement découpés.
 
 Concernant l'autre partie, nous avons assez vite saisi l'opportunité d'essayer `react-query` afin de remplacer les quelques "stores" que nous avions commencé à mettre en place. Voici la démarche.
-
-![[https://react-query.tanstack.com/](https://react-query.tanstack.com/)](Comment%20la%20librairie%20react-query%20s%E2%80%99est%20impose%CC%81e%20da%2002909c14f66c49c4b8692e0543a2beff/Untitled.png)
 
 [https://react-query.tanstack.com/](https://react-query.tanstack.com/)
 
@@ -188,9 +184,9 @@ function UserInfo() {
 
 Le hook nous retourne plusieurs propriétés directement exploitables dans le composant, comme:
 
-- le status de la requête
-- la donnée si la requête aboutit
-- l'erreur si la requête est en erreur
+* le status de la requête
+* la donnée si la requête aboutit
+* l'erreur si la requête est en erreur
 
 Grace à la clé 'profile' que l'on fournie au hook, la librairie conserve la donnée en cache une fois la requête faite. De cette façon, un autre composant (ou même celui-ci) qui a besoin de cette même donnée peut la récupérer directement depuis le cache sans refaire la requête si la donnée est déjà disponible dans le cache ; react-query gère cela pour nous.
 
@@ -284,11 +280,11 @@ function UserNameInput() {
 
 L'exemple ici est volontairement assez simple, mais la démonstration est efficace car on se rend rapidement compte de l'apport et de l'intérêt de la librairie :
 
-- la couche intermédiaire entre le serveur et l'interface pour accéder à la donnée est un système de cache créé et géré par la librairie
-- la logique sur les états de requête est encapsulée dans les hooks fournis par la librairie, il reste juste à la consommer
-- ce sont des hooks, donc il est aisé d'y ajouter notre propre interface pour abstraire tout notion de query
-- la librairie fournit des méthodes pour modifier, invalider les données du cache
-- un dev tools spécifique pour visualiser le store en action
+* la couche intermédiaire entre le serveur et l'interface pour accéder à la donnée est un système de cache créé et géré par la librairie
+* la logique sur les états de requête est encapsulée dans les hooks fournis par la librairie, il reste juste à la consommer
+* ce sont des hooks, donc il est aisé d'y ajouter notre propre interface pour abstraire tout notion de query
+* la librairie fournit des méthodes pour modifier, invalider les données du cache
+* un dev tools spécifique pour visualiser le store en action
 
 Et ce n'est que l'ouverture, car `react-query` est une librairie profonde, les possibilités sont nombreuses, je vous invite à parcourir l'excellente documentation.
 👉🏻[https://react-query.tanstack.com/overview](https://react-query.tanstack.com/overview)
@@ -299,11 +295,11 @@ Ou encore le blog plus que fourni d’un des mainteneurs de la librairie.
 
 Quelques points d'exemple dont nous n'avons pas parlé ici :
 
-- Mise à jour de la donnée en background
-- Optimisations des performances telles que la pagination et le lazy loading des données
-- Optimistic Updates
-- Query Cancellation
-- Dependent or parallel Queries
+* Mise à jour de la donnée en background
+* Optimisations des performances telles que la pagination et le lazy loading des données
+* Optimistic Updates
+* Query Cancellation
+* Dependent or parallel Queries
 
 Vous comprendrez alors comment `react-query` s'est imposé en quelques mois comme une dépendance centrale et stratégique dans note stack frontend.
 
