@@ -2,7 +2,7 @@
 title: Comment la librairie react-query s’est imposée dans notre stack
 excerpt: Nous vous expliquons comment nous hydratons notre application avec la donnée
   serveur et pourquoi nous utilisons react-query.
-coverImage: 
+coverImage: ''
 date: 2021-12-23T08:00:00.000+00:00
 authors:
 - _data/authors/jeromeboileux.md
@@ -14,7 +14,7 @@ published: false
 ---
 Lorsque nous avons commencé à imaginer la stack front de notre nouvelle version applicative, nous avions très rapidement décidé de ne pas utiliser Redux dans nos premières itérations de build afin de ne pas complexifier l'application trop tôt. En gros l'idée était de challenger notre manière de faire du state management, de n'apporter une librairie comme Redux que si cela s'avérait nécéssaire.
 
- >>>ℹ️ Spoiler alert : nous n'avons toujours pas ajouté Redux ou autre librairie dédiée au state management mais nous allons vous expliquer pourquoi 😃
+> ℹ️ Spoiler alert : nous n'avons toujours pas ajouté Redux ou autre librairie dédiée au state management mais nous allons vous expliquer pourquoi 😃
 
 ## UI state vs server state
 
@@ -25,6 +25,8 @@ Seule une petite partie est côté client uniquement, et elle correspond presque
 Cette partie est manipulable depuis des simples states internes aux composants (`useState`, `useReducer`), ou encore en ajoutant des contextes finement découpés.
 
 Concernant l'autre partie, nous avons assez vite saisi l'opportunité d'essayer `react-query` afin de remplacer les quelques "stores" que nous avions commencé à mettre en place. Voici la démarche.
+
+![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/reactquery.png)
 
 [https://react-query.tanstack.com/](https://react-query.tanstack.com/)
 
