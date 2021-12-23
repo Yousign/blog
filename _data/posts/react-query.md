@@ -2,7 +2,7 @@
 title: Comment la librairie react-query s’est imposée dans notre stack
 excerpt: Nous vous expliquons comment nous hydratons notre application avec la donnée
   serveur et pourquoi nous utilisons react-query.
-coverImage: ''
+coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/12-React-query@2x.png
 date: 2021-12-23T08:00:00.000+00:00
 authors:
 - _data/authors/jeromeboileux.md
