@@ -9,7 +9,7 @@ authors:
 tags:
 - front
 - library
-published: false
+published: true
 
 ---
 Lorsque nous avons commencé à imaginer la stack front de notre nouvelle version applicative, nous avions très rapidement décidé de ne pas utiliser Redux dans nos premières itérations de build afin de ne pas complexifier l'application trop tôt. En gros l'idée était de challenger notre manière de faire du state management, de n'apporter une librairie comme Redux que si cela s'avérait nécéssaire.
