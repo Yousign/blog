@@ -311,4 +311,4 @@ Voici donc pourquoi nous n’avons pas eu besoin d’installer une librairie dé
 
 Merci pour la lecture de cet article, il était dans les tiroirs depuis un moment, d'abord censé être assez théorique sur les différentes approches concernant le state management. Puis il a finalement pris une tournure très pratique : sur notre utilisation d'une librairie qui a complètement modifié notre rapport à la gestion de la donnée dans notre application.
 
-**Jérôme Boileux**
+[**Jérôme Boileux**](https://www.linkedin.com/in/jeromeboileux/)
