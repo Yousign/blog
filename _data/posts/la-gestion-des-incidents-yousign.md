@@ -2,11 +2,14 @@
 tags: []
 published: false
 title: La gestion des incidents @Yousign
-excerpt: ''
-coverImage: ''
+excerpt: Le nombre d’incidents sur une production informatique n’est jamais de 0,
+  comme vous en doutez, c’est une composante essentielle de nos métiers, c’est pourquoi
+  on va s’efforcer de vous présenter notre nouvelle gestion des incidents.
+coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/13-Gestion
+  des incidents@2x.png
 date: 2022-02-04T23:00:00Z
 authors:
-- _data/authors/Benjamin R.md
+- _data/authors/Daniel Castronovo.md
 
 ---
 ## Qu’est ce qu’un incident ?
@@ -34,7 +37,7 @@ Vous comprenez pourquoi nous mettons autant d’énergie dans ce processus à pr
 C’est un des processus [**ITIL**](https://fr.wikipedia.org/wiki/Gestion_des_incidents) phare :
 
 > La gestion des incidents est le processus de gestion des interruptions du service informatique et la restauration des services conformément aux accords de prestation de services (SLA).  
->  La gestion des incidents s’étend d’un utilisateur final ou une alerte de monitoring signalant un problème jusqu’au membre d’une équipe du service d’assistance résolvant ce problème.
+> La gestion des incidents s’étend d’un utilisateur final ou une alerte de monitoring signalant un problème jusqu’au membre d’une équipe du service d’assistance résolvant ce problème.
 
 Nous allons dans cet article vous expliquer ce que ça veut dire chez Yousign.
 
@@ -57,7 +60,7 @@ Cela s’expliquait par :
 * La taille des équipes réduite
 * Les scopes pas forcément très clairement définis
 
-Ce qui se traduisait par : 
+Ce qui se traduisait par :
 
 1️⃣ On voit l'alerte sur Slack, on l’acquitte sur notre alert bot OpsGenie
 
@@ -245,3 +248,5 @@ Le fait de responsabiliser les squads apporte un gain incroyable au quotidien :
 * Gérer la totalité des alertes via nos outils d’**I**nfrastructure **A**s **C**ode (Terraform, Pulumi), car actuellement seuls 20% des alertes sont auto-provisionnés
 * Un “permis” pour faire du run en production (période probatoire en pair programming, formations sur les outils de troubleshooting, test technique sur une application de démo)
 * Mise en place de **SLO** (Service Level Objective)
+
+[**Daniel Castronovo**](https://fr.linkedin.com/in/danielcastronovo)
