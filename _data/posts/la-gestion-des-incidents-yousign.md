@@ -127,6 +127,8 @@ Chaque feature **doit** partir en production avec des alertes pertinentes, test�
 
 ### Incident de production
 
+![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Gestion des incidents avec Opsgenie(3).jpeg)
+
 ## Post-mortem
 
 Chaque incident critique donne lieu à la création d’un post-mortem.
