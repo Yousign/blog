@@ -1,6 +1,6 @@
 ---
 tags: []
-published: false
+published: true
 title: La gestion des incidents @Yousign
 excerpt: Le nombre d’incidents sur une production informatique n’est jamais de 0,
   comme vous en doutez, c’est une composante essentielle de nos métiers, c’est pourquoi
