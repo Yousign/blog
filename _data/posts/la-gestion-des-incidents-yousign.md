@@ -163,7 +163,7 @@ Pour ces fonctionnalités, ses intégrations :
 
 ### StatusPage
 
-![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Status page.png)
+![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Untitled.png)
 
 OpsGenie est cablé à [StatusPage](https://yousign.statuspage.io/), ce qui nous permet entre autres :
 
