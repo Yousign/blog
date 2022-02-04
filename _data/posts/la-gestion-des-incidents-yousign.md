@@ -117,7 +117,7 @@ Chaque alerte possède une page Notion, qui elle-même est référencée sur une
 
 Ceci permet une recherche facilitée, et une meilleure lisibilité des alertes en les groupant suivant certains critères.
 
-![Notion alerte](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Database Notion.png "Notion alerte")
+![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Database Notion alerte.png)
 
 ## Delivery
 
@@ -126,8 +126,6 @@ Chaque feature **doit** partir en production avec des alertes pertinentes, test�
 ## Workflow
 
 ### Incident de production
-
-![Incident de production](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Workflow de gestion des incidents sur Opsgenie.jpg "Incident de production")
 
 ## Post-mortem
 
