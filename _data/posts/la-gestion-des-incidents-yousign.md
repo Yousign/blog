@@ -127,7 +127,7 @@ Chaque feature **doit** partir en production avec des alertes pertinentes, test√
 
 ### Incident de production
 
-![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Gestion des incidents avec Opsgenie(3).jpeg)
+![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Gestiondesincidents.jpeg)
 
 ## Post-mortem
 
