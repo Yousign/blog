@@ -16,7 +16,7 @@ authors:
 
 C’est un **événement** qui arrive quand on ne s’y attend pas en règle générale 😂  et qui cause une dégradation partielle ou totale du service, dans notre cas lié à un contexte de signature électronique certifié [EIDAS](https://www.ssi.gouv.fr/administration/reglementation/confiance-numerique/le-reglement-eidas/) qui possède plus de 8000 clients aux quatre coins du monde.
 
-Le nombre d’incidents sur une production informatique n’est jamais de 0, comme vous en doutez, c’est une composante essentielle de nos métiers, c’est pourquoi on va s’efforcer de vous présenter notre nouvelle gestion des incidents.
+Le nombre d’incidents sur une production informatique n’est jamais de 0, comme vous vous en doutez, c’est une composante essentielle de nos métiers, c’est pourquoi on va s’efforcer de vous présenter notre nouvelle gestion des incidents.
 
 ### Je vais vous donner un exemple parlant
 
