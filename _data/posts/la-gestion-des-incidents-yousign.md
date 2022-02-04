@@ -117,7 +117,7 @@ Chaque alerte possède une page Notion, qui elle-même est référencée sur une
 
 Ceci permet une recherche facilitée, et une meilleure lisibilité des alertes en les groupant suivant certains critères.
 
-![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Database Notion alerte.png)
+![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/DatabaseNotionalerte.png)
 
 ## Delivery
 
