@@ -7,7 +7,7 @@ excerpt: Le nombre d’incidents sur une production informatique n’est jamais 
   on va s’efforcer de vous présenter notre nouvelle gestion des incidents.
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/13-Gestion
   des incidents@2x.png
-date: 2022-02-04T23:00:00Z
+date: 2022-02-04T10:15:00Z
 authors:
 - _data/authors/Daniel Castronovo.md
 
