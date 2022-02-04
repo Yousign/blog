@@ -103,7 +103,7 @@ Notre convention de nommage contient :
 
 ### Exemple d’une alerte
 
-![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Alerte Opsgenie.png)
+![Alerte](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Alerte Opsgenie.png "Alerte")
 
 ## Procédure d’exploitation
 
