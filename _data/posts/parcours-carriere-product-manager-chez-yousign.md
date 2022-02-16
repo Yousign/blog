@@ -1,7 +1,7 @@
 ---
 tags: []
 published: false
-title: Parcours carrière Product Manager chez Yousign
+title: Parcours carrière - Product Manager chez Yousign
 excerpt: Ouvrir notre parcours carrière au sein de Yousign était une évidence pour
   vous permettre de comprendre quel est le métier de Product Manager au sein de nos
   équipes et quels sont les grands concepts de progression que nous suivons.
