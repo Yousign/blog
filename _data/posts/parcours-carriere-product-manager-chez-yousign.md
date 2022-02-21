@@ -102,5 +102,3 @@ Voici le lien vers le parcours carrière !
 Vous l’avez compris, nous avons conçu un parcours carrière adapté à nos besoins, reprenant de nombreuses bonnes pratiques (voie manager et contributeur individuel, gradation progressive), adaptant des concepts à notre sauce (CORE Framework, Shuhari). Si vous êtes séduit•e•s par notre vision du Product Management, de nombreux postes sont et vont être ouverts alors pensez à regarder notre page candidat.
 
 Et si vous avez la moindre question, vous pouvez me contacter sur LinkedIn ou Twitter pour échanger à ce sujet !
-
-test pdf [fake-document-DE.pdf](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/fake-document-DE.pdf "fake-document-DE.pdf")
