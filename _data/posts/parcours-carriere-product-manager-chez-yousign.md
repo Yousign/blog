@@ -99,9 +99,9 @@ J’aime à penser le parcours carrière comme un moyen de limiter ses propres b
 
 Voici les liens vers le parcours carrière !
 
-* [CareerPathProductManager-Concept.pdf](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/CareerPathProductManager-Concept.pdf "CareerPathProductManager-Concept.pdf")
-* [CareerPathProductManager-Skillsbylevel.pdf](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/CareerPathProductManager-Skillsbylevel.pdf "CareerPathProductManager-Skillsbylevel.pdf")
-* [CareerPathProductManager-Howto.pdf](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/CareerPathProductManager-Howto.pdf "CareerPathProductManager-Howto.pdf")
+* [Product Manager - Concept](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/CareerPathProductManager-Concept.pdf "CareerPathProductManager-Concept.pdf")
+* [Product Manager - Skills by level](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/CareerPathProductManager-Skillsbylevel.pdf "CareerPathProductManager-Skillsbylevel.pdf")
+* [Product Manager -Howto.pdf](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/CareerPathProductManager-Howto.pdf "CareerPathProductManager-Howto.pdf")
 
 Vous l’avez compris, nous avons conçu un parcours carrière adapté à nos besoins, reprenant de nombreuses bonnes pratiques (voie manager et contributeur individuel, gradation progressive), adaptant des concepts à notre sauce (CORE Framework, Shuhari). Si vous êtes séduit•e•s par notre vision du Product Management, de nombreux postes sont et vont être ouverts alors pensez à regarder notre page candidat.
 
