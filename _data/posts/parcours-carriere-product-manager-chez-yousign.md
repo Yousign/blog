@@ -6,7 +6,7 @@ excerpt: Ouvrir notre parcours carrière au sein de Yousign était une évidence
   vous permettre de comprendre quel est le métier de Product Manager au sein de nos
   équipes et quels sont les grands concepts de progression que nous suivons.
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/16-Career-path-Engineering-Product@2x.png
-date: 2022-03-11T23:00:00Z
+date: 2022-02-20T23:00:00Z
 authors:
 - _data/authors/Christopher Parola.md
 
