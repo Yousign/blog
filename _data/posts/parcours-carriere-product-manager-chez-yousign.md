@@ -99,9 +99,9 @@ J’aime à penser le parcours carrière comme un moyen de limiter ses propres b
 
 Voici les liens vers le parcours carrière !
 
-[Career Path Product Manager - Concept.pdf](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Career Path Product Manager - Concept.pdf "Career Path Product Manager - Concept.pdf")  
-[Career Path Product Manager - Skills by level.pdf](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Career Path Product Manager - Skills by level.pdf "Career Path Product Manager - Skills by level.pdf")  
-[Career Path Product Manager - How to.pdf](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Career Path Product Manager - How to.pdf "Career Path Product Manager - How to.pdf")
+* [Career Path Product Manager - Concept.pdf](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Career Path Product Manager - Concept.pdf "Career Path Product Manager - Concept.pdf")
+* [Career Path Product Manager - Skills by level.pdf](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Career Path Product Manager - Skills by level.pdf "Career Path Product Manager - Skills by level.pdf")
+* [Career Path Product Manager - How to.pdf](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Career Path Product Manager - How to.pdf "Career Path Product Manager - How to.pdf")
 
 Vous l’avez compris, nous avons conçu un parcours carrière adapté à nos besoins, reprenant de nombreuses bonnes pratiques (voie manager et contributeur individuel, gradation progressive), adaptant des concepts à notre sauce (CORE Framework, Shuhari). Si vous êtes séduit•e•s par notre vision du Product Management, de nombreux postes sont et vont être ouverts alors pensez à regarder notre page candidat.
 
