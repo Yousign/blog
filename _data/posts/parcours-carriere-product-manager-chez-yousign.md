@@ -11,7 +11,7 @@ authors:
 - _data/authors/Christopher Parola.md
 
 ---
-Qui peut prédire en 2022 quel sera son quotidien en répondant à une offre d’emploi pour “Product Manager” ? J’en suis bien incapable !
+Qui peut prédire en 2022 quel sera son quotidien en répondant à une offre d’emploi pour “Product Manager” ? J’en suis bien incapable !
 
 On le sait, le métier de Product Manager n’est pas encore parfaitement structuré. Tantôt Product Owner amélioré, tantôt grand penseur de la stratégie produit, ce rôle varie grandement entre les entreprises.
 
