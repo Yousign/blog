@@ -97,7 +97,7 @@ Vous qui travaillez peut-être dans le produit, je ne vous apprends rien : nous 
 
 J’aime à penser le parcours carrière comme un moyen de limiter ses propres biais, en tant que manager, pour nous permettre de garder le même niveau d’exigence et limiter nos biais personnels. Cela se vérifie autant dans les actions de recrutement que d’accompagnement des collaborateurs, ce qui nous aide dans la diversité et l’inclusion au sein de l’équipe Produit.
 
-Voici les liens vers le parcours carrière!
+Voici les liens vers le parcours carrière !
 
 * [Product Manager - Concept](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/CareerPathProductManager-Concept.pdf "CareerPathProductManager-Concept.pdf")
 * [Product Manager - Skills by level](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/CareerPathProductManager-Skillsbylevel.pdf "CareerPathProductManager-Skillsbylevel.pdf")
@@ -105,6 +105,6 @@ Voici les liens vers le parcours carrière!
 
 Vous l’avez compris, nous avons conçu un parcours carrière adapté à nos besoins, reprenant de nombreuses bonnes pratiques (voie manager et contributeur individuel, gradation progressive), adaptant des concepts à notre sauce (CORE Framework, Shuhari). Si vous êtes séduit•e•s par notre vision du Product Management, de nombreux postes sont et vont être ouverts alors pensez à regarder notre page candidat.
 
-Et si vous avez la moindre question, vous pouvez me contacter sur [LinkedIn](https://www.linkedin.com/in/christopherparola/) ou [Twitter](https://twitter.com/chrisparola) pour échanger à ce sujet!
+Et si vous avez la moindre question, vous pouvez me contacter sur [LinkedIn](https://www.linkedin.com/in/christopherparola/) ou [Twitter](https://twitter.com/chrisparola) pour échanger à ce sujet !
 
 [**Christopher Parola**](https://www.linkedin.com/in/christopherparola/)
