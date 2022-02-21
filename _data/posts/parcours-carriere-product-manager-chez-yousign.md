@@ -11,7 +11,7 @@ authors:
 - _data/authors/Christopher Parola.md
 
 ---
-Qui peut prédire en 2022 quel sera son quotidien en répondant à une offre d’emploi pour “Product Manager” ? J’en suis bien incapable !
+Qui peut prédire en 2022 quel sera son quotidien en répondant à une offre d’emploi pour “Product Manager” ? J’en suis bien incapable !
 
 On le sait, le métier de Product Manager n’est pas encore parfaitement structuré. Tantôt Product Owner amélioré, tantôt grand penseur de la stratégie produit, ce rôle varie grandement entre les entreprises.
 
@@ -33,7 +33,7 @@ Cette phrase unique permet de résumer ce qu’on attend d’une personne à ce 
 
 Mais du fait de la complexité à définir le métier de Product Manager, nous avons décidé de produire une liste de compétence. Cette liste est longue, elle peut faire peur, mais elle est indispensable pour nous aider à faire monter en compétence les équipes et matérialiser les attendus.
 
-Ces compétences détaillées permettent de définir ce que nous attentons d’une personne pour un certain niveau, mais ne doivent absolument pas être limitantes. Par exemple, si nous attendons d’un niveau 1 qu’il progresse au plus vite sur les activités de Delivery, il ou elle pourra toujours contribuer aux activités de Discovery et progresser sur ce thème. En revanche, il ou elle ne pourra pas nous dire “je ne suis pas au niveau attendu sur le Delivery car j’ai fait du Discovery”
+Ces compétences détaillées permettent de définir ce que nous attentons d’une personne pour un certain niveau, mais ne doivent absolument pas être limitantes. Par exemple, si nous attendons d’un niveau 1 qu’il progresse au plus vite sur les activités de Delivery, il ou elle pourra toujours contribuer aux activités de Discovery et progresser sur ce thème. En revanche, il ou elle ne pourra pas nous dire “je ne suis pas au niveau attendu sur le Delivery car j’ai fait du Discovery”.
 
 ### **Contributeur Individuel ou Manager ?**
 
@@ -41,7 +41,7 @@ Cela va sans dire, mais ça va mieux en le disant : nous permettons aux membres 
 
 Les compétences d’un contributeur individuel expert et d’un manager sont totalement différentes et il faut respecter ce fait : nous avons besoin des deux au sein d’une équipe pour qu’elle soit fonctionnelle et efficace.
 
-## CORE Framework et au-delà !
+## CORE Framework et au-delà !
 
 Le CORE Framework documenté dans le livre [Product Management In Practice](https://livre.fnac.com/mp35618387/Product-Management-In-Practice?esl-k=sem-google%7cng%7cc504437537169%7cm%7ckpla381597768694%7cp%7ct%7cdc%7ca120693145164%7cg12499685677&gclid=Cj0KCQiAmKiQBhClARIsAKtSj-mS5RBmq7bE4o134tOBJtAD19pTQqmKZdY48_x5crYKSNDqVBnIhzMaAvTnEALw_wcB&gclsrc=aw.ds&oref=1bdb0870-bc04-22b3-740d-6181e5c1530c&Origin=CMP_GOOGLE_MP_LIV) de Matt Lemay m’a énormément inspiré pour documenter les compétences attendues d’un Product Manager en les segmentant sur les axes suivants : Communication, Organisation, Research (que j’assimile au Discovery) et Execution (que j’assimile au Delivery).
 
@@ -65,7 +65,7 @@ On peut considérer qu’à un certain niveau du parcours carrière, cette comp�
 
 Dès qu’il vous faudra connaître ces pratiques, on attendra du Product Manager qu’il ou elle apprenne comment les mettre en oeuvre et comment les analyser. Pour se faire, nous mettrons en place un accompagnement ou de la formation. Vous saurez donc faire des AB Tests, avec de l’aide.
 
-Après plusieurs campagnes d’AB, vous serez en maîtrise du sujet. Vous pourrez en concevoir en autonomie, analyser leur validité et conclure. Bravo, vous maîtrisez la compétence !
+Après plusieurs campagnes d’AB, vous serez en maîtrise du sujet. Vous pourrez en concevoir en autonomie, analyser leur validité et conclure. Bravo, vous maîtrisez la compétence !
 
 Ce que nous venons de décrire est le concept de Shuhari des arts martiaux japonais : pour chaque compétence, on peut soit apprendre les fondamentaux, soit les maîtriser pour aller au-delà, soit les transcender et créer de nouvelles techniques adaptées à son besoin.
 
@@ -89,7 +89,7 @@ Cela nous permet de garder du rythme au sein des niveaux et de limiter le côté
 
 A l’occasion des entretiens semestriels, le parcours carrière va jouer tout son rôle. Nous demandons aux collaborateurs de s’auto-évaluer, et au manager d’évaluer le managé. Ainsi, ils ou elles peuvent se concentrer sur les points d’éventuels désaccords et échanger des retours constructifs, et également fixer les objectifs en fonction de ce que le Product Manager cherche à atteindre comme niveau.
 
-Ce parcours carrière n’est pas figé et peut être amené à évoluer : l’entretien semestriel peut également être l’occasion de partager ces évolutions et les nouveaux objectifs associés. Attention cependant à ne pas le faire évoluer trop souvent trop radicalement, et à bien communiquer sur ces évolutions. Enfin, il n’est pas question de rétrograder un Product Manager du fait d’une évolution du parcours carrière !
+Ce parcours carrière n’est pas figé et peut être amené à évoluer : l’entretien semestriel peut également être l’occasion de partager ces évolutions et les nouveaux objectifs associés. Attention cependant à ne pas le faire évoluer trop souvent trop radicalement, et à bien communiquer sur ces évolutions. Enfin, il n’est pas question de rétrograder un Product Manager du fait d’une évolution du parcours carrière !
 
 ## Aide pour être un meilleur manager
 
