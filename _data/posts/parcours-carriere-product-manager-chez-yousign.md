@@ -25,7 +25,7 @@ Celles et ceux qui me connaissent ne seront pas surpris de retrouver les trois g
 
 ## Avant de commencer...
 
-### Pourquoi avoir indiqué des compétences détaillées plutôt qu’une phrase descriptive ?
+### **Pourquoi avoir indiqué des compétences détaillées plutôt qu’une phrase descriptive ?**
 
 Dans le parcours carrière, vous trouverez deux onglets. Un onglet décrivant en une phrase l’idée derrière chaque niveau.
 
@@ -35,7 +35,7 @@ Mais du fait de la complexité à définir le métier de Product Manager, nous a
 
 Ces compétences détaillées permettent de définir ce que nous attentons d’une personne pour un certain niveau, mais ne doivent absolument pas être limitantes. Par exemple, si nous attendons d’un niveau 1 qu’il progresse au plus vite sur les activités de Delivery, il ou elle pourra toujours contribuer aux activités de Discovery et progresser sur ce thème. En revanche, il ou elle ne pourra pas nous dire “je ne suis pas au niveau attendu sur le Delivery car j’ai fait du Discovery”
 
-### Contributeur Individuel ou Manager ?
+### **Contributeur Individuel ou Manager ?**
 
 Cela va sans dire, mais ça va mieux en le disant : nous permettons aux membres de l’équipe produit de choisir une voie Management ou une voie Contributeur Individuel. Nous sommes en 2022, des tonnes de contenus ont été partagés sur le sujet (j’en avais déjà parlé en 2020 pour le parcours carrière de mon entreprise précédente) : il n’y a aucune raison valable à forcer quelqu’un qui ne souhaite pas manager à faire du management et cela ne doit pas être le seul moyen d’augmenter sa rémunération.
 
@@ -105,6 +105,6 @@ Voici les liens vers le parcours carrière !
 
 Vous l’avez compris, nous avons conçu un parcours carrière adapté à nos besoins, reprenant de nombreuses bonnes pratiques (voie manager et contributeur individuel, gradation progressive), adaptant des concepts à notre sauce (CORE Framework, Shuhari). Si vous êtes séduit•e•s par notre vision du Product Management, de nombreux postes sont et vont être ouverts alors pensez à regarder notre page candidat.
 
-Et si vous avez la moindre question, vous pouvez me contacter sur [LinkedIn](https://www.linkedin.com/in/christopherparola/) ou [Twitter](https://twitter.com/chrisparola) pour échanger à ce sujet !  
-  
+Et si vous avez la moindre question, vous pouvez me contacter sur [LinkedIn](https://www.linkedin.com/in/christopherparola/) ou [Twitter](https://twitter.com/chrisparola) pour échanger à ce sujet !
+
 [**Christopher Parola**](https://www.linkedin.com/in/christopherparola/)
