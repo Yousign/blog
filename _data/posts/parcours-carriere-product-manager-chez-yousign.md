@@ -19,7 +19,7 @@ Ouvrir notre parcours carrière au sein de Yousign était une évidence pour vou
 
 Nous aurions pu vous partager uniquement la grille et vous laisser vous débrouiller avec, mais les concepts sous jacents nous semblent très importants.
 
-# Les grands principes de ce parcours carrière
+## Les grands principes de ce parcours carrière
 
 Celles et ceux qui me connaissent ne seront pas surpris de retrouver les trois grands concepts : Shu Ha Ri, Core Framework & les tracks individuel ainsi que manager. Voyons ce qu’on entend par là, et aussi une petite nouveauté dans la gradation des niveaux.
 
