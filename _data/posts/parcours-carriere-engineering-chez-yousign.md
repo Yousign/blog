@@ -1,6 +1,6 @@
 ---
 tags: []
-published: false
+published: true
 title: Parcours carrière Engineering chez Yousign
 excerpt: Si la construction d’un parcours carrière semble simple, c’est en réalité
   beaucoup moins aisé qu’il n’y parait. Nicolas Baron, VP Engineering, nous présente
