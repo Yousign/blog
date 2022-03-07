@@ -9,7 +9,6 @@ coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazo
 date: 2022-11-16T23:00:00Z
 authors:
 - _data/authors/Nicolas Baron.md
-- _data/authors/Nicolas Baron.md
 
 ---
 Chez Yousign, nous avons la chance de pouvoir construire l’équipe sur des valeurs humaines fortes, qui ont accompagné l’entreprise depuis ses débuts.
