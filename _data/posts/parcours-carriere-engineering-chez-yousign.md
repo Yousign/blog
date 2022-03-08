@@ -24,7 +24,7 @@ Cet article a 2 objectifs principaux :
 * Partager notre parcours carrière comme d’autres l’ont fait avant nous. Certains nous ont aidés et inspirés, nous souhaitons pouvoir en faire de même
 * Partager les principes et les convictions qui nous ont guidés. Cela donnera peut être à certains l’envie de nous rejoindre !
 
-[Lien vers le Career Path Engineering](https://docs.google.com/spreadsheets/d/1rIHcqvOM5c_9sH_5bX00FFrNp2sF9Unqlp5teM8vero/edit#gid=0)
+[Lien vers le Career Path Engineering](https://ys-storage-public-content-bucket.s3.eu-west-3.amazonaws.com/blog/Yousign+-+Engineering+-+Career+Path.pdf)
 
 ## Compétences attendues
 
