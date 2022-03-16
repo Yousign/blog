@@ -9,7 +9,7 @@ coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazo
 date: 2021-03-23T13:00:00.000+00:00
 authors:
 - _data/authors/Damien.md
-published: false
+published: true
 
 ---
 C’est dans le contexte de la création de ce blog Tech que [Kevin Dubourg](https://www.linkedin.com/in/kevin-dubourg-586351146/), Engineering Director, a proposé aux freelances de participer à la rédaction de son contenu avec plusieurs idées d’articles. Dans celui-ci, l’idée est de présenter en quelques lignes mon ressenti sur ces 3 premiers mois chez Yousign en tant que développeur freelance, en me laissant bien sûr maître sur le ton et la forme de l'article 🙂.
