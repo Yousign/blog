@@ -1,12 +1,10 @@
-import { useEffect, useState } from 'react';
-import { useTheme } from 'next-themes';
+import * as React from 'react';
 import CookieConsent, { Cookies, getCookieConsentValue } from 'react-cookie-consent';
-import { DarkModeSwitch } from 'react-toggle-dark-mode';
-import { consentGranted, consentDenied } from 'lib/gtag';
+//import { consentGranted, consentDenied } from '../../lib/gtag';
 
 const CONTACT_MAIL = 'nbjmup;cmphAzpvtjho/jp';
 
-function unCryptMailto(encryptedMail) {
+function unCryptMailto(encryptedMail: string) {
   var n = 0;
   var mail = '';
   for (var i = 0; i < encryptedMail.length; i++) {
@@ -19,10 +17,8 @@ function unCryptMailto(encryptedMail) {
   return mail;
 }
 
-export default function Footer() {
-  const { theme, setTheme } = useTheme();
-  const [showCookieBar, setShowCookieBar] = useState(false);
-  const [isMounted, setIsMounted] = useState(false);
+export const Footer = () => {
+  const [showCookieBar, setShowCookieBar] = React.useState<boolean>(false);
   const today = new Date();
   const year = today.getFullYear();
 
@@ -38,33 +34,23 @@ export default function Footer() {
     Cookies.remove('_ga');
     Cookies.remove('_gat');
     Cookies.remove('_gid');
-    consentDenied();
+    //consentDenied();
     setShowCookieBar(false);
   };
   const handleAcceptCookie = () => {
-    consentGranted();
+    //consentGranted();
     setShowCookieBar(false);
   };
 
-  useEffect(() => {
+  React.useEffect(() => {
     const isConsent = getCookieConsentValue();
     if (isConsent === undefined) {
       setShowCookieBar(true);
     }
     if (isConsent === 'true') {
-      consentGranted();
+      // consentGranted();
     }
   }, [showCookieBar]);
-
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
-
-  const toggleDarkMode = () => {
-    if (isMounted) {
-      setTheme(theme === 'light' ? 'dark' : 'light');
-    }
-  };
 
   return (
     <footer className="bg-coral text-white text-sm mt-8">
@@ -94,13 +80,6 @@ export default function Footer() {
           <button onClick={onRemoveCookieConsent} className="md:ml-4 link text-left md:text-center">
             Gérer les cookies
           </button>
-          <DarkModeSwitch
-            className="md:ml-8 mt-4 md:mt-0"
-            checked={theme === 'dark'}
-            onChange={toggleDarkMode}
-            sunColor="#111028"
-            size={20}
-          />
         </div>
       </div>
       {showCookieBar && (
@@ -129,4 +108,4 @@ export default function Footer() {
       )}
     </footer>
   );
-}
+};

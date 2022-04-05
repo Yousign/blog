@@ -152,3 +152,59 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+
+.markdown {
+  @apply leading-relaxed text-lg;
+}
+
+.markdown p,
+.markdown ul,
+.markdown ol,
+.markdown blockquote {
+  @apply my-6;
+}
+
+.markdown h2 {
+  @apply text-3xl mt-12 mb-4 font-bold leading-snug;
+}
+
+.markdown h3 {
+  @apply text-2xl mt-8 mb-4 leading-snug;
+}
+
+.markdown ul,
+.markdown ol {
+  @apply pl-6;
+}
+.markdown ul li {
+  list-style: disc;
+}
+.markdown ul li::marker,
+.markdown ol li::marker {
+}
+
+.markdown ol li {
+  list-style: decimal;
+}
+
+.markdown a {
+  @apply text-purple-light underline transition duration-200 hover:text-opacity-70;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 0.125em;
+  text-underline-offset: 1px;
+  text-decoration-style: dotted;
+}
+
+.markdown code:not(pre *) {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+
+  @apply bg-grey-medium bg-opacity-50 px-1 text-base;
+}
+
+.markdown blockquote {
+  @apply px-4 py-2 border-2 border-purple-light border-dashed rounded-xl;
+}

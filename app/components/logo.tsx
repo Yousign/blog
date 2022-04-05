@@ -1,4 +1,10 @@
-export default function Logo({ size = 120, isMonogram, className }) {
+interface LogoProps {
+  size?: number;
+  isMonogram?: boolean;
+  className?: string;
+}
+
+export const Logo: React.VFC<LogoProps> = ({ size = 120, isMonogram, className }) => {
   switch (isMonogram) {
     case true:
       return (
@@ -29,4 +35,4 @@ export default function Logo({ size = 120, isMonogram, className }) {
         </svg>
       );
   }
-}
+};

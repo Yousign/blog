@@ -1,21 +1,19 @@
-import Link from 'next/link';
-import { BLOG_TITLE } from 'lib/constants';
-import Container from './container';
-import Logo from './logo';
+// import Link from 'next/link';
+import { BLOG_TITLE } from '../../lib/constants';
+import { Container } from './container';
+import { Logo } from './logo';
 
-export default function Navbar() {
+export const Navbar = () => {
   return (
     <nav className="navbar">
       <Container>
         <div className="navbar--inner">
-          <Link href="/">
-            <a className="flex items-center">
-              <Logo className="hidden md:block" />
-              <Logo isMonogram size={26} className="md:hidden" />
-              <span className="ml-3 text-grey-medium">|</span>
-              <span className="font-medium ml-2">{BLOG_TITLE}</span>
-            </a>
-          </Link>
+          <a className="flex items-center" href="/">
+            <Logo className="hidden md:block" />
+            <Logo isMonogram size={26} className="md:hidden" />
+            <span className="ml-3 text-grey-medium">|</span>
+            <span className="font-medium ml-2">{BLOG_TITLE}</span>
+          </a>
 
           <div className="ml-auto hidden md:block">
             <a
@@ -32,4 +30,4 @@ export default function Navbar() {
       </Container>
     </nav>
   );
-}
+};

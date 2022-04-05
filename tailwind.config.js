@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./components/**/*.js', './pages/**/*.js'],
+  content: ['./app/**/*.{js,ts,jsx,tsx}'],
   presets: [require('./theme/tailwind-yousign-preset.js')],
   theme: {
     colors: {
