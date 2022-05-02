@@ -9,10 +9,10 @@ excerpt: 'User testing is an investment in time. You invest your time to test th
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/User_test.png
 date: 2022-05-04T22:00:00Z
 authors:
-- _data/authors/Adrien Van Den Branden.md
-- _data/authors/Alban Carmet.md
-
+  - _data/authors/Adrien Van Den Branden.md
+  - _data/authors/Alban Carmet.md
 ---
+
 User testing is an investment in time. You invest your time to test the design of your product. And you hope the investment will pay off by avoiding usability problems later. Your time is limited so invest it wisely. What should you test in priority? How many tests should you do? Should you do user tests at all? Our insights below 👇
 
 ## Context: shipping our first product beyond eSignature
@@ -25,7 +25,7 @@ With workflows, we want to fix the broken contracting process. Today SMBs spend 
 
 If you want to know more about our solution and get a sneak preview, simply join our waiting list.
 
-<button data-tf-popup="KOeFbioi" data-tf-iframe-props="title=Workflows - EN - Simplified WL EXT" data-tf-medium="snippet" data-tf-hidden="source=bloguserresearch" style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#5DE8C1;color:#000000;font-size:18px;border-radius:22px;padding:0 30px;font-weight:bold;height:45px;cursor:pointer;line-height:45px;text-align:center;margin:0;text-decoration:none;">Join the waiting list</button><script src="//embed.typeform.com/next/embed.js"></script>
+<a href="https://yousign1.typeform.com/to/KOeFbioi#source=bloguserresearch" class="btn btn-primary" target="_blank">Join the waiting list</a>
 
 ## 6 months to build a brand new product line
 
@@ -79,11 +79,11 @@ Remember that user testing is a time investment. You invest your time now to avo
 
 To sum up:
 
-* List the assumptions you’re making about the user journey
-* Set a level of risk (high-medium-low) to each of your assumptions
-* Perform user tests only if you have a decent number of high-risk assumptions
-* Limit the scale of your tests as much as possible (flat screens instead of live prototypes, 5 interviews instead of 10)
-* Start coding as soon as possible (don’t wait for the final results)
+- List the assumptions you’re making about the user journey
+- Set a level of risk (high-medium-low) to each of your assumptions
+- Perform user tests only if you have a decent number of high-risk assumptions
+- Limit the scale of your tests as much as possible (flat screens instead of live prototypes, 5 interviews instead of 10)
+- Start coding as soon as possible (don’t wait for the final results)
 
 _We’ll discuss our best practices on how to conduct user tests in an upcoming blog article_
 
