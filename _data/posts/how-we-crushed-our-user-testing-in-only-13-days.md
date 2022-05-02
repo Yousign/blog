@@ -12,7 +12,7 @@ authors:
 ---
 User testing is an investment in time. You invest your time to test the design of your product. And you hope the investment will pay off by avoiding usability problems later. Your time is limited so invest it wisely. What should you test in priority? How many tests should you do? Should you do user tests at all? Our insights below 👇
 
-### Context: shipping our first product beyond eSignature
+## Context: shipping our first product beyond eSignature
 
 A bit of context first. In May 2021, we raised a [€30m Series A](https://yousign.com/blog/yousign-raises-30-million-euros) to move our product to the next phase. Yousign has thrived with its core eSignature product serving more than 10.000 customers to date. Yet we realised we could go beyond and offer more value to our customers up and down the contracting phase.
 
@@ -20,7 +20,7 @@ At the start of 2022 we formed a new product team called the Workflows squad. Th
 
 With workflows, we want to fix the broken contracting process. Today SMBs spend too much time preparing contracts. It takes hours to collect data, copy-paste it into Word documents and send contracts for signature. Patchy processes involving different tools and stakeholders cause many errors and frustration. Our workflows solution helps users automate many tasks in the contracting process, saving them a lot of time .
 
-### 6 months to build a brand new product line
+## 6 months to build a brand new product line
 
 Building a new line of product is ambitious. And we had to ship it fast. We got 6 months to design, deliver and sell the product. So we rolled up our sleeves and started working.
 
@@ -36,7 +36,7 @@ We anticipated early on that the creation flow could cause usability problems. C
 
 For Yousign, there's an extra difficulty: a majority of our customers are not tech-savvy. We sell mostly to traditional SMBs (real estate agencies, education institutions, architects, lawyers, etc.). Most of our users have little to no technical knowledge. Our challenge is to make our product accessible in a self-served manner. No training required means our user journey must be flawless.
 
-### Only high-risk assumptions are worth testing
+## Only high-risk assumptions are worth testing
 
 The first question we asked ourselves was: “do we need to do user tests?”. It can take weeks to book user interviews, run them and analyse the results. Do we have time for that? Can we afford it given our tight development schedule?
 
@@ -48,7 +48,7 @@ Here's an example of a high-risk assumption. We ask our users to configure their
 
 We ended up listing 22 assumptions in our user journey, 50% of which we marked as high-risk. It turned out we were making many high-risk assumptions in our design. Too many to be left untested.
 
-### Look for every opportunity to save time
+## Look for every opportunity to save time
 
 We were making many high-risk assumptions that needed to be tested. But how should we test them? Time is limited, so we tried to find ways to be as effective as possible.
 
@@ -62,7 +62,7 @@ We wanted to get users that could show up quickly for an interview. We also want
 
 We split our 10 user interviews in two rounds (5 each) with a few days between. This came in handy as it became clear from the first interviews that our design had shortcomings. We used the time buffer to improve our design based on the first round of feedback. We then ran the second round of interviews on an improved prototype.
 
-### Start to code before tests are final
+## Start to code before tests are final
 
 User tests should not halt the development process too long. Don’t wait for the final results of your user tests. Make an informed bet and start coding as soon as you’re ready.
 
@@ -79,3 +79,5 @@ To sum up:
 * Start coding as soon as possible (don’t wait for the final results)
 
 _We’ll discuss our best practices on how to conduct user tests in an upcoming blog article_
+
+[**Adrien Van Den Branden**](https://www.linkedin.com/in/adrienvandenbranden/) **&** [**Alban Carmet**](https://www.linkedin.com/in/twitalban/)
