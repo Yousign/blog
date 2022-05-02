@@ -20,6 +20,10 @@ At the start of 2022 we formed a new product team called the Workflows squad. Th
 
 With workflows, we want to fix the broken contracting process. Today SMBs spend too much time preparing contracts. It takes hours to collect data, copy-paste it into Word documents and send contracts for signature. Patchy processes involving different tools and stakeholders cause many errors and frustration. Our workflows solution helps users automate many tasks in the contracting process, saving them a lot of time .
 
+If you want to know more about our solution and get a sneak preview, simply join our waiting list.
+
+<button data-tf-popup="KOeFbioi" data-tf-iframe-props="title=Workflows - EN - Simplified WL EXT" data-tf-medium="snippet" data-tf-hidden="source=bloguserresearch" style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#5DE8C1;color:#000000;font-size:18px;border-radius:22px;padding:0 30px;font-weight:bold;height:45px;cursor:pointer;line-height:45px;text-align:center;margin:0;text-decoration:none;">Join the waiting list</button><script src="//embed.typeform.com/next/embed.js"></script>
+
 ## 6 months to build a brand new product line
 
 Building a new line of product is ambitious. And we had to ship it fast. We got 6 months to design, deliver and sell the product. So we rolled up our sleeves and started working.
