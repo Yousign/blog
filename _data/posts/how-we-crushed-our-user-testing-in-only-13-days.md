@@ -7,12 +7,12 @@ excerpt: 'User testing is an investment in time. You invest your time to test th
   problems later. Your time is limited so invest it wisely. What should you test in
   priority? How many tests should you do? Should you do user tests at all? '
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/User_test.png
-date: 2022-05-04T22:00:00Z
+date: 2022-05-02T12:00:00Z
 authors:
-  - _data/authors/Adrien Van Den Branden.md
-  - _data/authors/Alban Carmet.md
----
+- _data/authors/Adrien Van Den Branden.md
+- _data/authors/Alban Carmet.md
 
+---
 User testing is an investment in time. You invest your time to test the design of your product. And you hope the investment will pay off by avoiding usability problems later. Your time is limited so invest it wisely. What should you test in priority? How many tests should you do? Should you do user tests at all? Our insights below 👇
 
 ## Context: shipping our first product beyond eSignature
