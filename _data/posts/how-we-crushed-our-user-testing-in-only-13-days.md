@@ -1,6 +1,6 @@
 ---
 tags: []
-published: false
+published: true
 title: How we crushed our user testing in only 13 days
 excerpt: 'User testing is an investment in time. You invest your time to test the
   design of your product. And you hope the investment will pay off by avoiding usability
