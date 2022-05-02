@@ -19,6 +19,7 @@ fields:
     maxSize: 64
   label: Avatar
 pages:
+- _data/authors/Alban Carmet.md
 - _data/authors/Benjamin R.md
 - _data/authors/Christopher Parola.md
 - _data/authors/Damien.md
