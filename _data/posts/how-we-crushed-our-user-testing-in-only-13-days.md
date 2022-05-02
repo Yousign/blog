@@ -3,7 +3,7 @@ tags: []
 published: false
 title: How we crushed our user testing in only 13 days
 excerpt: ''
-coverImage: ''
+coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/User_test.png
 date: 2022-05-04T22:00:00Z
 authors:
 - _data/authors/Adrien Van Den Branden.md
