@@ -24,7 +24,7 @@ Tout d’abord, un peu de contexte. En Mai 2021 nous avons levé [30 millions d�
 
 Si vous souhaitez en savoir plus sur notre solution et en avoir un aperçu, inscrivez vous à notre liste d’attente.  
   
-<a href="https://yousign1.typeform.com/to/KOeFbioi#source=blogusertest" class="btn btn-primary" target="_blank">S'inscrire à la liste d'attente</a>
+<a href="https://yousign1.typeform.com/to/lJJoQKBG#source=blogusertest" class="btn btn-primary" target="_blank">S'inscrire à la liste d'attente</a>
 
 ## 6 mois pour construire un toute nouvelle ligne produit
 
