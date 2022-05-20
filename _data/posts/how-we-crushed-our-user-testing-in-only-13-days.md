@@ -1,11 +1,14 @@
 ---
 tags: []
 published: true
-title: How we crushed our user testing in only 13 days
-excerpt: 'User testing is an investment in time. You invest your time to test the
-  design of your product. And you hope the investment will pay off by avoiding usability
-  problems later. Your time is limited so invest it wisely. What should you test in
-  priority? How many tests should you do? Should you do user tests at all? '
+title: Comment nous avons réussi à conduire des tests utilisateurs en seulement 13
+  jours
+excerpt: La conduite de tests utilisateurs est un investissement en temps. Vous investissez
+  du temps pour tester le design de votre produit, dans l’espoir que cela portera
+  ses fruits en vous évitant plus tard des problèmes d’utilisabilité. Votre temps
+  est limité, investissez-le judicieusement. Que devriez-vous tester en priorité ?
+  Combien de tests devriez-vous conduire ? Devriez-vous réellement conduire des tests
+  ?
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/User_test.png
 date: 2022-05-02T12:00:00Z
 authors:
@@ -13,78 +16,75 @@ authors:
 - _data/authors/Alban Carmet.md
 
 ---
-User testing is an investment in time. You invest your time to test the design of your product. And you hope the investment will pay off by avoiding usability problems later. Your time is limited so invest it wisely. What should you test in priority? How many tests should you do? Should you do user tests at all? Our insights below 👇
+La conduite de tests utilisateurs est un investissement en temps. Vous investissez du temps pour tester le design de votre produit, dans l’espoir que cela portera ses fruits en vous évitant plus tard des problèmes d’utilisabilité. Votre temps est limité, investissez-le judicieusement. Que devriez-vous tester en priorité ? Combien de tests devriez-vous conduire ? Devriez-vous réellement conduire des tests ? Voici nos conseils 👇
 
-## Context: shipping our first product beyond eSignature
+## Contexte: développer notre premier produit qui n’est pas de la signature électronique
 
-A bit of context first. In May 2021, we raised a [€30m Series A](https://yousign.com/blog/yousign-raises-30-million-euros) to move our product to the next phase. Yousign has thrived with its core eSignature product serving more than 10.000 customers to date. Yet we realised we could go beyond and offer more value to our customers up and down the contracting phase.
+Tout d’abord, un peu de contexte. En Mai 2021 nous avons levé [30 millions d’euros en série A](https://yousign.com/blog) pour amener notre produit vers sa prochaine phase. Yousign a développé son produit principal de signature électronique qui compte aujourd’hui plus de 10 000 clients. Nous avons cependant réalisé que nous pourrions aller plus loin et offrir plus de valeur à nos clients en les accompagnant tout au long de la phase contractuelle. Début 2022 nous avons constitué une nouvelle équipe que nous appelé la squad “Workflows”. Sa mission: sortir et vendre une nouvelle ligne produit nommée “Workflows”. Nous avons constitué la squad autour des fondateurs de Canyon, un outil d’automatisation de contrats que Yousign a [récemment acquis](https://yousign.com/blog/yousign-acquires-canyon). Avec les Workflows, nous voulons faciliter le processus de création de contrats qui nous semble dysfonctionnel. Aujourd’hui les PME passent trop de temps à préparer leurs contrats. Cela prend des heures de collecter des données, les copier-coller dans des documents Word et envoyer les contrats pour signature. Ce processus très fragmenté implique plusieurs outils et parties prenantes. Cela génère de nombreuses erreurs et frustrations. Notre solution “Workflows” aide les utilisateurs à automatiser de nombreuses tâches durant le processus de création de contrats. C’est donc un gain de temps énorme.
 
-At the start of 2022 we formed a new product team called the Workflows squad. The mission of the squad: release and sell a new line of product called workflows. We formed the squad around the founders of Canyon, a contract automation tool [recently acquired](https://yousign.com/blog/yousign-acquires-canyon) by Yousign.
+Si vous souhaitez en savoir plus sur notre solution et en avoir un aperçu, inscrivez vous à notre liste d’attente.  
+  
+<a href="https://yousign1.typeform.com/to/KOeFbioi#source=blogusertest" class="btn btn-primary" target="_blank">S'inscrire à la liste d'attente</a>
 
-With workflows, we want to fix the broken contracting process. Today SMBs spend too much time preparing contracts. It takes hours to collect data, copy-paste it into Word documents and send contracts for signature. Patchy processes involving different tools and stakeholders cause many errors and frustration. Our workflows solution helps users automate many tasks in the contracting process, saving them a lot of time .
+## 6 mois pour construire un toute nouvelle ligne produit
 
-If you want to know more about our solution and get a sneak preview, simply join our waiting list.
+Construire une nouvelle ligne produit est ambitieux. Et nous devions la lancer rapidement. Nous avions 6 mois pour designer, livrer et vendre le produit. Nous avons alors relevé nos manches et commencé à travailler. Les tests utilisateurs sont un des nombreux outils nous utilisons chez Yousign dans notre phase de “découverte” d’un nouveau produit ou fonctionnalité. Le processus de “découverte” couvre les risques autours des problématiques utilisateur, produit, channel et rentabilité. En parallèle, les autres membres de notre squad ont travaillé sur les spécifications techniques, le naming, le positionnement, le prix, etc. Les tests utilisateurs sont un outil conçu pour atténuer le risque produit.
 
-<a href="https://yousign1.typeform.com/to/KOeFbioi#source=bloguserresearch" class="btn btn-primary" target="_blank">Join the waiting list</a>
+![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Diagram_EN.png)
 
-## 6 months to build a brand new product line
+En moins d’un mois, nous avons designé les écrans qui constituaient notre première version de la solution. Nous sommes allés vite grâce à la connaissance métier des fondateurs de Canyon. Cependant, le processus de design a révélé des points d’amélioration en terme d’utilisabilité du futur produit. L’inquiétude principale concernait la création d’un Workflow. Notre solution Workflows comporte 2 "flows" principaux: celui de création et celui d’exécution. 
 
-Building a new line of product is ambitious. And we had to ship it fast. We got 6 months to design, deliver and sell the product. So we rolled up our sleeves and started working.
+* Le "flow" de création est le facilitateur. Il permet aux utilisateurs de créer les automatisations qui les aideront à gagner du temps. Une fois créé, les utilisateurs peuvent exécuter le Workflow autant de fois qu’ils le souhaitent. 
+* Le "flow" d’exécution génère de la valeur. Oui, il n’y a pas d’exécution sans création. Les utilisateurs doivent d’abord créer le Workflow. Ce n’est qu’à ce moment là qu’ils peuvent profiter de la valeur ajoutée d’un Workflow. 
 
-User tests are one of the many tools we use at Yousign in the discovery of a new product or feature. The discovery process tackles user, product, channel and rentability risks. In parallel, other members of the squad work on the specs, the naming, the positioning, the pricing, etc. User tests is a tool designed to mitigate product risk.
+Nous avions anticipé que la création d’un Workflow pouvait être source de problèmes d’utilisabilité. Créer un Workflow comporte plusieurs étapes. 
 
-![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Diagram.png)
+* Les utilisateurs doivent d’abord uploader leur template de document.
+* Ensuite, ils relient les champs texte au formulaire et ajoutent des placeholders de signature. 
+* Enfin, ils doivent définir les signataires et paramètres du document.
 
-In less than a month, we designed the screens of a first version of the solution. We went fast aided by the knowledge of the Canyon founders. Yet the design process prompted major concerns about the usability of the product. The main concerns revolved around the creation of a workflow.
+Pour Yousign, il y avait une difficulté supplémentaire: la majorité de nos clients ne sont pas les plus digital-friendly. Nous vendons majoritairement notre solution à des PME évoluant dans des secteurs dit “traditionnels” (immobilier, éducation, cabinet d’architectes, avocats etc.). La plupart de nos utilisateurs ont, au mieux, un vernis informatique. Notre défi est de rendre notre produit accessible afin qu’il puisse être utilisé de manière autonome. Aucune formation n’est requise, ce qui signifie que le parcours client doit se dérouler sans accrocs.
 
-Our workflows solution has two main flows: the creation flow and the execution flow. The creation (or setup) flow is the enabler. It allows users to create the automations that will help them save time. Once created, users can execute the workflow many times over. The execution flow brings up the value. Yet there’s no execution without creation. Users first have to create the workflow. Only then they can enjoy the value it brings.
+## Seules les hypothèses à haut niveau de risque valent le coup d’être testées
 
-We anticipated early on that the creation flow could cause usability problems. Creating a workflows involves many steps. Users first upload a template document. Then they link text fields to a form and add signature placeholders. Finally they configure signer and documents settings.
+La première question que nous nous sommes posés a été de savoir si nous avions besoin de conduire des tests utilisateurs. C’est en effet un processus qui peut prendre des semaines, entre la prise de rendez-vous avec des utilisateurs, la conduite des tests et l’analyse de leurs résultats. Avons-nous le temps pour cela ? Pouvons-nous nous le permettre étant donné notre calendrier de développement serré ?
 
-For Yousign, there's an extra difficulty: a majority of our customers are not tech-savvy. We sell mostly to traditional SMBs (real estate agencies, education institutions, architects, lawyers, etc.). Most of our users have little to no technical knowledge. Our challenge is to make our product accessible in a self-served manner. No training required means our user journey must be flawless.
+Pour faciliter notre travail nous avons listé les hypothèses relatives au parcours utilisateur que nous avions créé. En design produit, vous êtes tenu de faire des hypothèses sur le comportement qu’auront les utilisateurs. Certaines hypothèses sont plus risquées que d’autres.
 
-## Only high-risk assumptions are worth testing
+Par example, on peut imaginer que les utilisateurs qui verront un formulaire, soumettrons leurs données sans difficultés. Les formulaires sont des fonctionnalités standard des applications web et sont habituellement “bien compris” par les utilisateurs. Notre solution de workflows utilise un formulaire. Nous nous attendions à ce que les utilisateurs remplissent un formulaire lorsqu’ils verraient les champs vides de ce dernier. Nous ne nous attendions pas à ce qu’ils aient des difficultés à comprendre cela. C’est ce qui nous a conduit à évaluer cette hypothèse comme à “faible risque” dans notre parcours utilisateur. 
 
-The first question we asked ourselves was: “do we need to do user tests?”. It can take weeks to book user interviews, run them and analyse the results. Do we have time for that? Can we afford it given our tight development schedule?
+Voici l’example d’une hypothèse à “haut risque”. Nous avons demandé à nos utilisateurs de configurer leur template de document dans Word, et non en utilisant l’application Yousign. Nous pensions que les utilisateurs comprendraient qu’ils devraient d’abord éditer leur template au format .docx. Nous pensions également qu’ils uploaderaient ensuite leurs templates dans l’application Yousign. C’est une hypothèse à “haut risque”: si les utilisateurs ne comprennent pas cela, c’est l’ensemble de leur parcours utilisateur qui est remis en question.
 
-To help us out we listed the hypotheses we were making about our user journey. When making a product design you’re bound to make assumptions about how users will behave. Yet some assumptions are more risky than others.
+Nous avons finalement listé pour l’ensemble de notre parcours utilisateur, 22 hypothèses, dont 50% à “hauts risques”. Au final, lors de la phase de design nous avons identifié comme à “haut risque”, de nombreuses hypothèses. Un grand nombre d’entre elles n’ont finalement pas été testées.
 
-For example, you can usually assume that users will complete a form and submit it when seeing one. Forms are a standard feature of web applications and are usually well-understood. Our workflows solution makes use of forms. We assumed that users would want to fill a form when they see one with empty fields. We didn't expect them to struggle understanding that. Hence we marked that assumption as low-risk in our user journey.
+## Considérez chaque opportunité pour gagner du temps
 
-Here's an example of a high-risk assumption. We ask our users to configure their document template in Word and not inside the Yousign app. We assume that users understand they must work on their template in .docx format first. We also assume they will upload the template into the Yousign app after. That’s a high-risk hypothesis: if users fail to understand this, the whole user journey goes out of the window.
+Nous avons listé de nombreuses hypothèses à “haut risque” qui méritaient d’être testées. Une question se posait, comment les tester ? Dans un temps limité nous avons essayé de trouver des façons d’être aussi efficaces que possible.
 
-We ended up listing 22 assumptions in our user journey, 50% of which we marked as high-risk. It turned out we were making many high-risk assumptions in our design. Too many to be left untested.
+Par example, nous avons décidé de limiter les tests aux seules hypothèses à “hauts risques”. Réduire le périmètre est une façon simple de gagner du temps. Oubliez cette idée qui consiste à penser que vous avez besoin de tester tous les éléments de votre solution design. Essayez de limiter au maximum le nombre scenarios et leurs longueurs.
 
-## Look for every opportunity to save time
+Nous avons envisagé de réduire le niveau d’interactivité de nos prototypes. N’oubliez pas que vous pouvez tester un grand nombre de choses en montrant simplement des écrans “statiques”. C’est d’autant plus vrai pour les vues de type tableau de bord. Préparer un prototype en “point-and-click” est très consommateur en temps. Cependant parfois vous n’aurez d’autres choix que de tester des flows. Dans ce cas, vous ne pourrez pas éviter la création de prototypes “point-and-click”.
 
-We were making many high-risk assumptions that needed to be tested. But how should we test them? Time is limited, so we tried to find ways to be as effective as possible.
+Nous avons programmé ni plus, ni moins, le nombre de tests utilisateurs que nous avions initialement prévus. 5 tests utilisateurs devraient être suffisants pour tester des hypothèses ayant un risque “faible” ou “moyen”. Programmez 10 tests utilisateurs si vous avez un grand nombre d’hypothèses à “hauts risques” à tester. Ce nombre dépend du niveau de risque des hypothèses que vous souhaitez tester. Vous devriez toujours programmer un test utilisateur supplémentaire dans le cas où un participant vous ferait faux bond. Nous voulions recruter des utilisateurs qui étaient rapidement disponibles pour participer à nos tests. Nous voulions également des utilisateurs “engagés”. C’est pour ces raisons que nous avons invité des utilisateurs depuis la liste d’attente de notre futur produit. Une solution alternative aurait été d’établir cette liste d’utilisateurs à partir de celle ayant déjà participé à des tests utilisateurs dans le passé. Recruter les utilisateurs les plus motivés prend du temps. Nous vous recommandons de créer un petit club d’utilisateurs engagés. Après chaque test, demandez aux utilisateurs s’ils seraient enclin à rejoindre le club. Ils le sont souvent. Vous gagnerez aussi en vitesse de recrutement pour vos prochaines sessions de tests utilisateurs.
 
-For example, we decided to limit the tests to only our high-risk hypotheses. Reducing the scope is an easy way to save up time. Don’t fool yourself into thinking you need to test everything in your design. try to limit the number and breadth of scenarios to the minimum.
+Nous avons conduit nos 10 tests utilisateurs en deux rounds de 5, avec quelques jours de d’écart entre les deux. Cela s’est avéré pratique dans la mesure où après les premiers tests, il est rapidement apparu que la solution design initiale avait certaines lacunes. En nous basant sur ces premiers commentaires, nous avons amélioré le design de notre solution. Nous avons ensuite conduit notre deuxième round test avec un prototype amélioré.
 
-We considered reducing the interactivity level of our tests. You can test already a lot by showing a flat screen. This is especially true for dashboarding features. Preparing point-and-click prototypes is time-consuming. Yet sometimes they're necessary to test user flows. In our case, we could not avoid but designing point-and-click prototypes.
+## Commencez à coder avant la finalisation des tests utilisateurs
 
-We booked no more than the minimum required user interviews. That number depends on the level of risk of the hypotheses you want to test. 5 user interviews should be enough for testing low-risk or medium-risk assumptions. Book 10 interviews if you have a high number of high-risk hypotheses to test. You should always book an extra interview to allow for no-shows.
+Les tests utilisateurs ne doivent pas interrompre trop longtemps votre processus de développement. N’attendez pas les résultats définitifs de vos tests utilisateurs. Prenez des paris “éclairés” et commencez à coder dès que vous êtes prêt.
 
-We wanted to get users that could show up quickly for an interview. We also wanted those users to be engaged. That’s why we invited users directly from the product waiting list. Alternatively we could’ve drawn up from the list of users who already participated in user tests in the past. Recruiting motivated users takes time. So we recommend creating a small club of engaged users. After each interview, ask whether the user wants to join the club. They often will. You’ll be quicker to recruit users next time around.
+Pour Workflows, cela nous a pris 13 jours pour conduire 10 tests utilisateurs. Pour autant, nous avons commencé à coder après la première semaine de tests utilisateurs (avant la fin de ces derniers). Les développeurs ont commencé à travailler dès que certaines hypothèses design à “hauts risques” avaient été validées. Paralléliser le travail nous a aidé à gagner au moins 2 semaines de développement.
 
-We split our 10 user interviews in two rounds (5 each) with a few days between. This came in handy as it became clear from the first interviews that our design had shortcomings. We used the time buffer to improve our design based on the first round of feedback. We then ran the second round of interviews on an improved prototype.
+Souvenez-vous que les tests utilisateurs sont un investissement en temps. Vous investissez du temps pour éviter des problèmes d’utilisabilité plus tard. Parallélisez votre travail autant que possible pour gagner votre course contre la montre.
 
-## Start to code before tests are final
+Pour résumer:
 
-User tests should not halt the development process too long. Don’t wait for the final results of your user tests. Make an informed bet and start coding as soon as you’re ready.
+* listez les hypothèses de votre parcours utilisateur,
+* définissez le niveau de risque (faible, moyen, élevé) pour chaque hypothèse,
+* conduisez vos tests utilisateurs seulement si vous avez un nombre décent d’hypothèses à “hauts risques”,
+* limitez la dimension de vos tests autant que possible (écrans statiques au lieu de prototypes “point-and-click”, 5 tests au lieu de 10),
+* commencez à coder aussi vite que possible (n’attendez pas les résultats finaux des tests).
 
-For workflows, it took us 13 days to run 10 user interviews. Yet we started coding after the first week, before the end of the tests. The engineers got working as soon certain high-risk design assumptions were validated. Parallelising the work helped us win at least two weeks of development.
-
-Remember that user testing is a time investment. You invest your time now to avoid usability problems later. Parallelise your work as much as possible to win the race around the clock.
-
-To sum up:
-
-- List the assumptions you’re making about the user journey
-- Set a level of risk (high-medium-low) to each of your assumptions
-- Perform user tests only if you have a decent number of high-risk assumptions
-- Limit the scale of your tests as much as possible (flat screens instead of live prototypes, 5 interviews instead of 10)
-- Start coding as soon as possible (don’t wait for the final results)
-
-_We’ll discuss our best practices on how to conduct user tests in an upcoming blog article_
+_Nous discuterons des best practices sur comment conduire des tests utilisateurs dans un prochain article de blog_
 
 [**Adrien Van Den Branden**](https://www.linkedin.com/in/adrienvandenbranden/) **&** [**Alban Carmet**](https://www.linkedin.com/in/twitalban/)
