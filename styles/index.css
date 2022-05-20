@@ -113,7 +113,7 @@
 
   @screen md {
     .banner {
-      height: 420px;
+      min-height: 420px;
       padding-bottom: 130px;
       margin-bottom: -130px;
     }
@@ -127,22 +127,22 @@
   }
   @screen lg {
     .banner {
-      height: 470px;
+      min-height: 470px;
       padding-bottom: 180px;
       margin-bottom: -180px;
     }
     .hero-post {
-      height: 425px;
+      min-height: 425px;
     }
   }
   @screen xl {
     .banner {
-      height: 500px;
+      min-height: 500px;
       padding-bottom: 212px;
       margin-bottom: -212px;
     }
     .hero-post {
-      height: 425px;
+      min-height: 425px;
     }
   }
 }
