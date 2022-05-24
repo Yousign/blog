@@ -8,6 +8,9 @@ excerpt: Four letters, months of work to define them, already valuable to take k
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/18-Principles_Product_1@2x.png
 date: 2022-06-02T20:00:00Z
 authors:
+- _data/authors/Marion Ravut.md
+- _data/authors/Antoine Visonneau.md
+- _data/authors/Amélie Sol.md
 - _data/authors/Christopher Parola.md
 
 ---
