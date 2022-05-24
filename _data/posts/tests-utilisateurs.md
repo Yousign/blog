@@ -10,7 +10,7 @@ excerpt: La conduite de tests utilisateurs est un investissement en temps. Vous 
   Combien de tests devriez-vous conduire ? Devriez-vous réellement conduire des tests
   ?
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/User_test.png
-date: 2022-05-02T12:00:00Z
+date: 2022-05-02T12:00:00.000+00:00
 authors:
 - _data/authors/Adrien Van Den Branden.md
 - _data/authors/Alban Carmet.md
@@ -20,28 +20,28 @@ La conduite de tests utilisateurs est un investissement en temps. Vous investiss
 
 ## Contexte: développer notre premier produit qui n’est pas de la signature électronique
 
-Tout d’abord, un peu de contexte. En Mai 2021 nous avons levé [30 millions d’euros en série A](https://yousign.com/blog) pour amener notre produit vers sa prochaine phase. Yousign a développé son produit principal de signature électronique qui compte aujourd’hui plus de 10 000 clients. Nous avons cependant réalisé que nous pourrions aller plus loin et offrir plus de valeur à nos clients en les accompagnant tout au long de la phase contractuelle. Début 2022 nous avons constitué une nouvelle équipe que nous appelé la squad “Workflows”. Sa mission: sortir et vendre une nouvelle ligne produit nommée “Workflows”. Nous avons constitué la squad autour des fondateurs de Canyon, un outil d’automatisation de contrats que Yousign a [récemment acquis](https://yousign.com/blog/yousign-acquires-canyon). Avec les Workflows, nous voulons faciliter le processus de création de contrats qui nous semble dysfonctionnel. Aujourd’hui les PME passent trop de temps à préparer leurs contrats. Cela prend des heures de collecter des données, les copier-coller dans des documents Word et envoyer les contrats pour signature. Ce processus très fragmenté implique plusieurs outils et parties prenantes. Cela génère de nombreuses erreurs et frustrations. Notre solution “Workflows” aide les utilisateurs à automatiser de nombreuses tâches durant le processus de création de contrats. C’est donc un gain de temps énorme.
+Tout d’abord, un peu de contexte. En Mai 2021 nous avons levé [30 millions d’euros en série A](https://yousign.com/blog) pour amener notre produit vers sa prochaine phase. Yousign a développé son produit principal de signature électronique qui compte aujourd’hui plus de 10 000 clients. Nous avons cependant réalisé que nous pourrions aller plus loin et offrir plus de valeur à nos clients en les accompagnant tout au long de la phase contractuelle. Début 2022 nous avons constitué une nouvelle équipe que nous avons appelé la squad “Workflows”. Sa mission: sortir et vendre une nouvelle ligne produit nommée “Workflows”. Nous avons constitué la squad autour des fondateurs de Canyon, un outil d’automatisation de contrats que Yousign a [récemment acquis](https://yousign.com/blog/yousign-acquires-canyon). Avec les Workflows, nous voulons faciliter le processus de création de contrats qui nous semble dysfonctionnel. Aujourd’hui les PME passent trop de temps à préparer leurs contrats. Cela prend des heures de collecter des données, les copier-coller dans des documents Word et envoyer les contrats pour signature. Ce processus très fragmenté implique plusieurs outils et parties prenantes. Cela génère de nombreuses erreurs et frustrations. Notre solution “Workflows” aide les utilisateurs à automatiser de nombreuses tâches durant le processus de création de contrats. C’est donc un gain de temps énorme.
 
-Si vous souhaitez en savoir plus sur notre solution et en avoir un aperçu, inscrivez vous à notre liste d’attente.  
-  
+Si vous souhaitez en savoir plus sur notre solution et en avoir un aperçu, inscrivez vous à notre liste d’attente.
+
 <a href="https://yousign1.typeform.com/to/lJJoQKBG#source=blogusertest" class="btn btn-primary" target="_blank">S'inscrire à la liste d'attente</a>
 
-## 6 mois pour construire un toute nouvelle ligne produit
+## 6 mois pour construire une toute nouvelle ligne produit
 
 Construire une nouvelle ligne produit est ambitieux. Et nous devions la lancer rapidement. Nous avions 6 mois pour designer, livrer et vendre le produit. Nous avons alors relevé nos manches et commencé à travailler. Les tests utilisateurs sont un des nombreux outils nous utilisons chez Yousign dans notre phase de “découverte” d’un nouveau produit ou fonctionnalité. Le processus de “découverte” couvre les risques autours des problématiques utilisateur, produit, channel et rentabilité. En parallèle, les autres membres de notre squad ont travaillé sur les spécifications techniques, le naming, le positionnement, le prix, etc. Les tests utilisateurs sont un outil conçu pour atténuer le risque produit.
 
 ![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/Diagram_EN.png)
 
-En moins d’un mois, nous avons designé les écrans qui constituaient notre première version de la solution. Nous sommes allés vite grâce à la connaissance métier des fondateurs de Canyon. Cependant, le processus de design a révélé des points d’amélioration en terme d’utilisabilité du futur produit. L’inquiétude principale concernait la création d’un Workflow. Notre solution Workflows comporte 2 "flows" principaux: celui de création et celui d’exécution. 
+En moins d’un mois, nous avons designé les écrans qui constituaient notre première version de la solution. Nous sommes allés vite grâce à la connaissance métier des fondateurs de Canyon. Cependant, le processus de design a révélé des points d’amélioration en terme d’utilisabilité du futur produit. L’inquiétude principale concernait la création d’un Workflow. Notre solution Workflows comporte 2 "flows" principaux: celui de création et celui d’exécution.
 
-* Le "flow" de création est le facilitateur. Il permet aux utilisateurs de créer les automatisations qui les aideront à gagner du temps. Une fois créé, les utilisateurs peuvent exécuter le Workflow autant de fois qu’ils le souhaitent. 
-* Le "flow" d’exécution génère de la valeur. Oui, il n’y a pas d’exécution sans création. Les utilisateurs doivent d’abord créer le Workflow. Ce n’est qu’à ce moment là qu’ils peuvent profiter de la valeur ajoutée d’un Workflow. 
+* Le "flow" de création est le facilitateur. Il permet aux utilisateurs de créer les automatisations qui les aideront à gagner du temps. Une fois créé, les utilisateurs peuvent exécuter le Workflow autant de fois qu’ils le souhaitent.
+* Le "flow" d’exécution génère de la valeur. Oui, il n’y a pas d’exécution sans création. Les utilisateurs doivent d’abord créer le Workflow. Ce n’est qu’à ce moment là qu’ils peuvent profiter de la valeur ajoutée d’un Workflow.
 
-Nous avions anticipé que la création d’un Workflow pouvait être source de problèmes d’utilisabilité. Créer un Workflow comporte plusieurs étapes. 
+Nous avions anticipé que la création d’un Workflow pouvait être source de problèmes d’utilisabilité. Créer un Workflow comporte plusieurs étapes.
 
 * Les utilisateurs doivent d’abord uploader leur template de document.
-* Ensuite, ils relient les champs texte au formulaire et ajoutent des placeholders de signature. 
-* Enfin, ils doivent définir les signataires et paramètres du document.
+* Ensuite, ils relient les champs texte au formulaire et ajoutent des placeholders de signature.
+* Enfin, ils doivent définir les signataires et les paramètres du document.
 
 Pour Yousign, il y avait une difficulté supplémentaire: la majorité de nos clients ne sont pas les plus digital-friendly. Nous vendons majoritairement notre solution à des PME évoluant dans des secteurs dit “traditionnels” (immobilier, éducation, cabinet d’architectes, avocats etc.). La plupart de nos utilisateurs ont, au mieux, un vernis informatique. Notre défi est de rendre notre produit accessible afin qu’il puisse être utilisé de manière autonome. Aucune formation n’est requise, ce qui signifie que le parcours client doit se dérouler sans accrocs.
 
@@ -51,9 +51,9 @@ La première question que nous nous sommes posés a été de savoir si nous avio
 
 Pour faciliter notre travail nous avons listé les hypothèses relatives au parcours utilisateur que nous avions créé. En design produit, vous êtes tenu de faire des hypothèses sur le comportement qu’auront les utilisateurs. Certaines hypothèses sont plus risquées que d’autres.
 
-Par example, on peut imaginer que les utilisateurs qui verront un formulaire, soumettrons leurs données sans difficultés. Les formulaires sont des fonctionnalités standard des applications web et sont habituellement “bien compris” par les utilisateurs. Notre solution de workflows utilise un formulaire. Nous nous attendions à ce que les utilisateurs remplissent un formulaire lorsqu’ils verraient les champs vides de ce dernier. Nous ne nous attendions pas à ce qu’ils aient des difficultés à comprendre cela. C’est ce qui nous a conduit à évaluer cette hypothèse comme à “faible risque” dans notre parcours utilisateur. 
+Par exemple, on peut imaginer que les utilisateurs qui verront un formulaire, soumettrons leurs données sans difficultés. Les formulaires sont des fonctionnalités standard des applications web et sont habituellement “bien compris” par les utilisateurs. Notre solution de workflows utilise un formulaire. Nous nous attendions à ce que les utilisateurs remplissent un formulaire lorsqu’ils verraient les champs vides de ce dernier. Nous ne nous attendions pas à ce qu’ils aient des difficultés à comprendre cela. C’est ce qui nous a conduit à évaluer cette hypothèse comme à “faible risque” dans notre parcours utilisateur.
 
-Voici l’example d’une hypothèse à “haut risque”. Nous avons demandé à nos utilisateurs de configurer leur template de document dans Word, et non en utilisant l’application Yousign. Nous pensions que les utilisateurs comprendraient qu’ils devraient d’abord éditer leur template au format .docx. Nous pensions également qu’ils uploaderaient ensuite leurs templates dans l’application Yousign. C’est une hypothèse à “haut risque”: si les utilisateurs ne comprennent pas cela, c’est l’ensemble de leur parcours utilisateur qui est remis en question.
+Voici l’exemple d’une hypothèse à “haut risque”. Nous avons demandé à nos utilisateurs de configurer leur template de document dans Word, et non en utilisant l’application Yousign. Nous pensions que les utilisateurs comprendraient qu’ils devraient d’abord éditer leur template au format .docx. Nous pensions également qu’ils uploaderaient ensuite leurs templates dans l’application Yousign. C’est une hypothèse à “haut risque”: si les utilisateurs ne comprennent pas cela, c’est l’ensemble de leur parcours utilisateur qui est remis en question.
 
 Nous avons finalement listé pour l’ensemble de notre parcours utilisateur, 22 hypothèses, dont 50% à “hauts risques”. Au final, lors de la phase de design nous avons identifié comme à “haut risque”, de nombreuses hypothèses. Un grand nombre d’entre elles n’ont finalement pas été testées.
 
@@ -61,7 +61,7 @@ Nous avons finalement listé pour l’ensemble de notre parcours utilisateur, 22
 
 Nous avons listé de nombreuses hypothèses à “haut risque” qui méritaient d’être testées. Une question se posait, comment les tester ? Dans un temps limité nous avons essayé de trouver des façons d’être aussi efficaces que possible.
 
-Par example, nous avons décidé de limiter les tests aux seules hypothèses à “hauts risques”. Réduire le périmètre est une façon simple de gagner du temps. Oubliez cette idée qui consiste à penser que vous avez besoin de tester tous les éléments de votre solution design. Essayez de limiter au maximum le nombre scenarios et leurs longueurs.
+Par exemple, nous avons décidé de limiter les tests aux seules hypothèses à “hauts risques”. Réduire le périmètre est une façon simple de gagner du temps. Oubliez cette idée qui consiste à penser que vous avez besoin de tester tous les éléments de votre solution design. Essayez de limiter au maximum le nombre scenarios et leurs longueurs.
 
 Nous avons envisagé de réduire le niveau d’interactivité de nos prototypes. N’oubliez pas que vous pouvez tester un grand nombre de choses en montrant simplement des écrans “statiques”. C’est d’autant plus vrai pour les vues de type tableau de bord. Préparer un prototype en “point-and-click” est très consommateur en temps. Cependant parfois vous n’aurez d’autres choix que de tester des flows. Dans ce cas, vous ne pourrez pas éviter la création de prototypes “point-and-click”.
 
