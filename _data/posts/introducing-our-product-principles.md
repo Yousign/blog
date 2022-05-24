@@ -28,7 +28,7 @@ Four letters, months of work to define them, already valuable to take key produc
 
 Here is the story of their creation, written by Amélie, Marion, Antoine & Christopher.
 
-# What are Product Principles? 
+# What are Product Principles?
 
 Product Principles are a set of guidelines setting the standard for all our product-related decisions.
 
@@ -53,13 +53,19 @@ To avoid it, we started working on Product Principles with Antoine Visonneau, ou
 
 # What are our Principles?
 
-Speed first:
+![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/product-principles-yousign.png)
 
-Impact driven:
+**Speed first**  
+We learn from our users - We deliver value fast to get feedback and improve quickly. We value speed over sophistication and go for the lowest development effort to ensure the quickest time to market.
 
-Growth mindset:
+**Impact driven**  
+We match the effort to the impact - We set up the right metrics, track to evaluate success and iterate if needed. All based on data-informed decisions
 
-Neat Design:
+**Growth mindset**  
+We support growth - We deliver user-friendly features accessible to all and usable in total autonomy, ensuring they’re developed in a Product Led Growth mindset.
+
+**Neat Design**  
+We do not compromise - User experience is our strength, whatever the feature, we deliver value and quality with a simple and functional, yet emotional design.
 
 # Principles definition: an iterative process
 
