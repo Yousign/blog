@@ -69,11 +69,13 @@ We do not compromise - User experience is our strength, whatever the feature, we
 
 # Principles definition: an iterative process
 
-Indeed, the process itself was fun. We first compiled ideas and decisions that were in the air and wrote them down - the initial intention was to stop repeating the same things again and again. Soon enough, this list grew a lot and had a bit of everything: how we work, how to structure screens, how to organize Figma files… so the first step was to separate high-level principles (applicable to the full product team) from lower-level guidelines (such as Figma file structure).
+The initial intention was to stop repeating the same things again and again so we first compiled ideas and decisions that were in the air. Soon enough, this list grew a lot and had a bit of everything: how we work, how to structure screens, how to organize Figma files… so the first step was to separate high-level principles (applicable to the full product team) from lower-level guidelines (such as Figma file structure).
 
-With Christopher, we decided to focus on the high-level principles, so we shared this draft document with the team. We received a lot of good insights: ideas for additional principles, feedback and references (design principles from other startups). For example, it was reassuring to see that Figma’s team made several iterations before reaching the final result: 3 beautiful principles, well written, on a nice typographic poster. That was inspiring.
+We received a lot of good insights from the team: ideas for additional principles, feedback and references (design principles from other startups). For example, it was reassuring to see that Figma’s team made several iterations before reaching the final result: 3 beautiful principles, well written, on a nice typographic poster. That was inspiring.
 
-At that time our list was 10 items long, hard to remember and somehow… boring. We decided that the principles should form an acronym. This would force us to make it short and memorable. During a workshop, we all agreed on the SIGN acronym, as it would carry our DNA, it would be easy to remember. With only 4 letters, it forced us to remove everything that was not necessary and keep only the essence of how we build products at Yousign. We later had a design workshop to make a poster with our principles. It was interesting to work on different scales: the acronym, the principles’ names, and the short descriptive phrases. We felt we could further progress on the copywriting, as our wording had turned awkward, due to successive iterations and cuts. This is why we asked for help from Marion and her legendary writing skills.
+At that time our list was 10 items long, hard to remember and somehow… boring. We decided that the principles should form an acronym. This would force us to make it short and memorable. We all agreed on the SIGN acronym, as it would carry our DNA, making it easy to remember. With only 4 letters, it forced us to remove everything that was not necessary and keep only the essence of how we build products at Yousign.
+
+We felt we could further progress on the copywriting, as our wording had turned awkward, due to successive iterations and cuts. This is why we asked for help from Marion and her legendary writing skills.
 
 # Wording is key
 
