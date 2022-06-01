@@ -69,9 +69,15 @@ We do not compromise - User experience is our strength, whatever the feature, we
 
 # Principles definition: an iterative process
 
-The initial intention was to stop repeating the same things again and again so we first compiled ideas and decisions that were in the air. Soon enough, this list grew a lot and had a bit of everything: how we work, how to structure screens, how to organize Figma files… so the first step was to separate high-level principles (applicable to the full product team) from lower-level guidelines (such as Figma file structure).
+### 1 - Catch all the good ideas
+
+The initial intention was to stop repeating the same things again and again, so we first compiled ideas and decisions that were in the air. Soon enough, this list grew a lot and had a bit of everything: how we work, how to structure screens, how to organize Figma files… so the first step was to separate high-level principles (applicable to the full product team) from lower-level guidelines (such as Figma file structure).
+
+### 2 - Get feedback
 
 We received a lot of good insights from the team: ideas for additional principles, feedback and references (design principles from other startups). For example, it was reassuring to see that Figma’s team made several iterations before reaching the final result: 3 beautiful principles, well written, on a nice typographic poster. That was inspiring.
+
+### 3 - Make it short & memorable
 
 At that time our list was 10 items long, hard to remember and somehow… boring. We decided that the principles should form an acronym. This would force us to make it short and memorable. We all agreed on the SIGN acronym, as it would carry our DNA, making it easy to remember. With only 4 letters, it forced us to remove everything that was not necessary and keep only the essence of how we build products at Yousign.
 
@@ -85,8 +91,13 @@ It's not just about describing our principles, it’s about making them accessib
 
 How? With two simple things for each principle.
 
-* A powerful, short catchphrase - it is an affirmation of the principle, a guideline, which systematically begins with "We". The idea with this "We" is first to gather all the Product people behind each principle so that everyone can identify with it. Then, this "We" shows we are in action; we are the actors of these Product principles, let's not be afraid to make them our own.
-* One sentence, applicable in all contexts - it is important to illustrate how each principle can be adapted in a concrete way to the different subjects managed by Product people at Yousign. Whatever the decision or context, it should be clear how to apply it. Once again, the "we" is omnipresent, we are in action, not contemplation.
+**A powerful, short catchphrase**
+
+Each catchphrase is an affirmation of the principle, a guideline, which systematically begins with "We". The idea with this "We" is first to gather all the Product people behind each principle so that everyone can identify with it. Then, this "We" shows we are in action; we are the actors of these Product principles, let's not be afraid to make them our own.
+
+**One sentence, applicable in all contexts**
+
+It is important to illustrate how each principle can be adapted in a concrete way to the different subjects managed by Product people at Yousign. Whatever the decision or context, it should be clear how to apply it. Once again, the "we" is omnipresent, we are in action, not contemplation.
 
 # Is it really useful?
 
