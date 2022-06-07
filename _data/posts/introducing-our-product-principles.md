@@ -1,6 +1,6 @@
 ---
 tags: []
-published: false
+published: true
 title: Introducing our Product Principles
 excerpt: Four letters, months of work to define them, already valuable to take key
   product decisions. We, Product People at Yousign, are glad to introduce you to our
