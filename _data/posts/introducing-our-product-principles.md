@@ -21,9 +21,9 @@ Impact driven
 Growth mindset  
 Neat Design
 
-Four letters, months of work to define them, already valuable to take key product decisions. We, Product People at Yousign, are glad to introduce you to our Product Principles.
+**Four letters, months of work to define them, already valuable to take key product decisions. We, Product People at Yousign, are glad to introduce you to our Product Principles.**
 
-Here is the story of their creation, written by Amélie, Marion, Antoine & Christopher.
+**Here is the story of their creation, written by Amélie, Marion, Antoine & Christopher.**
 
 ## What are Product Principles?
 
