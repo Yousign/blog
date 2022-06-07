@@ -28,7 +28,7 @@ Four letters, months of work to define them, already valuable to take key produc
 
 Here is the story of their creation, written by Amélie, Marion, Antoine & Christopher.
 
-# What are Product Principles?
+## What are Product Principles?
 
 Product Principles are a set of guidelines setting the standard for all our product-related decisions.
 
