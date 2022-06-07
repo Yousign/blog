@@ -1,13 +1,13 @@
 ---
 tags: []
 published: true
-title: La gestion des incidents @Yousign
+title: La gestion des incidents chez Yousign
 excerpt: Le nombre d’incidents sur une production informatique n’est jamais de 0,
   comme vous en doutez, c’est une composante essentielle de nos métiers, c’est pourquoi
   on va s’efforcer de vous présenter notre nouvelle gestion des incidents.
 coverImage: https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/13-Gestion
   des incidents@2x.png
-date: 2022-02-04T10:15:00Z
+date: 2022-02-04T10:15:00.000+00:00
 authors:
 - _data/authors/Daniel Castronovo.md
 
