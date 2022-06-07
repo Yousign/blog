@@ -28,7 +28,7 @@ Four letters, months of work to define them, already valuable to take key produc
 
 Here is the story of their creation, written by Amélie, Marion, Antoine & Christopher.
 
-# What are Product Principles?
+## What are Product Principles?
 
 Product Principles are a set of guidelines setting the standard for all our product-related decisions.
 
@@ -36,7 +36,7 @@ They can be described by sentences or just one word, you can have a lot of them 
 
 They are not a description of the Attitude of the Product Team (for example, over-communicate is a team principle) but a description of what is truly important when building your product and taking all kinds of product decisions.
 
-# Why do we build Product Principles?
+## Why do we build Product Principles?
 
 My obsession, for the scale of our team, is Autonomy. We need to create the right context to let the team take the right decisions. And as Product People, we know we have to take SO MANY decisions every day.
 
@@ -51,7 +51,7 @@ At Yousign, the context is quite different. The team is growing faster than ever
 
 To avoid it, we started working on Product Principles with Antoine Visonneau, our Design Director. The first version was a looooooong list (more like a book, 10+ principles with long sentences) and that's where Antoine started to make his magic and helped us define them. Marion Ravut, our Product Marketing Lead, joined Antoine on the journey!
 
-# What are our Product Principles? 
+## What are our Product Principles? 
 
 ![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/product-principles-yousign.png)
 
@@ -71,9 +71,9 @@ We support growth - We deliver user-friendly features accessible to all and usab
 
 We do not compromise - User experience is our strength, whatever the feature, we deliver value and quality with a simple and functional, yet emotional design.
 
-# Principles definition: an iterative process
+## Principles definition: an iterative process
 
-# 1 - Catch all the good ideas
+### 1 - Catch all the good ideas
 
 The initial intention was to stop repeating the same things again and again, so we first compiled ideas and decisions that were in the air. Soon enough, this list grew a lot and had a bit of everything: how we work, how to structure screens, how to organize Figma files… so the first step was to separate high-level principles (applicable to the full product team) from lower-level guidelines (such as Figma file structure).
 
@@ -87,7 +87,7 @@ At that time our list was 10 items long, hard to remember and somehow… boring.
 
 We felt we could further progress on the copywriting, as our wording had turned awkward, due to successive iterations and cuts. This is why we asked for help from Marion and her legendary writing skills.
 
-# Wording is key
+## Wording is key
 
 Once the Product principles were defined, we needed to ensure that all Product team members would not only understand them but also easily remember them and apply them. This is where Product Marketing comes in.
 
@@ -103,7 +103,7 @@ Each catchphrase is an affirmation of the principle, a guideline, which systemat
 
 It is important to illustrate how each principle can be adapted in a concrete way to the different subjects managed by Product people at Yousign. Whatever the decision or context, it should be clear how to apply it. Once again, the "we" is omnipresent, we are in action, not contemplation.
 
-# Is it really useful?
+## Is it really useful?
 
 The Product principles are constantly present in our daily work lives, whether for designing a solution, defining a launch plan, or dealing with an issue. Here are some examples of the decisions taken based on those principles.
 
