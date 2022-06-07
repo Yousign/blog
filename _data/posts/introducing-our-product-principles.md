@@ -28,7 +28,7 @@ Four letters, months of work to define them, already valuable to take key produc
 
 Here is the story of their creation, written by Amélie, Marion, Antoine & Christopher.
 
-## What are Product Principles?
+# What are Product Principles?
 
 Product Principles are a set of guidelines setting the standard for all our product-related decisions.
 
@@ -51,25 +51,29 @@ At Yousign, the context is quite different. The team is growing faster than ever
 
 To avoid it, we started working on Product Principles with Antoine Visonneau, our Design Director. The first version was a looooooong list (more like a book, 10+ principles with long sentences) and that's where Antoine started to make his magic and helped us define them. Marion Ravut, our Product Marketing Lead, joined Antoine on the journey!
 
-# What are our Principles?
+# What are our Product Principles? 
 
 ![](https://ys-storage-public-blogtech-content-bucket.s3.eu-west-3.amazonaws.com/product-principles-yousign.png)
 
-**Speed first**  
+### Speed first
+
 We learn from our users - We deliver value fast to get feedback and improve quickly. We value speed over sophistication and go for the lowest development effort to ensure the quickest time to market.
 
-**Impact driven**  
+### Impact driven
+
 We match the effort to the impact - We set up the right metrics, track to evaluate success and iterate if needed. All based on data-informed decisions
 
-**Growth mindset**  
+### Growth mindset
+
 We support growth - We deliver user-friendly features accessible to all and usable in total autonomy, ensuring they’re developed in a Product Led Growth mindset.
 
-**Neat Design**  
+### Neat Design
+
 We do not compromise - User experience is our strength, whatever the feature, we deliver value and quality with a simple and functional, yet emotional design.
 
 # Principles definition: an iterative process
 
-### 1 - Catch all the good ideas
+# 1 - Catch all the good ideas
 
 The initial intention was to stop repeating the same things again and again, so we first compiled ideas and decisions that were in the air. Soon enough, this list grew a lot and had a bit of everything: how we work, how to structure screens, how to organize Figma files… so the first step was to separate high-level principles (applicable to the full product team) from lower-level guidelines (such as Figma file structure).
 
@@ -91,11 +95,11 @@ It's not just about describing our principles, it’s about making them accessib
 
 How? With two simple things for each principle.
 
-**A powerful, short catchphrase**
+### A powerful, short catchphrase
 
 Each catchphrase is an affirmation of the principle, a guideline, which systematically begins with "We". The idea with this "We" is first to gather all the Product people behind each principle so that everyone can identify with it. Then, this "We" shows we are in action; we are the actors of these Product principles, let's not be afraid to make them our own.
 
-**One sentence, applicable in all contexts**
+### One sentence, applicable in all contexts
 
 It is important to illustrate how each principle can be adapted in a concrete way to the different subjects managed by Product people at Yousign. Whatever the decision or context, it should be clear how to apply it. Once again, the "we" is omnipresent, we are in action, not contemplation.
 
