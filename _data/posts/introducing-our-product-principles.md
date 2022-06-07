@@ -16,12 +16,9 @@ authors:
 ---
 **SIGN.**
 
-Speed first
-
-Impact driven
-
-Growth mindset
-
+Speed first  
+Impact driven  
+Growth mindset  
 Neat Design
 
 Four letters, months of work to define them, already valuable to take key product decisions. We, Product People at Yousign, are glad to introduce you to our Product Principles.
