@@ -134,6 +134,6 @@ As a result, we make extensive use of our design system and we put a lot of desi
 **References & inspiration**
 
 * [Figma design principles](https://www.figma.com/community/file/817913152610525667)
-* Blablacar’s design principles [i](https://medium.com/thedesigncrew/introduction-au-m%C3%A9tier-de-product-designer-avec-tristan-charvillat-vp-design-blablacar-613d4134ae74)n [this article](https://medium.com/thedesigncrew/introduction-au-m%C3%A9tier-de-product-designer-avec-tristan-charvillat-vp-design-blablacar-613d4134ae74) from Design Crew
+* Blablacar’s design principles in [this article](https://medium.com/thedesigncrew/introduction-au-m%C3%A9tier-de-product-designer-avec-tristan-charvillat-vp-design-blablacar-613d4134ae74) from Design Crew
 * [Pennylane’s Product Management 6 Key Principles](https://medium.com/pennylane-engineering/pennylanes-product-team-6-key-principles-b2885582769c)
 * [Applying Product Principles to Guide Better Product Decisions](https://medium.com/thedesigncrew/introduction-au-m%C3%A9tier-de-product-designer-avec-tristan-charvillat-vp-design-blablacar-613d4134ae74) - Mind the product
